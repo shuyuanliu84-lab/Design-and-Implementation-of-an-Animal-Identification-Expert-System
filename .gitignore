@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+
+# Local render/export scratch files
+*.tmp
+*.bak
+
+# Keep the open-source repository focused on code, rules, data and results.
+# Thesis/report documents remain local unless explicitly added.
+*.docx
+*.pdf
+*.txt
+
+# Local thesis drafts / one-off maintenance scripts
+论文实验章节更新草稿.md
+fix_calculation.py

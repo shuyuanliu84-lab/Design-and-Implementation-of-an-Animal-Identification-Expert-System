@@ -1,0 +1,551 @@
+case_id,case_type,expected,inferred,correct,error_type,elapsed_ms,checked_rules,condition_checks,avg_candidate_rules
+complete_0001,complete,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.005790963768959045,10,17,5
+complete_0002,complete,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.005708017852157354,10,17,5
+complete_0003,complete,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.005582987796515226,10,18,5
+complete_0004,complete,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.005542009603232145,10,19,5
+complete_0005,complete,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.006458954885601997,14,25,7
+complete_0006,complete,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.01333397813141346,20,32,10
+complete_0007,complete,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.00829098280519247,18,30,9
+complete_0008,complete,"[""爬行动物""]","[""爬行动物""]",1,exact_or_contains_expected,0.004749977961182594,10,17,5
+complete_0009,complete,"[""爬行动物""]","[""爬行动物""]",1,exact_or_contains_expected,0.004957953933626413,10,18,5
+complete_0010,complete,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.004874949809163809,10,17,5
+complete_0011,complete,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.004874949809163809,10,18,5
+complete_0012,complete,"[""昆虫""]","[""昆虫""]",1,exact_or_contains_expected,0.008208968210965395,18,32,9
+complete_0013,complete,"[""两栖动物""]","[""两栖动物""]",1,exact_or_contains_expected,0.004333967808634043,7,12,3.5
+complete_0014,complete,"[""哺乳动物"", ""食肉动物""]","[""食肉动物""]",1,exact_or_contains_expected,0.016834004782140255,36,68,18
+complete_0015,complete,"[""哺乳动物"", ""食肉动物""]","[""食肉动物""]",1,exact_or_contains_expected,0.014999997802078724,36,68,18
+complete_0016,complete,"[""哺乳动物"", ""有蹄类动物""]","[""有蹄类动物""]",1,exact_or_contains_expected,0.011541997082531452,28,50,14
+complete_0017,complete,"[""哺乳动物"", ""有蹄类动物""]","[""有蹄类动物""]",1,exact_or_contains_expected,0.011208001524209976,28,52,14
+complete_0018,complete,"[""哺乳动物"", ""啮齿类动物""]","[""啮齿类动物""]",1,exact_or_contains_expected,0.010749965440481901,24,46,12
+complete_0019,complete,"[""哺乳动物"", ""灵长类动物""]","[""灵长类动物""]",1,exact_or_contains_expected,0.010749965440481901,24,47,12
+complete_0020,complete,"[""哺乳动物"", ""鲸类""]","[""鲸类""]",1,exact_or_contains_expected,0.009624985978007317,21,41,10.5
+complete_0021,complete,"[""哺乳动物"", ""蝙蝠类""]","[""蝙蝠类""]",1,exact_or_contains_expected,0.011458003427833319,26,45,13
+complete_0022,complete,"[""食肉动物"", ""狮子""]","[""狮子""]",1,exact_or_contains_expected,0.01745804911479354,40,102,20
+complete_0023,complete,"[""食肉动物"", ""老虎""]","[""老虎""]",1,exact_or_contains_expected,0.016499951016157866,40,102,20
+complete_0024,complete,"[""食肉动物"", ""豹子""]","[""豹子""]",1,exact_or_contains_expected,0.01799996243789792,44,106,22
+complete_0025,complete,"[""食肉动物"", ""猎豹""]","[""猎豹""]",1,exact_or_contains_expected,0.01612497726455331,40,102,20
+complete_0026,complete,"[""食肉动物"", ""美洲豹""]","[""美洲豹""]",1,exact_or_contains_expected,0.016209029126912355,40,102,20
+complete_0027,complete,"[""食肉动物"", ""雪豹""]","[""雪豹""]",1,exact_or_contains_expected,0.01587503356859088,40,94,20
+complete_0028,complete,"[""食肉动物"", ""猞猁""]","[""猞猁""]",1,exact_or_contains_expected,0.016041973140090704,40,98,20
+complete_0029,complete,"[""食肉动物"", ""山猫""]","[""山猫""]",1,exact_or_contains_expected,0.02279196633026004,52,110,26
+complete_0030,complete,"[""食肉动物"", ""家猫""]","[""家猫""]",1,exact_or_contains_expected,0.015666999388486147,40,94,20
+complete_0031,complete,"[""食肉动物"", ""野猫""]","[""野猫""]",1,exact_or_contains_expected,0.016166013665497303,40,98,20
+complete_0032,complete,"[""食肉动物"", ""狼""]","[""狼""]",1,exact_or_contains_expected,0.02254202263429761,52,104,26
+complete_0033,complete,"[""食肉动物"", ""狗""]","[""狗""]",1,exact_or_contains_expected,0.015666999388486147,40,90,20
+complete_0034,complete,"[""食肉动物"", ""狐狸""]","[""猫科"", ""狐狸""]",1,exact_or_contains_expected,0.02274999860674143,52,120,26
+complete_0035,complete,"[""食肉动物"", ""豺""]","[""豺""]",1,exact_or_contains_expected,0.021791027393192053,52,104,26
+complete_0036,complete,"[""食肉动物"", ""鬣狗""]","[""鬣狗""]",1,exact_or_contains_expected,0.01575000351294875,40,90,20
+complete_0037,complete,"[""食肉动物"", ""郊狼""]","[""郊狼""]",1,exact_or_contains_expected,0.017708982340991497,42,92,21
+complete_0038,complete,"[""食肉动物"", ""澳洲野犬""]","[""澳洲野犬""]",1,exact_or_contains_expected,0.015416997484862804,40,90,20
+complete_0039,complete,"[""食肉动物"", ""薮犬""]","[""薮犬""]",1,exact_or_contains_expected,0.01612497726455331,42,92,21
+complete_0040,complete,"[""有蹄类动物"", ""牛""]","[""牛""]",1,exact_or_contains_expected,0.016916950698941946,38,69,19
+complete_0041,complete,"[""有蹄类动物"", ""马""]","[""马""]",1,exact_or_contains_expected,0.010124989785254002,24,47,12
+complete_0042,complete,"[""有蹄类动物"", ""羊""]","[""羊""]",1,exact_or_contains_expected,0.010207993909716606,24,55,12
+complete_0043,complete,"[""有蹄类动物"", ""猪""]","[""猪""]",1,exact_or_contains_expected,0.009666953701525927,24,47,12
+complete_0044,complete,"[""有蹄类动物"", ""鹿""]","[""鹿""]",1,exact_or_contains_expected,0.009999959729611874,24,55,12
+complete_0045,complete,"[""有蹄类动物"", ""长颈鹿""]","[""长颈鹿""]",1,exact_or_contains_expected,0.012208998668938875,28,51,14
+complete_0046,complete,"[""有蹄类动物"", ""斑马""]","[""斑马""]",1,exact_or_contains_expected,0.009541981853544712,24,47,12
+complete_0047,complete,"[""有蹄类动物"", ""羚羊""]","[""羚羊""]",1,exact_or_contains_expected,0.016584002878516912,38,69,19
+complete_0048,complete,"[""有蹄类动物"", ""骆驼""]","[""骆驼""]",1,exact_or_contains_expected,0.00970897963270545,24,47,12
+complete_0049,complete,"[""有蹄类动物"", ""犀牛""]","[""犀牛""]",1,exact_or_contains_expected,0.010082963854074478,24,55,12
+complete_0050,complete,"[""有蹄类动物"", ""河马""]","[""河马""]",1,exact_or_contains_expected,0.012624950613826513,32,55,16
+complete_0051,complete,"[""有蹄类动物"", ""大象""]","[""大象""]",1,exact_or_contains_expected,0.009665964171290398,24,47,12
+complete_0052,complete,"[""人类""]","[""人类""]",1,exact_or_contains_expected,0.008291972335428,18,33,9
+complete_0053,complete,"[""黑猩猩""]","[""黑猩猩""]",1,exact_or_contains_expected,0.011459051165729761,26,41,13
+complete_0054,complete,"[""大猩猩""]","[""大猩猩""]",1,exact_or_contains_expected,0.010541989468038082,24,39,12
+complete_0055,complete,"[""猴子""]","[""猴子""]",1,exact_or_contains_expected,0.008749950211495161,20,35,10
+complete_0056,complete,"[""长臂猿""]","[""长臂猿""]",1,exact_or_contains_expected,0.006792019121348858,16,31,8
+complete_0057,complete,"[""狒狒""]","[""狒狒""]",1,exact_or_contains_expected,0.010624993592500687,26,41,13
+complete_0058,complete,"[""猕猴""]","[""猕猴""]",1,exact_or_contains_expected,0.010666961316019297,26,41,13
+complete_0059,complete,"[""狐猴""]","[""狐猴""]",1,exact_or_contains_expected,0.011000025551766157,26,41,13
+complete_0060,complete,"[""老鼠""]","[""老鼠""]",1,exact_or_contains_expected,0.007292022928595543,16,31,8
+complete_0061,complete,"[""松鼠""]","[""松鼠""]",1,exact_or_contains_expected,0.007083057425916195,16,31,8
+complete_0062,complete,"[""仓鼠""]","[""仓鼠""]",1,exact_or_contains_expected,0.012834032531827688,30,45,15
+complete_0063,complete,"[""豚鼠""]","[""豚鼠""]",1,exact_or_contains_expected,0.012459000572562218,30,45,15
+complete_0064,complete,"[""河狸""]","[""河狸""]",1,exact_or_contains_expected,0.008707982487976551,16,31,8
+complete_0065,complete,"[""豪猪""]","[""豪猪""]",1,exact_or_contains_expected,0.010750023648142815,26,41,13
+complete_0066,complete,"[""土拨鼠""]","[""土拨鼠""]",1,exact_or_contains_expected,0.0072499969974160194,16,31,8
+complete_0067,complete,"[""兔子""]","[""兔子""]",1,exact_or_contains_expected,0.006791029591113329,16,31,8
+complete_0068,complete,"[""蓝鲸""]","[""蓝鲸""]",1,exact_or_contains_expected,0.005207955837249756,10,19,5
+complete_0069,complete,"[""虎鲸""]","[""虎鲸""]",1,exact_or_contains_expected,0.00504200579598546,10,19,5
+complete_0070,complete,"[""海豚""]","[""海豚""]",1,exact_or_contains_expected,0.010500021744519472,24,33,12
+complete_0071,complete,"[""抹香鲸""]","[""抹香鲸""]",1,exact_or_contains_expected,0.00504200579598546,10,19,5
+complete_0072,complete,"[""座头鲸""]","[""座头鲸""]",1,exact_or_contains_expected,0.005500041879713535,12,21,6
+complete_0073,complete,"[""鸟类"", ""鸵鸟""]","[""鸵鸟""]",1,exact_or_contains_expected,0.010624993592500687,24,49,12
+complete_0074,complete,"[""鸟类"", ""企鹅""]","[""企鹅""]",1,exact_or_contains_expected,0.011499971151351929,28,55,14
+complete_0075,complete,"[""鸟类"", ""鹰""]","[""鹰""]",1,exact_or_contains_expected,0.009833020158112049,24,47,12
+complete_0076,complete,"[""鸟类"", ""鹦鹉""]","[""鹦鹉""]",1,exact_or_contains_expected,0.010457995813339949,26,49,13
+complete_0077,complete,"[""鸟类"", ""麻雀""]","[""麻雀""]",1,exact_or_contains_expected,0.016250007320195436,40,63,20
+complete_0078,complete,"[""鸟类"", ""鸽子""]","[""鸽子""]",1,exact_or_contains_expected,0.010416028089821339,26,49,13
+complete_0079,complete,"[""鸟类"", ""孔雀""]","[""孔雀""]",1,exact_or_contains_expected,0.009874987881630659,24,47,12
+complete_0080,complete,"[""鸟类"", ""天鹅""]","[""天鹅""]",1,exact_or_contains_expected,0.011208991054445505,28,51,14
+complete_0081,complete,"[""鸟类"", ""鸭子""]","[""鸭子""]",1,exact_or_contains_expected,0.01108401920646429,28,53,14
+complete_0082,complete,"[""鸟类"", ""猫头鹰""]","[""猫头鹰""]",1,exact_or_contains_expected,0.013541022781282663,34,57,17
+complete_0083,complete,"[""鸟类"", ""啄木鸟""]","[""啄木鸟""]",1,exact_or_contains_expected,0.00962504418566823,24,47,12
+complete_0084,complete,"[""鸟类"", ""信天翁""]","[""信天翁""]",1,exact_or_contains_expected,0.009749957825988531,24,47,12
+complete_0085,complete,"[""爬行动物"", ""蛇""]","[""蛇""]",1,exact_or_contains_expected,0.007375027053058147,16,31,8
+complete_0086,complete,"[""爬行动物"", ""鳄鱼""]","[""鳄鱼""]",1,exact_or_contains_expected,0.010417017620056868,24,39,12
+complete_0087,complete,"[""爬行动物"", ""乌龟""]","[""乌龟""]",1,exact_or_contains_expected,0.006833986844867468,16,31,8
+complete_0088,complete,"[""爬行动物"", ""蜥蜴""]","[""蜥蜴""]",1,exact_or_contains_expected,0.006749993190169334,16,31,8
+complete_0089,complete,"[""爬行动物"", ""壁虎""]","[""壁虎""]",1,exact_or_contains_expected,0.012499978765845299,30,45,15
+complete_0090,complete,"[""爬行动物"", ""变色龙""]","[""变色龙""]",1,exact_or_contains_expected,0.006709014996886253,16,31,8
+complete_0091,complete,"[""爬行动物"", ""眼镜蛇""]","[""眼镜蛇""]",1,exact_or_contains_expected,0.006875023245811462,16,31,8
+complete_0092,complete,"[""爬行动物"", ""响尾蛇""]","[""响尾蛇""]",1,exact_or_contains_expected,0.006709014996886253,16,31,8
+complete_0093,complete,"[""鱼类"", ""鲨鱼""]","[""鲨鱼""]",1,exact_or_contains_expected,0.010208983439952135,24,39,12
+complete_0094,complete,"[""鱼类"", ""金鱼""]","[""金鱼""]",1,exact_or_contains_expected,0.0070829992182552814,16,31,8
+complete_0095,complete,"[""鱼类"", ""鲤鱼""]","[""鲤鱼""]",1,exact_or_contains_expected,0.007207971066236496,16,31,8
+complete_0096,complete,"[""鱼类"", ""三文鱼""]","[""三文鱼""]",1,exact_or_contains_expected,0.007709022611379623,18,33,9
+complete_0097,complete,"[""鱼类"", ""鲶鱼""]","[""鲶鱼""]",1,exact_or_contains_expected,0.007125025149434805,16,31,8
+complete_0098,complete,"[""鱼类"", ""比目鱼""]","[""比目鱼""]",1,exact_or_contains_expected,0.008750008419156075,20,35,10
+complete_0099,complete,"[""鱼类"", ""灯笼鱼""]","[""灯笼鱼""]",1,exact_or_contains_expected,0.0077500008046627045,18,33,9
+complete_0100,complete,"[""鱼类"", ""海马""]","[""海马""]",1,exact_or_contains_expected,0.007041962817311287,16,31,8
+complete_0101,complete,"[""昆虫"", ""蜜蜂""]","[""蜜蜂""]",1,exact_or_contains_expected,0.009958981536328793,24,47,12
+complete_0102,complete,"[""昆虫"", ""蝴蝶""]","[""蝴蝶""]",1,exact_or_contains_expected,0.013165990822017193,32,59,16
+complete_0103,complete,"[""昆虫"", ""蚂蚁""]","[""蚂蚁""]",1,exact_or_contains_expected,0.01616595545783639,38,61,19
+complete_0104,complete,"[""昆虫"", ""蚊子""]","[""蚊子""]",1,exact_or_contains_expected,0.010041985660791397,24,47,12
+complete_0105,complete,"[""昆虫"", ""苍蝇""]","[""苍蝇""]",1,exact_or_contains_expected,0.011249969247728586,28,53,14
+complete_0106,complete,"[""昆虫"", ""蜻蜓""]","[""蜻蜓""]",1,exact_or_contains_expected,0.009791983757168055,24,47,12
+complete_0107,complete,"[""昆虫"", ""蝉""]","[""蝉""]",1,exact_or_contains_expected,0.012790958862751722,32,55,16
+complete_0108,complete,"[""昆虫"", ""萤火虫""]","[""萤火虫""]",1,exact_or_contains_expected,0.013833981938660145,34,57,17
+complete_0109,complete,"[""昆虫"", ""蟑螂""]","[""蟑螂""]",1,exact_or_contains_expected,0.01254095695912838,32,55,16
+complete_0110,complete,"[""昆虫"", ""瓢虫""]","[""瓢虫""]",1,exact_or_contains_expected,0.009874987881630659,24,47,12
+complete_0111,complete,"[""昆虫"", ""螳螂""]","[""螳螂""]",1,exact_or_contains_expected,0.010167015716433525,26,49,13
+complete_0112,complete,"[""昆虫"", ""蟋蟀""]","[""蟋蟀""]",1,exact_or_contains_expected,0.009333016350865364,24,47,12
+complete_0113,complete,"[""两栖动物"", ""青蛙""]","[""青蛙""]",1,exact_or_contains_expected,0.005791021976619959,12,21,6
+complete_0114,complete,"[""两栖动物"", ""蟾蜍""]","[""蟾蜍""]",1,exact_or_contains_expected,0.008624978363513947,20,29,10
+complete_0115,complete,"[""两栖动物"", ""蝾螈""]","[""蝾螈""]",1,exact_or_contains_expected,0.009790994226932526,22,31,11
+complete_0116,complete,"[""两栖动物"", ""娃娃鱼""]","[""娃娃鱼""]",1,exact_or_contains_expected,0.008167000487446785,18,27,9
+complete_0117,complete,"[""两栖动物"", ""箭毒蛙""]","[""箭毒蛙""]",1,exact_or_contains_expected,0.010249961633235216,24,33,12
+complete_0118,complete,"[""食肉动物"", ""猫科""]","[""猫科""]",1,exact_or_contains_expected,0.01591700129210949,40,98,20
+complete_0119,complete,"[""食肉动物"", ""犬科""]","[""犬科""]",1,exact_or_contains_expected,0.015125027857720852,40,94,20
+complete_0120,complete,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.004833040293306112,10,17,5
+complete_0121,complete,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.004750036168843508,10,17,5
+complete_0122,complete,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.004708999767899513,10,18,5
+complete_0123,complete,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.005125009920448065,10,19,5
+complete_0124,complete,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.00608398113399744,14,25,7
+complete_0125,complete,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.008666014764457941,20,32,10
+complete_0126,complete,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.007958034984767437,18,30,9
+complete_0127,complete,"[""爬行动物""]","[""爬行动物""]",1,exact_or_contains_expected,0.004792003892362118,10,17,5
+complete_0128,complete,"[""爬行动物""]","[""爬行动物""]",1,exact_or_contains_expected,0.004917033948004246,10,18,5
+complete_0129,complete,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.004792003892362118,10,17,5
+complete_0130,complete,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.004791014362126589,10,18,5
+complete_0131,complete,"[""昆虫""]","[""昆虫""]",1,exact_or_contains_expected,0.007874972652643919,18,32,9
+complete_0132,complete,"[""两栖动物""]","[""两栖动物""]",1,exact_or_contains_expected,0.003917026333510876,7,12,3.5
+complete_0133,complete,"[""哺乳动物"", ""食肉动物""]","[""食肉动物""]",1,exact_or_contains_expected,0.016250007320195436,36,68,18
+complete_0134,complete,"[""哺乳动物"", ""食肉动物""]","[""食肉动物""]",1,exact_or_contains_expected,0.014749995898455381,36,68,18
+complete_0135,complete,"[""哺乳动物"", ""有蹄类动物""]","[""有蹄类动物""]",1,exact_or_contains_expected,0.0112500274553895,28,50,14
+complete_0136,complete,"[""哺乳动物"", ""有蹄类动物""]","[""有蹄类动物""]",1,exact_or_contains_expected,0.010999967344105244,28,52,14
+complete_0137,complete,"[""哺乳动物"", ""啮齿类动物""]","[""啮齿类动物""]",1,exact_or_contains_expected,0.01025001984089613,24,46,12
+complete_0138,complete,"[""哺乳动物"", ""灵长类动物""]","[""灵长类动物""]",1,exact_or_contains_expected,0.010541989468038082,24,47,12
+complete_0139,complete,"[""哺乳动物"", ""鲸类""]","[""鲸类""]",1,exact_or_contains_expected,0.009375042282044888,21,41,10.5
+complete_0140,complete,"[""哺乳动物"", ""蝙蝠类""]","[""蝙蝠类""]",1,exact_or_contains_expected,0.011041003745049238,26,45,13
+complete_0141,complete,"[""食肉动物"", ""狮子""]","[""狮子""]",1,exact_or_contains_expected,0.01675001112744212,40,102,20
+complete_0142,complete,"[""食肉动物"", ""老虎""]","[""老虎""]",1,exact_or_contains_expected,0.016208039596676826,40,102,20
+complete_0143,complete,"[""食肉动物"", ""豹子""]","[""豹子""]",1,exact_or_contains_expected,0.017874990589916706,44,106,22
+complete_0144,complete,"[""食肉动物"", ""猎豹""]","[""猎豹""]",1,exact_or_contains_expected,0.01591700129210949,40,102,20
+complete_0145,complete,"[""食肉动物"", ""美洲豹""]","[""美洲豹""]",1,exact_or_contains_expected,0.01579197123646736,40,102,20
+complete_0146,complete,"[""食肉动物"", ""雪豹""]","[""雪豹""]",1,exact_or_contains_expected,0.01579197123646736,40,94,20
+complete_0147,complete,"[""食肉动物"", ""猞猁""]","[""猞猁""]",1,exact_or_contains_expected,0.016042031347751617,40,98,20
+complete_0148,complete,"[""食肉动物"", ""山猫""]","[""山猫""]",1,exact_or_contains_expected,0.022208027075976133,52,110,26
+complete_0149,complete,"[""食肉动物"", ""家猫""]","[""家猫""]",1,exact_or_contains_expected,0.01579197123646736,40,94,20
+complete_0150,complete,"[""食肉动物"", ""野猫""]","[""野猫""]",1,exact_or_contains_expected,0.016083999071270227,40,98,20
+complete_0151,complete,"[""食肉动物"", ""狼""]","[""狼""]",1,exact_or_contains_expected,0.021791027393192053,52,104,26
+complete_0152,complete,"[""食肉动物"", ""狗""]","[""狗""]",1,exact_or_contains_expected,0.015625031664967537,40,90,20
+complete_0153,complete,"[""食肉动物"", ""狐狸""]","[""猫科"", ""狐狸""]",1,exact_or_contains_expected,0.02212502295151353,52,120,26
+complete_0154,complete,"[""食肉动物"", ""豺""]","[""豺""]",1,exact_or_contains_expected,0.021665997337549925,52,104,26
+complete_0155,complete,"[""食肉动物"", ""鬣狗""]","[""鬣狗""]",1,exact_or_contains_expected,0.015541038010269403,40,90,20
+complete_0156,complete,"[""食肉动物"", ""郊狼""]","[""郊狼""]",1,exact_or_contains_expected,0.01741695450618863,42,92,21
+complete_0157,complete,"[""食肉动物"", ""澳洲野犬""]","[""澳洲野犬""]",1,exact_or_contains_expected,0.015416007954627275,40,90,20
+complete_0158,complete,"[""食肉动物"", ""薮犬""]","[""薮犬""]",1,exact_or_contains_expected,0.016208039596676826,42,92,21
+complete_0159,complete,"[""有蹄类动物"", ""牛""]","[""牛""]",1,exact_or_contains_expected,0.016667007002979517,38,69,19
+complete_0160,complete,"[""有蹄类动物"", ""马""]","[""马""]",1,exact_or_contains_expected,0.009624985978007317,24,47,12
+complete_0161,complete,"[""有蹄类动物"", ""羊""]","[""羊""]",1,exact_or_contains_expected,0.009957992006093264,24,55,12
+complete_0162,complete,"[""有蹄类动物"", ""猪""]","[""猪""]",1,exact_or_contains_expected,0.00966701190918684,24,47,12
+complete_0163,complete,"[""有蹄类动物"", ""鹿""]","[""鹿""]",1,exact_or_contains_expected,0.010292045772075653,24,55,12
+complete_0164,complete,"[""有蹄类动物"", ""长颈鹿""]","[""长颈鹿""]",1,exact_or_contains_expected,0.012249976862221956,28,51,14
+complete_0165,complete,"[""有蹄类动物"", ""斑马""]","[""斑马""]",1,exact_or_contains_expected,0.00966701190918684,24,47,12
+complete_0166,complete,"[""有蹄类动物"", ""羚羊""]","[""羚羊""]",1,exact_or_contains_expected,0.01675001112744212,38,69,19
+complete_0167,complete,"[""有蹄类动物"", ""骆驼""]","[""骆驼""]",1,exact_or_contains_expected,0.009584007784724236,24,47,12
+complete_0168,complete,"[""有蹄类动物"", ""犀牛""]","[""犀牛""]",1,exact_or_contains_expected,0.010124989785254002,24,55,12
+complete_0169,complete,"[""有蹄类动物"", ""河马""]","[""河马""]",1,exact_or_contains_expected,0.012499978765845299,32,55,16
+complete_0170,complete,"[""有蹄类动物"", ""大象""]","[""大象""]",1,exact_or_contains_expected,0.009540992323309183,24,47,12
+complete_0171,complete,"[""人类""]","[""人类""]",1,exact_or_contains_expected,0.00829098280519247,18,33,9
+complete_0172,complete,"[""黑猩猩""]","[""黑猩猩""]",1,exact_or_contains_expected,0.011208001524209976,26,41,13
+complete_0173,complete,"[""大猩猩""]","[""大猩猩""]",1,exact_or_contains_expected,0.01029198756441474,24,39,12
+complete_0174,complete,"[""猴子""]","[""猴子""]",1,exact_or_contains_expected,0.008582952432334423,20,35,10
+complete_0175,complete,"[""长臂猿""]","[""长臂猿""]",1,exact_or_contains_expected,0.006875023245811462,16,31,8
+complete_0176,complete,"[""狒狒""]","[""狒狒""]",1,exact_or_contains_expected,0.010624993592500687,26,41,13
+complete_0177,complete,"[""猕猴""]","[""猕猴""]",1,exact_or_contains_expected,0.01066701952368021,26,41,13
+complete_0178,complete,"[""狐猴""]","[""狐猴""]",1,exact_or_contains_expected,0.011000025551766157,26,41,13
+complete_0179,complete,"[""老鼠""]","[""老鼠""]",1,exact_or_contains_expected,0.0072499969974160194,16,31,8
+complete_0180,complete,"[""松鼠""]","[""松鼠""]",1,exact_or_contains_expected,0.0072499969974160194,16,31,8
+complete_0181,complete,"[""仓鼠""]","[""仓鼠""]",1,exact_or_contains_expected,0.01254095695912838,30,45,15
+complete_0182,complete,"[""豚鼠""]","[""豚鼠""]",1,exact_or_contains_expected,0.012542004697024822,30,45,15
+complete_0183,complete,"[""河狸""]","[""河狸""]",1,exact_or_contains_expected,0.007041962817311287,16,31,8
+complete_0184,complete,"[""豪猪""]","[""豪猪""]",1,exact_or_contains_expected,0.010957999620586634,26,41,13
+complete_0185,complete,"[""土拨鼠""]","[""土拨鼠""]",1,exact_or_contains_expected,0.006999995093792677,16,31,8
+complete_0186,complete,"[""兔子""]","[""兔子""]",1,exact_or_contains_expected,0.006875023245811462,16,31,8
+complete_0187,complete,"[""蓝鲸""]","[""蓝鲸""]",1,exact_or_contains_expected,0.004999979864805937,10,19,5
+complete_0188,complete,"[""虎鲸""]","[""虎鲸""]",1,exact_or_contains_expected,0.005166046321392059,10,19,5
+complete_0189,complete,"[""海豚""]","[""海豚""]",1,exact_or_contains_expected,0.010333023965358734,24,33,12
+complete_0190,complete,"[""抹香鲸""]","[""抹香鲸""]",1,exact_or_contains_expected,0.004916975740343332,10,19,5
+complete_0191,complete,"[""座头鲸""]","[""座头鲸""]",1,exact_or_contains_expected,0.00562501372769475,12,21,6
+complete_0192,complete,"[""鸟类"", ""鸵鸟""]","[""鸵鸟""]",1,exact_or_contains_expected,0.010124989785254002,24,49,12
+complete_0193,complete,"[""鸟类"", ""企鹅""]","[""企鹅""]",1,exact_or_contains_expected,0.011708005331456661,28,55,14
+complete_0194,complete,"[""鸟类"", ""鹰""]","[""鹰""]",1,exact_or_contains_expected,0.009750016033649445,24,47,12
+complete_0195,complete,"[""鸟类"", ""鹦鹉""]","[""鹦鹉""]",1,exact_or_contains_expected,0.010457995813339949,26,49,13
+complete_0196,complete,"[""鸟类"", ""麻雀""]","[""麻雀""]",1,exact_or_contains_expected,0.01595797948539257,40,63,20
+complete_0197,complete,"[""鸟类"", ""鸽子""]","[""鸽子""]",1,exact_or_contains_expected,0.01029198756441474,26,49,13
+complete_0198,complete,"[""鸟类"", ""孔雀""]","[""孔雀""]",1,exact_or_contains_expected,0.009500014130026102,24,47,12
+complete_0199,complete,"[""鸟类"", ""天鹅""]","[""天鹅""]",1,exact_or_contains_expected,0.011333031579852104,28,51,14
+complete_0200,complete,"[""鸟类"", ""鸭子""]","[""鸭子""]",1,exact_or_contains_expected,0.01104205148294568,28,53,14
+missing_0201,missing,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.004875008016824722,10,17,5
+missing_0202,missing,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.004708010237663984,10,17,5
+missing_0203,missing,"[""哺乳动物""]",[],0,no_conclusion,0.0007909839041531086,1,1,1
+missing_0204,missing,"[""哺乳动物""]",[],0,no_conclusion,0.0010840012691915035,1,2,1
+missing_0205,missing,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.005832989700138569,14,25,7
+missing_0206,missing,"[""鸟类""]",[],0,no_conclusion,0.0008749775588512421,1,1,1
+missing_0207,missing,"[""鸟类""]",[],0,no_conclusion,0.0008749775588512421,1,1,1
+missing_0208,missing,"[""爬行动物""]","[""爬行动物""]",1,exact_or_contains_expected,0.004582980182021856,10,17,5
+missing_0209,missing,"[""爬行动物""]",[],0,no_conclusion,0.0008749775588512421,1,1,1
+missing_0210,missing,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.004792003892362118,10,17,5
+missing_0211,missing,"[""鱼类""]",[],0,no_conclusion,0.000833999365568161,1,1,1
+missing_0212,missing,"[""昆虫""]",[],0,no_conclusion,0.0016249832697212696,3,4,3
+missing_0213,missing,"[""两栖动物""]",[],0,no_conclusion,0.0008329516276717186,1,1,1
+missing_0214,missing,"[""食肉动物""]",[],0,no_conclusion,0.0010840012691915035,1,1,1
+missing_0215,missing,"[""哺乳动物"", ""食肉动物""]",[],1,partial_expected,0.003541994374245405,8,16,8
+missing_0216,missing,"[""有蹄类动物""]",[],0,no_conclusion,0.0007919734343886375,1,1,1
+missing_0217,missing,"[""哺乳动物"", ""有蹄类动物""]",[],1,partial_expected,0.003374996595084667,8,16,8
+missing_0218,missing,"[""啮齿类动物""]",[],0,no_conclusion,0.0008330098353326321,1,1,1
+missing_0219,missing,"[""灵长类动物""]",[],0,no_conclusion,0.0009170034900307655,1,1,1
+missing_0220,missing,"[""鲸类""]",[],0,no_conclusion,0.00100000761449337,1,1,1
+missing_0221,missing,"[""蝙蝠类""]",[],0,no_conclusion,0.00300002284348011,6,8,6
+missing_0222,missing,"[""狮子""]",[],0,no_conclusion,0.004249974153935909,10,10,10
+missing_0223,missing,"[""老虎""]",[],0,no_conclusion,0.0040839659050107,10,10,10
+missing_0224,missing,"[""食肉动物"", ""豹子""]",[],1,partial_expected,0.008584000170230865,22,42,22
+missing_0225,missing,"[""食肉动物"", ""猎豹""]",[],1,partial_expected,0.008249946404248476,20,53,20
+missing_0226,missing,"[""食肉动物"", ""美洲豹""]",[],1,partial_expected,0.007459020707756281,20,40,20
+missing_0227,missing,"[""雪豹""]",[],0,no_conclusion,0.0040839659050107,10,10,10
+missing_0228,missing,"[""食肉动物"", ""猞猁""]",[],1,partial_expected,0.008000002708286047,20,51,20
+missing_0229,missing,"[""食肉动物"", ""山猫""]",[],1,partial_expected,0.00770896440371871,20,51,20
+missing_0230,missing,"[""食肉动物"", ""家猫""]",[],1,partial_expected,0.007707974873483181,20,48,20
+missing_0231,missing,"[""食肉动物"", ""野猫""]",[],1,partial_expected,0.00762502895668149,20,51,20
+missing_0232,missing,"[""食肉动物"", ""狼""]",[],1,partial_expected,0.010207993909716606,26,46,26
+missing_0233,missing,"[""食肉动物"", ""狗""]","[""犬科"", ""狗""]",1,exact_or_contains_expected,0.015833997167646885,40,92,20
+missing_0234,missing,"[""食肉动物"", ""狐狸""]","[""猫科""]",1,partial_expected,0.015833997167646885,40,110,20
+missing_0235,missing,"[""食肉动物"", ""豺""]",[],1,partial_expected,0.007542024832218885,20,46,20
+missing_0236,missing,"[""食肉动物"", ""鬣狗""]",[],1,partial_expected,0.007540977094322443,20,46,20
+missing_0237,missing,"[""食肉动物"", ""郊狼""]",[],1,partial_expected,0.007416994776576757,20,46,20
+missing_0238,missing,"[""澳洲野犬""]",[],0,no_conclusion,0.003374996595084667,8,8,8
+missing_0239,missing,"[""食肉动物"", ""薮犬""]",[],1,partial_expected,0.0075830030255019665,20,46,20
+missing_0240,missing,"[""有蹄类动物"", ""牛""]",[],1,partial_expected,0.007833994459360838,19,31,19
+missing_0241,missing,"[""有蹄类动物"", ""马""]",[],1,partial_expected,0.004792003892362118,12,24,12
+missing_0242,missing,"[""有蹄类动物"", ""羊""]",[],1,partial_expected,0.004832982085645199,12,24,12
+missing_0243,missing,"[""有蹄类动物"", ""猪""]",[],1,partial_expected,0.004708010237663984,12,25,12
+missing_0244,missing,"[""鹿""]",[],0,no_conclusion,0.0031249946914613247,7,7,7
+missing_0245,missing,"[""有蹄类动物"", ""长颈鹿""]",[],1,partial_expected,0.005790963768959045,14,26,14
+missing_0246,missing,"[""斑马""]",[],0,no_conclusion,0.0018339487724006176,3,3,3
+missing_0247,missing,"[""有蹄类动物"", ""羚羊""]",[],1,partial_expected,0.004999979864805937,12,29,12
+missing_0248,missing,"[""骆驼""]",[],0,no_conclusion,0.0010409858077764511,1,1,1
+missing_0249,missing,"[""有蹄类动物"", ""犀牛""]",[],1,partial_expected,0.004875008016824722,12,29,12
+missing_0250,missing,"[""有蹄类动物"", ""河马""]",[],1,partial_expected,0.00458303838968277,12,25,12
+missing_0251,missing,"[""大象""]",[],0,no_conclusion,0.001334003172814846,2,2,2
+missing_0252,missing,"[""人类""]",[],0,no_conclusion,0.0034580007195472717,8,16,8
+missing_0253,missing,"[""黑猩猩""]",[],0,no_conclusion,0.005332985892891884,13,21,13
+missing_0254,missing,"[""大猩猩""]",[],0,no_conclusion,0.002666027285158634,5,5,5
+missing_0255,missing,"[""猴子""]",[],0,no_conclusion,0.0034160329960286617,8,16,8
+missing_0256,missing,"[""长臂猿""]",[],0,no_conclusion,0.0034170225262641907,8,17,8
+missing_0257,missing,"[""狒狒""]",[],0,no_conclusion,0.005167035851627588,13,21,13
+missing_0258,missing,"[""猕猴""]",[],0,no_conclusion,0.0032910029403865337,8,17,8
+missing_0259,missing,"[""狐猴""]",[],0,no_conclusion,0.003333028871566057,8,17,8
+missing_0260,missing,"[""老鼠""]",[],0,no_conclusion,0.003500026650726795,8,17,8
+missing_0261,missing,"[""松鼠""]",[],0,no_conclusion,0.0035410048440098763,8,17,8
+missing_0262,missing,"[""仓鼠""]",[],0,no_conclusion,0.006375019438564777,15,24,15
+missing_0263,missing,"[""豚鼠""]",[],0,no_conclusion,0.006166985258460045,15,23,15
+missing_0264,missing,"[""河狸""]",[],0,no_conclusion,0.0010420335456728935,1,1,1
+missing_0265,missing,"[""豪猪""]",[],0,no_conclusion,0.005416979547590017,13,21,13
+missing_0266,missing,"[""土拨鼠""]",[],0,no_conclusion,0.0034589902497828007,8,17,8
+missing_0267,missing,"[""兔子""]",[],0,no_conclusion,0.003459048457443714,8,17,8
+missing_0268,missing,"[""蓝鲸""]",[],0,no_conclusion,0.002666027285158634,5,11,5
+missing_0269,missing,"[""虎鲸""]",[],0,no_conclusion,0.0024579931050539017,5,11,5
+missing_0270,missing,"[""海豚""]",[],0,no_conclusion,0.005125009920448065,12,18,12
+missing_0271,missing,"[""抹香鲸""]",[],0,no_conclusion,0.00100000761449337,1,1,1
+missing_0272,missing,"[""座头鲸""]",[],0,no_conclusion,0.0027500209398567677,6,11,6
+missing_0273,missing,"[""鸟类"", ""鸵鸟""]",[],1,partial_expected,0.004999979864805937,12,26,12
+missing_0274,missing,"[""鸟类"", ""企鹅""]",[],1,partial_expected,0.005459005478769541,14,27,14
+missing_0275,missing,"[""鹰""]",[],0,no_conclusion,0.0009579816833138466,1,1,1
+missing_0276,missing,"[""鸟类"", ""鹦鹉""]",[],1,partial_expected,0.004792003892362118,12,24,12
+missing_0277,missing,"[""鸟类"", ""麻雀""]",[],1,partial_expected,0.005125009920448065,13,25,13
+missing_0278,missing,"[""鸽子""]",[],0,no_conclusion,0.0014170072972774506,2,2,2
+missing_0279,missing,"[""鸟类"", ""孔雀""]",[],1,partial_expected,0.004665984306484461,12,25,12
+missing_0280,missing,"[""鸟类"", ""天鹅""]",[],1,partial_expected,0.004749977961182594,12,24,12
+missing_0281,missing,"[""鸟类"", ""鸭子""]",[],1,partial_expected,0.004792003892362118,12,25,12
+missing_0282,missing,"[""鸟类"", ""猫头鹰""]",[],1,partial_expected,0.006749993190169334,17,30,17
+missing_0283,missing,"[""鸟类"", ""啄木鸟""]",[],1,partial_expected,0.004749977961182594,12,24,12
+missing_0284,missing,"[""鸟类"", ""信天翁""]",[],1,partial_expected,0.00462500611320138,12,24,12
+missing_0285,missing,"[""爬行动物"", ""蛇""]",[],1,partial_expected,0.0037909485399723053,8,17,8
+missing_0286,missing,"[""鳄鱼""]",[],0,no_conclusion,0.0025830231606960297,5,5,5
+missing_0287,missing,"[""乌龟""]",[],0,no_conclusion,0.00100000761449337,1,1,1
+missing_0288,missing,"[""蜥蜴""]",[],0,no_conclusion,0.00100000761449337,1,1,1
+missing_0289,missing,"[""爬行动物"", ""壁虎""]",[],1,partial_expected,0.0036660348996520042,8,16,8
+missing_0290,missing,"[""爬行动物"", ""变色龙""]",[],1,partial_expected,0.003416964318603277,8,17,8
+missing_0291,missing,"[""眼镜蛇""]",[],0,no_conclusion,0.0009170034900307655,1,1,1
+missing_0292,missing,"[""爬行动物"", ""响尾蛇""]",[],1,partial_expected,0.0034170225262641907,8,17,8
+missing_0293,missing,"[""鱼类"", ""鲨鱼""]",[],1,partial_expected,0.005208014044910669,12,21,12
+missing_0294,missing,"[""鱼类"", ""金鱼""]",[],1,partial_expected,0.0034999684430658817,8,17,8
+missing_0295,missing,"[""鱼类"", ""鲤鱼""]",[],1,partial_expected,0.0034580007195472717,8,16,8
+missing_0296,missing,"[""鱼类"", ""三文鱼""]",[],1,partial_expected,0.0034170225262641907,8,17,8
+missing_0297,missing,"[""鱼类"", ""鲶鱼""]",[],1,partial_expected,0.0034580007195472717,8,16,8
+missing_0298,missing,"[""鱼类"", ""比目鱼""]",[],1,partial_expected,0.004125002305954695,10,18,10
+missing_0299,missing,"[""灯笼鱼""]",[],0,no_conclusion,0.0014160177670419216,2,2,2
+missing_0300,missing,"[""鱼类"", ""海马""]",[],1,partial_expected,0.003374996595084667,8,16,8
+conflict_0301,conflict,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.005041016265749931,10,17,5
+conflict_0302,conflict,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.00462500611320138,10,17,5
+conflict_0303,conflict,"[""哺乳动物""]","[""爬行动物""]",0,wrong_conclusion,0.009750016033649445,20,35,10
+conflict_0304,conflict,"[""哺乳动物""]","[""鸟类""]",0,wrong_conclusion,0.01170899486169219,24,44,12
+conflict_0305,conflict,"[""鸟类""]","[""鸟类"", ""鱼类""]",1,exact_or_contains_expected,0.009999959729611874,24,42,12
+conflict_0306,conflict,"[""鸟类""]","[""哺乳动物""]",0,wrong_conclusion,0.013542012311518192,29,51,14.5
+conflict_0307,conflict,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.00866700429469347,18,30,9
+conflict_0308,conflict,"[""爬行动物""]","[""鸟类"", ""爬行动物""]",1,exact_or_contains_expected,0.009832961950451136,24,42,12
+conflict_0309,conflict,"[""爬行动物""]","[""哺乳动物""]",0,wrong_conclusion,0.009833020158112049,20,35,10
+conflict_0310,conflict,"[""鱼类""]","[""哺乳动物"", ""鱼类""]",1,exact_or_contains_expected,0.009209034033119678,20,34,10
+conflict_0311,conflict,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.006040965672582388,12,17,6
+conflict_0312,conflict,"[""昆虫""]","[""哺乳动物""]",0,wrong_conclusion,0.01233298098668456,27,49,13.5
+conflict_0313,conflict,"[""两栖动物""]","[""鱼类""]",0,wrong_conclusion,0.008208968210965395,17,29,8.5
+conflict_0314,conflict,"[""哺乳动物"", ""食肉动物""]","[""食肉动物""]",1,exact_or_contains_expected,0.016041973140090704,36,68,18
+conflict_0315,conflict,"[""哺乳动物"", ""食肉动物""]","[""鸟类"", ""食肉动物""]",1,exact_or_contains_expected,0.02300000051036477,50,93,25
+conflict_0316,conflict,"[""哺乳动物"", ""有蹄类动物""]","[""鱼类"", ""有蹄类动物""]",1,exact_or_contains_expected,0.016415957361459732,38,67,19
+conflict_0317,conflict,"[""哺乳动物"", ""有蹄类动物""]","[""有蹄类动物""]",1,exact_or_contains_expected,0.011958996765315533,28,52,14
+conflict_0318,conflict,"[""哺乳动物"", ""啮齿类动物""]","[""爬行动物"", ""啮齿类动物""]",1,exact_or_contains_expected,0.015167053788900375,34,63,17
+conflict_0319,conflict,"[""哺乳动物"", ""灵长类动物""]","[""鱼类"", ""灵长类动物""]",1,exact_or_contains_expected,0.01491699367761612,34,64,17
+conflict_0320,conflict,"[""哺乳动物"", ""鲸类""]","[""爬行动物"", ""鲸类""]",1,exact_or_contains_expected,0.013625016435980797,31,58,15.5
+conflict_0321,conflict,"[""哺乳动物"", ""蝙蝠类""]","[""蝙蝠类""]",1,exact_or_contains_expected,0.011625001206994057,26,45,13
+conflict_0322,conflict,"[""食肉动物"", ""狮子""]","[""爬行动物"", ""狮子""]",1,exact_or_contains_expected,0.02279196633026004,50,119,25
+conflict_0323,conflict,"[""食肉动物"", ""老虎""]","[""鱼类"", ""老虎""]",1,exact_or_contains_expected,0.022082997020334005,50,119,25
+conflict_0324,conflict,"[""食肉动物"", ""豹子""]","[""鸟类"", ""豹子""]",1,exact_or_contains_expected,0.026292051188647747,58,131,29
+conflict_0325,conflict,"[""食肉动物"", ""猎豹""]","[""爬行动物"", ""猎豹""]",1,exact_or_contains_expected,0.022041029296815395,50,119,25
+conflict_0326,conflict,"[""食肉动物"", ""美洲豹""]","[""美洲豹""]",1,exact_or_contains_expected,0.016291975043714046,40,102,20
+conflict_0327,conflict,"[""食肉动物"", ""雪豹""]","[""雪豹""]",1,exact_or_contains_expected,0.015708967112004757,40,94,20
+conflict_0328,conflict,"[""食肉动物"", ""猞猁""]","[""爬行动物"", ""猞猁""]",1,exact_or_contains_expected,0.021458021365106106,50,115,25
+conflict_0329,conflict,"[""食肉动物"", ""山猫""]","[""哺乳动物"", ""山猫""]",1,exact_or_contains_expected,0.026124995201826096,62,123,31
+conflict_0330,conflict,"[""食肉动物"", ""家猫""]","[""家猫""]",1,exact_or_contains_expected,0.015666999388486147,40,94,20
+conflict_0331,conflict,"[""食肉动物"", ""野猫""]","[""鸟类"", ""野猫""]",1,exact_or_contains_expected,0.02274999860674143,54,123,27
+conflict_0332,conflict,"[""食肉动物"", ""狼""]","[""鱼类"", ""狼""]",1,exact_or_contains_expected,0.0262079993262887,62,121,31
+conflict_0333,conflict,"[""食肉动物"", ""狗""]","[""哺乳动物"", ""狗""]",1,exact_or_contains_expected,0.020625011529773474,50,103,25
+conflict_0334,conflict,"[""食肉动物"", ""狐狸""]","[""哺乳动物"", ""猫科"", ""狐狸""]",1,exact_or_contains_expected,0.026541994884610176,62,133,31
+conflict_0335,conflict,"[""食肉动物"", ""豺""]","[""鱼类"", ""豺""]",1,exact_or_contains_expected,0.02575002145022154,62,121,31
+conflict_0336,conflict,"[""食肉动物"", ""鬣狗""]","[""哺乳动物"", ""鬣狗""]",1,exact_or_contains_expected,0.02012500772252679,50,103,25
+conflict_0337,conflict,"[""食肉动物"", ""郊狼""]","[""鸟类"", ""郊狼""]",1,exact_or_contains_expected,0.023291038814932108,55,119,27.5
+conflict_0338,conflict,"[""食肉动物"", ""澳洲野犬""]","[""澳洲野犬""]",1,exact_or_contains_expected,0.01633301144465804,40,90,20
+conflict_0339,conflict,"[""食肉动物"", ""薮犬""]","[""鱼类"", ""薮犬""]",1,exact_or_contains_expected,0.0213750172406435,51,109,25.5
+conflict_0340,conflict,"[""有蹄类动物"", ""牛""]","[""鸟类"", ""牛""]",1,exact_or_contains_expected,0.02258300082758069,52,94,26
+conflict_0341,conflict,"[""有蹄类动物"", ""马""]","[""爬行动物"", ""马""]",1,exact_or_contains_expected,0.01491699367761612,34,64,17
+conflict_0342,conflict,"[""有蹄类动物"", ""羊""]","[""鱼类"", ""羊""]",1,exact_or_contains_expected,0.014999997802078724,34,72,17
+conflict_0343,conflict,"[""有蹄类动物"", ""猪""]","[""爬行动物"", ""猪""]",1,exact_or_contains_expected,0.014332996215671301,34,64,17
+conflict_0344,conflict,"[""有蹄类动物"", ""鹿""]","[""鱼类"", ""鹿""]",1,exact_or_contains_expected,0.014542019926011562,34,72,17
+conflict_0345,conflict,"[""有蹄类动物"", ""长颈鹿""]","[""鱼类"", ""长颈鹿""]",1,exact_or_contains_expected,0.016499951016157866,38,68,19
+conflict_0346,conflict,"[""有蹄类动物"", ""斑马""]","[""爬行动物"", ""斑马""]",1,exact_or_contains_expected,0.014499993994832039,34,64,17
+conflict_0347,conflict,"[""有蹄类动物"", ""羚羊""]","[""羚羊""]",1,exact_or_contains_expected,0.01737498678267002,38,69,19
+conflict_0348,conflict,"[""有蹄类动物"", ""骆驼""]","[""哺乳动物"", ""骆驼""]",1,exact_or_contains_expected,0.014082994312047958,34,60,17
+conflict_0349,conflict,"[""有蹄类动物"", ""犀牛""]","[""哺乳动物"", ""犀牛""]",1,exact_or_contains_expected,0.014375022146850824,34,68,17
+conflict_0350,conflict,"[""有蹄类动物"", ""河马""]","[""鱼类"", ""河马""]",1,exact_or_contains_expected,0.017624988686293364,42,72,21
+conflict_0351,conflict,"[""有蹄类动物"", ""大象""]","[""鸟类"", ""大象""]",1,exact_or_contains_expected,0.016167003195732832,38,72,19
+conflict_0352,conflict,"[""人类""]","[""鱼类"", ""人类""]",1,exact_or_contains_expected,0.012458011042326689,28,50,14
+conflict_0353,conflict,"[""黑猩猩""]","[""鱼类"", ""黑猩猩""]",1,exact_or_contains_expected,0.015874975360929966,36,58,18
+conflict_0354,conflict,"[""大猩猩""]","[""爬行动物"", ""大猩猩""]",1,exact_or_contains_expected,0.014332996215671301,33,58,16.5
+conflict_0355,conflict,"[""猴子""]","[""鸟类"", ""猴子""]",1,exact_or_contains_expected,0.014249992091208696,34,60,17
+conflict_0356,conflict,"[""长臂猿""]","[""爬行动物"", ""长臂猿""]",1,exact_or_contains_expected,0.011749973054975271,26,48,13
+conflict_0357,conflict,"[""狒狒""]","[""鸟类"", ""狒狒""]",1,exact_or_contains_expected,0.016665959265083075,40,66,20
+conflict_0358,conflict,"[""猕猴""]","[""爬行动物"", ""猕猴""]",1,exact_or_contains_expected,0.015374971553683281,36,58,18
+conflict_0359,conflict,"[""狐猴""]","[""爬行动物"", ""狐猴""]",1,exact_or_contains_expected,0.015083001926541328,36,58,18
+conflict_0360,conflict,"[""老鼠""]","[""老鼠""]",1,exact_or_contains_expected,0.007540977094322443,16,31,8
+conflict_0361,conflict,"[""松鼠""]","[""哺乳动物"", ""松鼠""]",1,exact_or_contains_expected,0.011791998986154795,26,46,13
+conflict_0362,conflict,"[""仓鼠""]","[""哺乳动物"", ""仓鼠""]",1,exact_or_contains_expected,0.017082958947867155,40,60,20
+conflict_0363,conflict,"[""豚鼠""]","[""鸟类"", ""豚鼠""]",1,exact_or_contains_expected,0.018667022231966257,44,70,22
+conflict_0364,conflict,"[""河狸""]","[""鸟类"", ""河狸""]",1,exact_or_contains_expected,0.013249984476715326,30,56,15
+conflict_0365,conflict,"[""豪猪""]","[""哺乳动物"", ""豪猪""]",1,exact_or_contains_expected,0.015333003830164671,36,56,18
+conflict_0366,conflict,"[""土拨鼠""]","[""鱼类"", ""土拨鼠""]",1,exact_or_contains_expected,0.011415977496653795,26,48,13
+conflict_0367,conflict,"[""兔子""]","[""哺乳动物"", ""兔子""]",1,exact_or_contains_expected,0.011041003745049238,26,46,13
+conflict_0368,conflict,"[""蓝鲸""]","[""鱼类"", ""蓝鲸""]",1,exact_or_contains_expected,0.00929197994992137,20,36,10
+conflict_0369,conflict,"[""虎鲸""]","[""鱼类"", ""虎鲸""]",1,exact_or_contains_expected,0.008833012543618679,20,36,10
+conflict_0370,conflict,"[""海豚""]","[""鸟类"", ""海豚""]",1,exact_or_contains_expected,0.015624973457306623,37,60,18.5
+conflict_0371,conflict,"[""抹香鲸""]","[""鸟类"", ""抹香鲸""]",1,exact_or_contains_expected,0.010417017620056868,24,44,12
+conflict_0372,conflict,"[""座头鲸""]","[""鸟类"", ""座头鲸""]",1,exact_or_contains_expected,0.010499963536858559,25,46,12.5
+conflict_0373,conflict,"[""鸟类"", ""鸵鸟""]","[""鸵鸟""]",1,exact_or_contains_expected,0.010457995813339949,24,49,12
+conflict_0374,conflict,"[""鸟类"", ""企鹅""]","[""鱼类"", ""企鹅""]",1,exact_or_contains_expected,0.015792029444128275,38,72,19
+conflict_0375,conflict,"[""鸟类"", ""鹰""]","[""鹰""]",1,exact_or_contains_expected,0.010209041647613049,26,47,13
+conflict_0376,conflict,"[""鸟类"", ""鹦鹉""]","[""鹦鹉""]",1,exact_or_contains_expected,0.011208991054445505,28,49,14
+conflict_0377,conflict,"[""鸟类"", ""麻雀""]","[""哺乳动物"", ""麻雀""]",1,exact_or_contains_expected,0.020749983377754688,50,80,25
+conflict_0378,conflict,"[""鸟类"", ""鸽子""]","[""哺乳动物"", ""鸽子""]",1,exact_or_contains_expected,0.01529202563688159,36,66,18
+conflict_0379,conflict,"[""鸟类"", ""孔雀""]","[""孔雀""]",1,exact_or_contains_expected,0.010165967978537083,26,47,13
+conflict_0380,conflict,"[""鸟类"", ""天鹅""]","[""哺乳动物"", ""天鹅""]",1,exact_or_contains_expected,0.015457975678145885,38,68,19
+conflict_0381,conflict,"[""鸟类"", ""鸭子""]","[""鸭子""]",1,exact_or_contains_expected,0.011583033483475447,28,53,14
+conflict_0382,conflict,"[""鸟类"", ""猫头鹰""]","[""猫头鹰""]",1,exact_or_contains_expected,0.014000048395246267,36,57,18
+conflict_0383,conflict,"[""鸟类"", ""啄木鸟""]","[""爬行动物"", ""啄木鸟""]",1,exact_or_contains_expected,0.013792014215141535,34,64,17
+conflict_0384,conflict,"[""鸟类"", ""信天翁""]","[""爬行动物"", ""信天翁""]",1,exact_or_contains_expected,0.013791024684906006,34,64,17
+conflict_0385,conflict,"[""爬行动物"", ""蛇""]","[""鸟类"", ""蛇""]",1,exact_or_contains_expected,0.012167030945420265,30,56,15
+conflict_0386,conflict,"[""爬行动物"", ""鳄鱼""]","[""鳄鱼""]",1,exact_or_contains_expected,0.010834017302840948,24,39,12
+conflict_0387,conflict,"[""爬行动物"", ""乌龟""]","[""乌龟""]",1,exact_or_contains_expected,0.007832946721464396,18,31,9
+conflict_0388,conflict,"[""爬行动物"", ""蜥蜴""]","[""鱼类"", ""蜥蜴""]",1,exact_or_contains_expected,0.011208991054445505,26,48,13
+conflict_0389,conflict,"[""爬行动物"", ""壁虎""]","[""哺乳动物"", ""壁虎""]",1,exact_or_contains_expected,0.01687504118308425,40,62,20
+conflict_0390,conflict,"[""爬行动物"", ""变色龙""]","[""变色龙""]",1,exact_or_contains_expected,0.007458031177520752,18,31,9
+conflict_0391,conflict,"[""爬行动物"", ""眼镜蛇""]","[""眼镜蛇""]",1,exact_or_contains_expected,0.007207971066236496,16,31,8
+conflict_0392,conflict,"[""爬行动物"", ""响尾蛇""]","[""响尾蛇""]",1,exact_or_contains_expected,0.0070829992182552814,16,31,8
+conflict_0393,conflict,"[""鱼类"", ""鲨鱼""]","[""鸟类"", ""鲨鱼""]",1,exact_or_contains_expected,0.01554097980260849,38,64,19
+conflict_0394,conflict,"[""鱼类"", ""金鱼""]","[""哺乳动物"", ""金鱼""]",1,exact_or_contains_expected,0.011708005331456661,26,48,13
+conflict_0395,conflict,"[""鱼类"", ""鲤鱼""]","[""鲤鱼""]",1,exact_or_contains_expected,0.007459020707756281,16,31,8
+conflict_0396,conflict,"[""鱼类"", ""三文鱼""]","[""哺乳动物"", ""三文鱼""]",1,exact_or_contains_expected,0.012541015166789293,28,50,14
+conflict_0397,conflict,"[""鱼类"", ""鲶鱼""]","[""鸟类"", ""鲶鱼""]",1,exact_or_contains_expected,0.012167030945420265,30,56,15
+conflict_0398,conflict,"[""鱼类"", ""比目鱼""]","[""比目鱼""]",1,exact_or_contains_expected,0.00929197994992137,22,35,11
+conflict_0399,conflict,"[""鱼类"", ""灯笼鱼""]","[""爬行动物"", ""灯笼鱼""]",1,exact_or_contains_expected,0.012000033166259527,28,50,14
+conflict_0400,conflict,"[""鱼类"", ""海马""]","[""爬行动物"", ""海马""]",1,exact_or_contains_expected,0.011374999303370714,26,48,13
+noise_0401,noise,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.030750001315027475,50,77,25
+noise_0402,noise,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.018874998204410076,32,39,16
+noise_0403,noise,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.025707995519042015,50,78,25
+noise_0404,noise,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.0077919685281813145,14,23,7
+noise_0405,noise,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.02845900598913431,54,65,27
+noise_0406,noise,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.028709007892757654,60,112,30
+noise_0407,noise,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.02887495793402195,58,110,29
+noise_0408,noise,"[""爬行动物""]","[""爬行动物""]",1,exact_or_contains_expected,0.025292043574154377,50,77,25
+noise_0409,noise,"[""爬行动物""]","[""爬行动物""]",1,exact_or_contains_expected,0.01570803578943014,32,40,16
+noise_0410,noise,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.01899997005239129,32,39,16
+noise_0411,noise,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.00833295052871108,16,24,8
+noise_0412,noise,"[""昆虫""]","[""昆虫""]",1,exact_or_contains_expected,0.03066594945266843,58,72,29
+noise_0413,noise,"[""两栖动物""]","[""两栖动物""]",1,exact_or_contains_expected,0.023291970137506723,47,92,23.5
+noise_0414,noise,"[""哺乳动物"", ""食肉动物""]","[""食肉动物""]",1,exact_or_contains_expected,0.03487500362098217,76,128,38
+noise_0415,noise,"[""哺乳动物"", ""食肉动物""]","[""食肉动物""]",1,exact_or_contains_expected,0.028292008209973574,60,92,30
+noise_0416,noise,"[""哺乳动物"", ""有蹄类动物""]","[""有蹄类动物""]",1,exact_or_contains_expected,0.03154197474941611,68,130,34
+noise_0417,noise,"[""哺乳动物"", ""有蹄类动物""]","[""有蹄类动物""]",1,exact_or_contains_expected,0.03225001273676753,68,112,34
+noise_0418,noise,"[""哺乳动物"", ""啮齿类动物""]","[""啮齿类动物""]",1,exact_or_contains_expected,0.03024999750778079,64,126,32
+noise_0419,noise,"[""哺乳动物"", ""灵长类动物""]","[""灵长类动物""]",1,exact_or_contains_expected,0.030791969038546085,64,87,32
+noise_0420,noise,"[""哺乳动物"", ""鲸类""]","[""鲸类""]",1,exact_or_contains_expected,0.018874998204410076,43,83,21.5
+noise_0421,noise,"[""哺乳动物"", ""蝙蝠类""]","[""蝙蝠类""]",1,exact_or_contains_expected,0.029958027880638838,66,105,33
+noise_0422,noise,"[""食肉动物"", ""狮子""]","[""狮子""]",1,exact_or_contains_expected,0.03670796286314726,80,182,40
+noise_0423,noise,"[""食肉动物"", ""老虎""]","[""老虎""]",1,exact_or_contains_expected,0.03600004129111767,80,162,40
+noise_0424,noise,"[""食肉动物"", ""豹子""]","[""豹子""]",1,exact_or_contains_expected,0.031000003218650818,64,146,32
+noise_0425,noise,"[""食肉动物"", ""猎豹""]","[""猎豹""]",1,exact_or_contains_expected,0.019625003915280104,44,106,22
+noise_0426,noise,"[""食肉动物"", ""美洲豹""]","[""美洲豹""]",1,exact_or_contains_expected,0.03795797238126397,80,162,40
+noise_0427,noise,"[""鱼类"", ""食肉动物"", ""雪豹""]","[""雪豹""]",1,exact_or_contains_expected,0.03254198236390948,76,146,38
+noise_0428,noise,"[""食肉动物"", ""猞猁""]","[""猞猁""]",1,exact_or_contains_expected,0.03545801155269146,80,158,40
+noise_0429,noise,"[""食肉动物"", ""山猫""]","[""山猫""]",1,exact_or_contains_expected,0.04229199839755893,92,150,46
+noise_0430,noise,"[""食肉动物"", ""家猫""]","[""家猫""]",1,exact_or_contains_expected,0.03370799822732806,80,154,40
+noise_0431,noise,"[""食肉动物"", ""野猫""]","[""野猫""]",1,exact_or_contains_expected,0.031957984901964664,80,158,40
+noise_0432,noise,"[""食肉动物"", ""狼""]","[""狼""]",1,exact_or_contains_expected,0.026458001229912043,58,112,29
+noise_0433,noise,"[""食肉动物"", ""狗""]","[""狗""]",1,exact_or_contains_expected,0.034333032090216875,80,150,40
+noise_0434,noise,"[""食肉动物"", ""狐狸""]","[""猫科"", ""狐狸""]",1,exact_or_contains_expected,0.033750024158507586,72,140,36
+noise_0435,noise,"[""食肉动物"", ""豺""]","[""豺""]",1,exact_or_contains_expected,0.040000013541430235,92,164,46
+noise_0436,noise,"[""食肉动物"", ""鬣狗""]","[""鬣狗""]",1,exact_or_contains_expected,0.03404100425541401,80,130,40
+noise_0437,noise,"[""食肉动物"", ""郊狼""]","[""郊狼""]",1,exact_or_contains_expected,0.02758303890004754,62,112,31
+noise_0438,noise,"[""食肉动物"", ""澳洲野犬""]","[""澳洲野犬""]",1,exact_or_contains_expected,0.03250001464039087,80,170,40
+noise_0439,noise,"[""食肉动物"", ""薮犬""]","[""薮犬""]",1,exact_or_contains_expected,0.02783298259600997,64,134,32
+noise_0440,noise,"[""有蹄类动物"", ""牛""]","[""牛""]",1,exact_or_contains_expected,0.03420800203457475,78,149,39
+noise_0441,noise,"[""有蹄类动物"", ""马""]","[""马""]",1,exact_or_contains_expected,0.43833302333950996,1060,1103,530
+noise_0442,noise,"[""有蹄类动物"", ""羊""]","[""羊""]",1,exact_or_contains_expected,0.02883397974073887,64,115,32
+noise_0443,noise,"[""有蹄类动物"", ""猪""]","[""猪""]",1,exact_or_contains_expected,0.02720800694078207,64,107,32
+noise_0444,noise,"[""有蹄类动物"", ""鹿""]","[""鹿""]",1,exact_or_contains_expected,0.02845900598913431,64,135,32
+noise_0445,noise,"[""有蹄类动物"", ""长颈鹿""]","[""长颈鹿""]",1,exact_or_contains_expected,0.028916052542626858,68,131,34
+noise_0446,noise,"[""有蹄类动物"", ""斑马""]","[""斑马""]",1,exact_or_contains_expected,0.020916981156915426,46,89,23
+noise_0447,noise,"[""有蹄类动物"", ""羚羊""]","[""羚羊""]",1,exact_or_contains_expected,0.03487500362098217,78,109,39
+noise_0448,noise,"[""有蹄类动物"", ""骆驼""]","[""骆驼""]",1,exact_or_contains_expected,0.028624956030398607,64,127,32
+noise_0449,noise,"[""有蹄类动物"", ""犀牛""]","[""犀牛""]",1,exact_or_contains_expected,0.02783298259600997,64,115,32
+noise_0450,noise,"[""有蹄类动物"", ""河马""]","[""河马""]",1,exact_or_contains_expected,0.030542025342583656,72,95,36
+noise_0451,noise,"[""有蹄类动物"", ""大象""]","[""大象""]",1,exact_or_contains_expected,0.020749983377754688,46,69,23
+noise_0452,noise,"[""人类""]","[""人类""]",1,exact_or_contains_expected,0.024916022084653378,58,113,29
+noise_0453,noise,"[""黑猩猩""]","[""黑猩猩""]",1,exact_or_contains_expected,0.02879201201722026,66,101,33
+noise_0454,noise,"[""大猩猩""]","[""大猩猩""]",1,exact_or_contains_expected,0.027125002816319466,64,99,32
+noise_0455,noise,"[""猴子""]","[""猴子""]",1,exact_or_contains_expected,0.026291003450751305,60,95,30
+noise_0456,noise,"[""长臂猿""]","[""长臂猿""]",1,exact_or_contains_expected,0.024083012249320745,56,71,28
+noise_0457,noise,"[""狒狒""]","[""狒狒""]",1,exact_or_contains_expected,0.028916052542626858,66,101,33
+noise_0458,noise,"[""猕猴""]","[""猕猴""]",1,exact_or_contains_expected,0.027917034458369017,66,81,33
+noise_0459,noise,"[""狐猴""]","[""狐猴""]",1,exact_or_contains_expected,0.027749978471547365,66,81,33
+noise_0460,noise,"[""老鼠""]","[""老鼠""]",1,exact_or_contains_expected,0.3979589673690498,1052,1087,526
+noise_0461,noise,"[""松鼠""]","[""松鼠""]",1,exact_or_contains_expected,0.023625034373253584,56,71,28
+noise_0462,noise,"[""仓鼠""]","[""仓鼠""]",1,exact_or_contains_expected,0.029916001949459314,70,125,35
+noise_0463,noise,"[""豚鼠""]","[""豚鼠""]",1,exact_or_contains_expected,0.0310409814119339,70,125,35
+noise_0464,noise,"[""河狸""]","[""河狸""]",1,exact_or_contains_expected,0.021208019461482763,40,55,20
+noise_0465,noise,"[""豪猪""]","[""豪猪""]",1,exact_or_contains_expected,0.020708015654236078,48,83,24
+noise_0466,noise,"[""土拨鼠""]","[""土拨鼠""]",1,exact_or_contains_expected,0.022416003048419952,38,55,19
+noise_0467,noise,"[""兔子""]","[""兔子""]",1,exact_or_contains_expected,0.018624996300786734,38,53,19
+noise_0468,noise,"[""蓝鲸""]","[""蓝鲸""]",1,exact_or_contains_expected,0.02320797648280859,50,99,25
+noise_0469,noise,"[""虎鲸""]","[""虎鲸""]",1,exact_or_contains_expected,0.023333006538450718,50,59,25
+noise_0470,noise,"[""海豚""]","[""海豚""]",1,exact_or_contains_expected,0.028458016458898783,64,93,32
+noise_0471,noise,"[""抹香鲸""]","[""抹香鲸""]",1,exact_or_contains_expected,0.021665997337549925,50,79,25
+noise_0472,noise,"[""座头鲸""]","[""座头鲸""]",1,exact_or_contains_expected,0.022249994799494743,52,81,26
+noise_0473,noise,"[""鸟类"", ""鸵鸟""]","[""鸵鸟""]",1,exact_or_contains_expected,0.027165981009602547,64,109,32
+noise_0474,noise,"[""鸟类"", ""企鹅""]","[""企鹅""]",1,exact_or_contains_expected,0.02962502185255289,68,95,34
+noise_0475,noise,"[""鸟类"", ""鹰""]","[""鹰""]",1,exact_or_contains_expected,0.01937500201165676,44,87,22
+noise_0476,noise,"[""鸟类"", ""鹦鹉""]","[""鹦鹉""]",1,exact_or_contains_expected,0.02829195000231266,66,109,33
+noise_0477,noise,"[""鸟类"", ""麻雀""]","[""麻雀""]",1,exact_or_contains_expected,0.025833025574684143,62,105,31
+noise_0478,noise,"[""鸟类"", ""鸽子""]","[""鸽子""]",1,exact_or_contains_expected,0.02775003667920828,66,109,33
+noise_0479,noise,"[""鸟类"", ""孔雀""]","[""孔雀""]",1,exact_or_contains_expected,0.025708985049277544,64,87,32
+noise_0480,noise,"[""鸟类"", ""天鹅""]","[""天鹅""]",1,exact_or_contains_expected,0.020874955225735903,50,93,25
+noise_0481,noise,"[""鸟类"", ""鸭子""]","[""鸭子""]",1,exact_or_contains_expected,0.030124967452138662,68,113,34
+noise_0482,noise,"[""鸟类"", ""猫头鹰""]","[""猫头鹰""]",1,exact_or_contains_expected,0.03287498839199543,74,137,37
+noise_0483,noise,"[""哺乳动物"", ""鸟类"", ""啄木鸟""]","[""啄木鸟""]",1,exact_or_contains_expected,0.02500001573935151,60,119,30
+noise_0484,noise,"[""鸟类"", ""信天翁""]","[""信天翁""]",1,exact_or_contains_expected,0.02720800694078207,64,107,32
+noise_0485,noise,"[""爬行动物"", ""蛇""]","[""蛇""]",1,exact_or_contains_expected,0.024917011614888906,56,91,28
+noise_0486,noise,"[""爬行动物"", ""鳄鱼""]","[""鳄鱼""]",1,exact_or_contains_expected,0.027499976567924023,64,79,32
+noise_0487,noise,"[""爬行动物"", ""乌龟""]","[""乌龟""]",1,exact_or_contains_expected,0.023957982193678617,56,111,28
+noise_0488,noise,"[""爬行动物"", ""蜥蜴""]","[""蜥蜴""]",1,exact_or_contains_expected,0.017209036741405725,38,73,19
+noise_0489,noise,"[""爬行动物"", ""壁虎""]","[""壁虎""]",1,exact_or_contains_expected,0.031333998776972294,70,105,35
+noise_0490,noise,"[""爬行动物"", ""变色龙""]","[""变色龙""]",1,exact_or_contains_expected,0.024500011932104826,56,91,28
+noise_0491,noise,"[""爬行动物"", ""眼镜蛇""]","[""眼镜蛇""]",1,exact_or_contains_expected,0.018250022549182177,38,73,19
+noise_0492,noise,"[""爬行动物"", ""响尾蛇""]","[""响尾蛇""]",1,exact_or_contains_expected,0.010082963854074478,20,35,10
+noise_0493,noise,"[""鱼类"", ""鲨鱼""]","[""鲨鱼""]",1,exact_or_contains_expected,0.02675002906471491,62,77,31
+noise_0494,noise,"[""鱼类"", ""金鱼""]","[""金鱼""]",1,exact_or_contains_expected,0.01770904054865241,38,73,19
+noise_0495,noise,"[""鱼类"", ""鲤鱼""]","[""鲤鱼""]",1,exact_or_contains_expected,0.024582957848906517,56,111,28
+noise_0496,noise,"[""鱼类"", ""三文鱼""]","[""三文鱼""]",1,exact_or_contains_expected,0.024874985683709383,58,93,29
+noise_0497,noise,"[""鱼类"", ""鲶鱼""]","[""鲶鱼""]",1,exact_or_contains_expected,0.02400000812485814,56,91,28
+noise_0498,noise,"[""鱼类"", ""比目鱼""]","[""比目鱼""]",1,exact_or_contains_expected,0.026082969270646572,60,95,30
+noise_0499,noise,"[""鱼类"", ""灯笼鱼""]","[""灯笼鱼""]",1,exact_or_contains_expected,0.02379197394475341,58,113,29
+noise_0500,noise,"[""鱼类"", ""海马""]","[""海马""]",1,exact_or_contains_expected,0.02420798409730196,56,91,28
+boundary_0501,boundary,"[""昆虫""]","[""昆虫""]",1,exact_or_contains_expected,0.006791029591113329,14,25,7
+boundary_0502,boundary,"[""两栖动物""]","[""两栖动物""]",1,exact_or_contains_expected,0.0038339640013873577,7,11,3.5
+boundary_0503,boundary,"[""熊变种0""]","[""熊变种0""]",1,exact_or_contains_expected,0.40670804446563125,1018,1036,509
+boundary_0504,boundary,"[""狼变种0""]","[""狼变种0"", ""熊变种1""]",1,exact_or_contains_expected,0.8579580462537706,2032,2070,1016
+boundary_0505,boundary,"[""豹变种0""]","[""豹变种0"", ""熊变种2""]",1,exact_or_contains_expected,0.8199590374715626,2034,2072,1017
+boundary_0506,boundary,"[""鹿变种0""]","[""鹿变种0"", ""熊变种3""]",1,exact_or_contains_expected,0.8185829501599073,2036,2074,1018
+boundary_0507,boundary,"[""象变种0""]","[""象变种0"", ""熊变种4""]",1,exact_or_contains_expected,0.8220410090871155,2038,2076,1019
+boundary_0508,boundary,"[""鹰变种0""]","[""鹰变种0"", ""熊变种5""]",1,exact_or_contains_expected,0.8140000281855464,2040,2078,1020
+boundary_0509,boundary,"[""蛇变种0""]","[""蛇变种0"", ""熊变种6""]",1,exact_or_contains_expected,0.8283340139314532,2042,2080,1021
+boundary_0510,boundary,"[""鱼变种0""]","[""鱼变种0"", ""熊变种7""]",1,exact_or_contains_expected,0.8304170332849026,2044,2082,1022
+boundary_0511,boundary,"[""鸟变种0""]","[""鸟变种0"", ""熊变种8""]",1,exact_or_contains_expected,0.832833000458777,2046,2084,1023
+boundary_0512,boundary,"[""虫变种0""]","[""虫变种0"", ""熊变种9""]",1,exact_or_contains_expected,0.8032909827306867,2048,2086,1024
+boundary_0513,boundary,"[""熊变种1""]","[""狼变种0"", ""熊变种1""]",1,exact_or_contains_expected,0.8067080052569509,2032,2070,1016
+boundary_0514,boundary,"[""狼变种1""]","[""狼变种1""]",1,exact_or_contains_expected,0.40370802162215114,1022,1040,511
+boundary_0515,boundary,"[""豹变种1""]","[""豹变种1"", ""狼变种2""]",1,exact_or_contains_expected,0.8356670150533319,2036,2074,1018
+boundary_0516,boundary,"[""鹿变种1""]","[""鹿变种1"", ""狼变种3""]",1,exact_or_contains_expected,0.8367080008611083,2038,2076,1019
+boundary_0517,boundary,"[""象变种1""]","[""象变种1"", ""狼变种4""]",1,exact_or_contains_expected,0.7966250414028764,2040,2078,1020
+boundary_0518,boundary,"[""鹰变种1""]","[""鹰变种1"", ""狼变种5""]",1,exact_or_contains_expected,0.7750410004518926,2042,2080,1021
+boundary_0519,boundary,"[""蛇变种1""]","[""蛇变种1"", ""狼变种6""]",1,exact_or_contains_expected,0.7804170018061996,2044,2082,1022
+boundary_0520,boundary,"[""鱼变种1""]","[""鱼变种1"", ""狼变种7""]",1,exact_or_contains_expected,0.7759580039419234,2046,2084,1023
+boundary_0521,boundary,"[""鸟变种1""]","[""鸟变种1"", ""狼变种8""]",1,exact_or_contains_expected,0.7784999907016754,2048,2086,1024
+boundary_0522,boundary,"[""虫变种1""]","[""虫变种1"", ""狼变种9""]",1,exact_or_contains_expected,0.7770000374875963,2048,2086,1024
+boundary_0523,boundary,"[""熊变种2""]","[""豹变种0"", ""熊变种2""]",1,exact_or_contains_expected,0.7906249957159162,2034,2072,1017
+boundary_0524,boundary,"[""狼变种2""]","[""豹变种1"", ""狼变种2""]",1,exact_or_contains_expected,0.7844580104574561,2036,2074,1018
+boundary_0525,boundary,"[""豹变种2""]","[""豹变种2""]",1,exact_or_contains_expected,0.38662500446662307,1026,1044,513
+boundary_0526,boundary,"[""鹿变种2""]","[""鹿变种2"", ""豹变种3""]",1,exact_or_contains_expected,0.7826670189388096,2040,2078,1020
+boundary_0527,boundary,"[""象变种2""]","[""象变种2"", ""豹变种4""]",1,exact_or_contains_expected,0.790499965660274,2042,2080,1021
+boundary_0528,boundary,"[""鹰变种2""]","[""鹰变种2"", ""豹变种5""]",1,exact_or_contains_expected,0.7907079998403788,2044,2082,1022
+boundary_0529,boundary,"[""蛇变种2""]","[""蛇变种2"", ""豹变种6""]",1,exact_or_contains_expected,0.7909999694675207,2046,2084,1023
+boundary_0530,boundary,"[""鱼变种2""]","[""鱼变种2"", ""豹变种7""]",1,exact_or_contains_expected,0.7922499789856374,2048,2086,1024
+boundary_0531,boundary,"[""鸟变种2""]","[""鸟变种2"", ""豹变种8""]",1,exact_or_contains_expected,0.772083003539592,2048,2086,1024
+boundary_0532,boundary,"[""虫变种2""]","[""虫变种2"", ""豹变种9""]",1,exact_or_contains_expected,0.7830419926904142,2048,2086,1024
+boundary_0533,boundary,"[""熊变种3""]","[""鹿变种0"", ""熊变种3""]",1,exact_or_contains_expected,0.8058330276980996,2036,2074,1018
+boundary_0534,boundary,"[""狼变种3""]","[""鹿变种1"", ""狼变种3""]",1,exact_or_contains_expected,0.8086669840849936,2038,2076,1019
+boundary_0535,boundary,"[""豹变种3""]","[""鹿变种2"", ""豹变种3""]",1,exact_or_contains_expected,0.8050829637795687,2040,2078,1020
+boundary_0536,boundary,"[""鹿变种3""]","[""鹿变种3""]",1,exact_or_contains_expected,0.3997500170953572,1030,1048,515
+boundary_0537,boundary,"[""象变种3""]","[""象变种3"", ""鹿变种4""]",1,exact_or_contains_expected,0.8071250049397349,2044,2082,1022
+boundary_0538,boundary,"[""鹰变种3""]","[""鹰变种3"", ""鹿变种5""]",1,exact_or_contains_expected,0.8124590385705233,2046,2084,1023
+boundary_0539,boundary,"[""蛇变种3""]","[""蛇变种3"", ""鹿变种6""]",1,exact_or_contains_expected,0.8026250288821757,2048,2086,1024
+boundary_0540,boundary,"[""鱼变种3""]","[""鱼变种3"", ""鹿变种7""]",1,exact_or_contains_expected,0.7955830078572035,2048,2086,1024
+boundary_0541,boundary,"[""鸟变种3""]","[""鸟变种3"", ""鹿变种8""]",1,exact_or_contains_expected,0.7867499953135848,2048,2086,1024
+boundary_0542,boundary,"[""虫变种3""]","[""虫变种3"", ""鹿变种9""]",1,exact_or_contains_expected,0.7847919478081167,2048,2086,1024
+boundary_0543,boundary,"[""熊变种4""]","[""象变种0"", ""熊变种4""]",1,exact_or_contains_expected,0.8010410238057375,2038,2076,1019
+boundary_0544,boundary,"[""狼变种4""]","[""象变种1"", ""狼变种4""]",1,exact_or_contains_expected,0.8249160018749535,2040,2078,1020
+boundary_0545,boundary,"[""豹变种4""]","[""象变种2"", ""豹变种4""]",1,exact_or_contains_expected,0.8151670335792005,2042,2080,1021
+boundary_0546,boundary,"[""鹿变种4""]","[""象变种3"", ""鹿变种4""]",1,exact_or_contains_expected,0.8045830181799829,2044,2082,1022
+boundary_0547,boundary,"[""象变种4""]","[""象变种4""]",1,exact_or_contains_expected,0.3957920125685632,1034,1052,517
+boundary_0548,boundary,"[""鹰变种4""]","[""鹰变种4"", ""象变种5""]",1,exact_or_contains_expected,0.795207975897938,2048,2086,1024
+boundary_0549,boundary,"[""蛇变种4""]","[""蛇变种4"", ""象变种6""]",1,exact_or_contains_expected,0.8032089681364596,2048,2086,1024
+boundary_0550,boundary,"[""鱼变种4""]","[""鱼变种4"", ""象变种7""]",1,exact_or_contains_expected,0.7971249870024621,2048,2086,1024

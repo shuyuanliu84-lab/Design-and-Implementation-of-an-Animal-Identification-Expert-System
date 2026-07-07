@@ -1,0 +1,1772 @@
+[
+  {
+    "case_id": "uci_zoo_001",
+    "animal_name": "aardvark",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_002",
+    "animal_name": "antelope",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_003",
+    "animal_name": "bass",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ],
+    "uci_type": "4"
+  },
+  {
+    "case_id": "uci_zoo_004",
+    "animal_name": "bear",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_005",
+    "animal_name": "boar",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_006",
+    "animal_name": "buffalo",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_007",
+    "animal_name": "calf",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "家养": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_008",
+    "animal_name": "carp",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "家养": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ],
+    "uci_type": "4"
+  },
+  {
+    "case_id": "uci_zoo_009",
+    "animal_name": "catfish",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ],
+    "uci_type": "4"
+  },
+  {
+    "case_id": "uci_zoo_010",
+    "animal_name": "cavy",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "家养": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_011",
+    "animal_name": "cheetah",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_012",
+    "animal_name": "chicken",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "家养": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_013",
+    "animal_name": "chub",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ],
+    "uci_type": "4"
+  },
+  {
+    "case_id": "uci_zoo_014",
+    "animal_name": "clam",
+    "input_facts": {
+      "会下蛋": true,
+      "吃肉": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "无脊椎动物"
+    ],
+    "uci_type": "7"
+  },
+  {
+    "case_id": "uci_zoo_015",
+    "animal_name": "crab",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "无脊椎动物"
+    ],
+    "uci_type": "7"
+  },
+  {
+    "case_id": "uci_zoo_016",
+    "animal_name": "crayfish",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "无脊椎动物"
+    ],
+    "uci_type": "7"
+  },
+  {
+    "case_id": "uci_zoo_017",
+    "animal_name": "crow",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "吃肉": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_018",
+    "animal_name": "deer",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_019",
+    "animal_name": "dogfish",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ],
+    "uci_type": "4"
+  },
+  {
+    "case_id": "uci_zoo_020",
+    "animal_name": "dolphin",
+    "input_facts": {
+      "有奶": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_021",
+    "animal_name": "dove",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "家养": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_022",
+    "animal_name": "duck",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "生活在水中": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_023",
+    "animal_name": "elephant",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_024",
+    "animal_name": "flamingo",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_025",
+    "animal_name": "flea",
+    "input_facts": {
+      "会下蛋": true,
+      "呼吸空气": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "昆虫"
+    ],
+    "uci_type": "6"
+  },
+  {
+    "case_id": "uci_zoo_026",
+    "animal_name": "frog",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "两栖动物"
+    ],
+    "uci_type": "5"
+  },
+  {
+    "case_id": "uci_zoo_027",
+    "animal_name": "frog",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有毒": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "两栖动物"
+    ],
+    "uci_type": "5"
+  },
+  {
+    "case_id": "uci_zoo_028",
+    "animal_name": "fruitbat",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "会飞": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_029",
+    "animal_name": "giraffe",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_030",
+    "animal_name": "girl",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "家养": true,
+      "猫大小": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_031",
+    "animal_name": "gnat",
+    "input_facts": {
+      "会下蛋": true,
+      "会飞": true,
+      "呼吸空气": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "昆虫"
+    ],
+    "uci_type": "6"
+  },
+  {
+    "case_id": "uci_zoo_032",
+    "animal_name": "goat",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "家养": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_033",
+    "animal_name": "gorilla",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "猫大小": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_034",
+    "animal_name": "gull",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_035",
+    "animal_name": "haddock",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ],
+    "uci_type": "4"
+  },
+  {
+    "case_id": "uci_zoo_036",
+    "animal_name": "hamster",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "家养": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_037",
+    "animal_name": "hare",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_038",
+    "animal_name": "hawk",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "吃肉": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_039",
+    "animal_name": "herring",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ],
+    "uci_type": "4"
+  },
+  {
+    "case_id": "uci_zoo_040",
+    "animal_name": "honeybee",
+    "input_facts": {
+      "有毛发": true,
+      "会下蛋": true,
+      "会飞": true,
+      "呼吸空气": true,
+      "有毒": true,
+      "家养": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "昆虫"
+    ],
+    "uci_type": "6"
+  },
+  {
+    "case_id": "uci_zoo_041",
+    "animal_name": "housefly",
+    "input_facts": {
+      "有毛发": true,
+      "会下蛋": true,
+      "会飞": true,
+      "呼吸空气": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "昆虫"
+    ],
+    "uci_type": "6"
+  },
+  {
+    "case_id": "uci_zoo_042",
+    "animal_name": "kiwi",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "吃肉": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_043",
+    "animal_name": "ladybird",
+    "input_facts": {
+      "会下蛋": true,
+      "会飞": true,
+      "吃肉": true,
+      "呼吸空气": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "昆虫"
+    ],
+    "uci_type": "6"
+  },
+  {
+    "case_id": "uci_zoo_044",
+    "animal_name": "lark",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_045",
+    "animal_name": "leopard",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_046",
+    "animal_name": "lion",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_047",
+    "animal_name": "lobster",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "无脊椎动物"
+    ],
+    "uci_type": "7"
+  },
+  {
+    "case_id": "uci_zoo_048",
+    "animal_name": "lynx",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_049",
+    "animal_name": "mink",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_050",
+    "animal_name": "mole",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_051",
+    "animal_name": "mongoose",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_052",
+    "animal_name": "moth",
+    "input_facts": {
+      "有毛发": true,
+      "会下蛋": true,
+      "会飞": true,
+      "呼吸空气": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "昆虫"
+    ],
+    "uci_type": "6"
+  },
+  {
+    "case_id": "uci_zoo_053",
+    "animal_name": "newt",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "两栖动物"
+    ],
+    "uci_type": "5"
+  },
+  {
+    "case_id": "uci_zoo_054",
+    "animal_name": "octopus",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "猫大小": true,
+      "八条腿": true
+    },
+    "expected_conclusions": [
+      "无脊椎动物"
+    ],
+    "uci_type": "7"
+  },
+  {
+    "case_id": "uci_zoo_055",
+    "animal_name": "opossum",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_056",
+    "animal_name": "oryx",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_057",
+    "animal_name": "ostrich",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_058",
+    "animal_name": "parakeet",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "家养": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_059",
+    "animal_name": "penguin",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_060",
+    "animal_name": "pheasant",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_061",
+    "animal_name": "pike",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ],
+    "uci_type": "4"
+  },
+  {
+    "case_id": "uci_zoo_062",
+    "animal_name": "piranha",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ],
+    "uci_type": "4"
+  },
+  {
+    "case_id": "uci_zoo_063",
+    "animal_name": "pitviper",
+    "input_facts": {
+      "会下蛋": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有毒": true,
+      "有尾巴": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "爬行动物"
+    ],
+    "uci_type": "3"
+  },
+  {
+    "case_id": "uci_zoo_064",
+    "animal_name": "platypus",
+    "input_facts": {
+      "有毛发": true,
+      "会下蛋": true,
+      "有奶": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_065",
+    "animal_name": "polecat",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_066",
+    "animal_name": "pony",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "家养": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_067",
+    "animal_name": "porpoise",
+    "input_facts": {
+      "有奶": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_068",
+    "animal_name": "puma",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_069",
+    "animal_name": "pussycat",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "家养": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_070",
+    "animal_name": "raccoon",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_071",
+    "animal_name": "reindeer",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "家养": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_072",
+    "animal_name": "rhea",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "吃肉": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_073",
+    "animal_name": "scorpion",
+    "input_facts": {
+      "吃肉": true,
+      "呼吸空气": true,
+      "有毒": true,
+      "有尾巴": true,
+      "八条腿": true
+    },
+    "expected_conclusions": [
+      "无脊椎动物"
+    ],
+    "uci_type": "7"
+  },
+  {
+    "case_id": "uci_zoo_074",
+    "animal_name": "seahorse",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ],
+    "uci_type": "4"
+  },
+  {
+    "case_id": "uci_zoo_075",
+    "animal_name": "seal",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有鳍": true,
+      "猫大小": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_076",
+    "animal_name": "sealion",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_077",
+    "animal_name": "seasnake",
+    "input_facts": {
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "有毒": true,
+      "有尾巴": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "爬行动物"
+    ],
+    "uci_type": "3"
+  },
+  {
+    "case_id": "uci_zoo_078",
+    "animal_name": "seawasp",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有毒": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "无脊椎动物"
+    ],
+    "uci_type": "7"
+  },
+  {
+    "case_id": "uci_zoo_079",
+    "animal_name": "skimmer",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_080",
+    "animal_name": "skua",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_081",
+    "animal_name": "slowworm",
+    "input_facts": {
+      "会下蛋": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "爬行动物"
+    ],
+    "uci_type": "3"
+  },
+  {
+    "case_id": "uci_zoo_082",
+    "animal_name": "slug",
+    "input_facts": {
+      "会下蛋": true,
+      "呼吸空气": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "无脊椎动物"
+    ],
+    "uci_type": "7"
+  },
+  {
+    "case_id": "uci_zoo_083",
+    "animal_name": "sole",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ],
+    "uci_type": "4"
+  },
+  {
+    "case_id": "uci_zoo_084",
+    "animal_name": "sparrow",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_085",
+    "animal_name": "squirrel",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_086",
+    "animal_name": "starfish",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true
+    },
+    "expected_conclusions": [
+      "无脊椎动物"
+    ],
+    "uci_type": "7"
+  },
+  {
+    "case_id": "uci_zoo_087",
+    "animal_name": "stingray",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "有毒": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ],
+    "uci_type": "4"
+  },
+  {
+    "case_id": "uci_zoo_088",
+    "animal_name": "swan",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "生活在水中": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_089",
+    "animal_name": "termite",
+    "input_facts": {
+      "会下蛋": true,
+      "呼吸空气": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "昆虫"
+    ],
+    "uci_type": "6"
+  },
+  {
+    "case_id": "uci_zoo_090",
+    "animal_name": "toad",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "两栖动物"
+    ],
+    "uci_type": "5"
+  },
+  {
+    "case_id": "uci_zoo_091",
+    "animal_name": "tortoise",
+    "input_facts": {
+      "会下蛋": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "爬行动物"
+    ],
+    "uci_type": "3"
+  },
+  {
+    "case_id": "uci_zoo_092",
+    "animal_name": "tuatara",
+    "input_facts": {
+      "会下蛋": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "爬行动物"
+    ],
+    "uci_type": "3"
+  },
+  {
+    "case_id": "uci_zoo_093",
+    "animal_name": "tuna",
+    "input_facts": {
+      "会下蛋": true,
+      "生活在水中": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "有鳍": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ],
+    "uci_type": "4"
+  },
+  {
+    "case_id": "uci_zoo_094",
+    "animal_name": "vampire",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "会飞": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_095",
+    "animal_name": "vole",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_096",
+    "animal_name": "vulture",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "吃肉": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  },
+  {
+    "case_id": "uci_zoo_097",
+    "animal_name": "wallaby",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_098",
+    "animal_name": "wasp",
+    "input_facts": {
+      "有毛发": true,
+      "会下蛋": true,
+      "会飞": true,
+      "呼吸空气": true,
+      "有毒": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "昆虫"
+    ],
+    "uci_type": "6"
+  },
+  {
+    "case_id": "uci_zoo_099",
+    "animal_name": "wolf",
+    "input_facts": {
+      "有毛发": true,
+      "有奶": true,
+      "吃肉": true,
+      "有牙齿": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "猫大小": true,
+      "四条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ],
+    "uci_type": "1"
+  },
+  {
+    "case_id": "uci_zoo_100",
+    "animal_name": "worm",
+    "input_facts": {
+      "会下蛋": true,
+      "呼吸空气": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "无脊椎动物"
+    ],
+    "uci_type": "7"
+  },
+  {
+    "case_id": "uci_zoo_101",
+    "animal_name": "wren",
+    "input_facts": {
+      "有羽毛": true,
+      "会下蛋": true,
+      "会飞": true,
+      "有脊椎": true,
+      "呼吸空气": true,
+      "有尾巴": true,
+      "两条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ],
+    "uci_type": "2"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "feature_mapping": {
+    "hair": "有毛发",
+    "feathers": "有羽毛",
+    "eggs": "会下蛋",
+    "milk": "有奶",
+    "airborne": "会飞",
+    "aquatic": "生活在水中",
+    "predator": "吃肉",
+    "toothed": "有牙齿",
+    "backbone": "有脊椎",
+    "breathes": "呼吸空气",
+    "venomous": "有毒",
+    "fins": "有鳍",
+    "tail": "有尾巴",
+    "domestic": "家养",
+    "catsize": "猫大小"
+  },
+  "type_labels": {
+    "1": "哺乳动物",
+    "2": "鸟类",
+    "3": "爬行动物",
+    "4": "鱼类",
+    "5": "两栖动物",
+    "6": "昆虫",
+    "7": "无脊椎动物"
+  },
+  "usage": "外部大类验证，不替代自建规则库"
+}

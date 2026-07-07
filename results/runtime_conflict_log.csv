@@ -1,0 +1,10 @@
+case_id,case_type,input_facts,conflict_conclusions,triggered_rule_ids,triggered_priorities,selected_conclusions,resolution
+conflict_0303,conflict,"{""哺乳"": true, ""有鳞片"": true, ""胎生"": true}","[""哺乳动物"", ""爬行动物""]","[8, 3]","{""3"": 9, ""8"": 10}","[""爬行动物""]",priority_winner
+conflict_0304,conflict,"{""恒温"": true, ""有羽毛"": true, ""有脊椎"": true, ""毛发覆盖"": true}","[""哺乳动物"", ""鸟类""]","[5, 4]","{""4"": 8, ""5"": 10}","[""鸟类""]",priority_winner
+conflict_0305,conflict,"{""有羽毛"": true, ""有鳃"": true}","[""鱼类"", ""鸟类""]","[5, 10]","{""10"": 10, ""5"": 10}","[""鱼类"", ""鸟类""]",manual_review_required
+conflict_0306,conflict,"{""会下蛋"": true, ""会飞"": true, ""有毛发"": true}","[""哺乳动物"", ""鸟类""]","[1, 6]","{""1"": 10, ""6"": 9}","[""哺乳动物""]",priority_winner
+conflict_0308,conflict,"{""有羽毛"": true, ""有鳞片"": true}","[""爬行动物"", ""鸟类""]","[5, 8]","{""5"": 10, ""8"": 10}","[""爬行动物"", ""鸟类""]",manual_review_required
+conflict_0309,conflict,"{""产卵"": true, ""冷血"": true, ""有毛发"": true}","[""哺乳动物"", ""爬行动物""]","[1, 9]","{""1"": 10, ""9"": 9}","[""哺乳动物""]",priority_winner
+conflict_0310,conflict,"{""有毛发"": true, ""有鳃"": true}","[""哺乳动物"", ""鱼类""]","[1, 10]","{""1"": 10, ""10"": 10}","[""哺乳动物"", ""鱼类""]",manual_review_required
+conflict_0312,conflict,"{""有毛发"": true, ""有翅膀"": true, ""有触角"": true}","[""哺乳动物"", ""昆虫""]","[1, 13]","{""1"": 10, ""13"": 9}","[""哺乳动物""]",priority_winner
+conflict_0313,conflict,"{""幼体水生"": true, ""成体陆生"": true, ""有鳃"": true}","[""两栖动物"", ""鱼类""]","[10, 15]","{""10"": 10, ""15"": 9}","[""鱼类""]",priority_winner

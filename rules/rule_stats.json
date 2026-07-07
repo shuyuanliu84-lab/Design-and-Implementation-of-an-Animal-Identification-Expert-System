@@ -1,0 +1,18 @@
+{
+  "rule_count": 5121,
+  "category_counts": {
+    "general": 5002,
+    "mammal": 65,
+    "bird": 15,
+    "insect": 13,
+    "fish": 10,
+    "reptile": 10,
+    "amphibian": 6
+  },
+  "distinct_condition_count": 1195,
+  "condition_record_count": 15345,
+  "public_files": [
+    "rules/rules.json",
+    "rules/rules.csv"
+  ]
+}

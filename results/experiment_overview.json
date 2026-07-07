@@ -1,0 +1,43 @@
+{
+  "rule_count": 5121,
+  "generated_case_count": 550,
+  "performance_case_count": 100,
+  "uci_zoo_case_count": 101,
+  "generated_accuracy": 0.8981818181818182,
+  "uci_zoo_accuracy": 0.7326732673267327,
+  "alpha_elapsed_ms_stats": {
+    "count": 100,
+    "mean": 0.012915409752167761,
+    "std": 0.006664652277724999,
+    "median": 0.011104013537988067,
+    "min": 0.004332978278398514,
+    "max": 0.03850000211969018,
+    "ci95_low": 0.011609137905733662,
+    "ci95_high": 0.01422168159860186
+  },
+  "baseline_elapsed_ms_stats": {
+    "count": 100,
+    "mean": 2.2383629478281364,
+    "std": 0.1257173589414415,
+    "median": 2.199417009251192,
+    "min": 2.0266249775886536,
+    "max": 2.6960420073010027,
+    "ci95_low": 2.2137223454756136,
+    "ci95_high": 2.263003550180659
+  },
+  "speedup_stats": {
+    "count": 100,
+    "mean": 210.5673675560474,
+    "std": 87.80088250183945,
+    "median": 196.24212825239374,
+    "min": 58.44804928752315,
+    "max": 494.4732804943579,
+    "ci95_low": 193.35839458568688,
+    "ci95_high": 227.77634052640792
+  },
+  "runtime_conflict_count": 9,
+  "rule_health_score": 99.12126537785589,
+  "offline_conflict_count": 45,
+  "cycle_count": 0,
+  "weak_redundancy_count": 0
+}

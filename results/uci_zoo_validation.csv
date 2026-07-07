@@ -1,0 +1,102 @@
+case_id,case_type,expected,inferred,correct,error_type,elapsed_ms,checked_rules,condition_checks,avg_candidate_rules
+uci_zoo_001,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.01808302477002144,35,55,17.5
+uci_zoo_002,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.009875046089291573,20,23,10
+uci_zoo_003,uci_zoo,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.012542004697024822,23,32,11.5
+uci_zoo_004,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.015290977898985147,35,55,17.5
+uci_zoo_005,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.017667014617472887,41,61,20.5
+uci_zoo_006,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.008959032129496336,20,23,10
+uci_zoo_007,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.00866700429469347,20,23,10
+uci_zoo_008,uci_zoo,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.01091597368940711,21,30,10.5
+uci_zoo_009,uci_zoo,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.011000025551766157,23,32,11.5
+uci_zoo_010,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.006457965355366468,14,17,7
+uci_zoo_011,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.01695897663012147,41,61,20.5
+uci_zoo_012,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.014625024050474167,30,39,15
+uci_zoo_013,uci_zoo,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.010584015399217606,23,32,11.5
+uci_zoo_014,uci_zoo,"[""无脊椎动物""]",[],0,no_conclusion,0.0017919810488820076,3,3,3
+uci_zoo_015,uci_zoo,"[""无脊椎动物""]",[],0,no_conclusion,0.0018749851733446121,3,3,3
+uci_zoo_016,uci_zoo,"[""无脊椎动物""]",[],0,no_conclusion,0.001792039256542921,3,3,3
+uci_zoo_017,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.014457968063652515,32,41,16
+uci_zoo_018,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.008791976142674685,20,23,10
+uci_zoo_019,uci_zoo,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.010791001841425896,23,32,11.5
+uci_zoo_020,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.022040971089154482,49,81,24.5
+uci_zoo_021,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.013708020560443401,30,39,15
+uci_zoo_022,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.014082994312047958,32,41,16
+uci_zoo_023,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.008750008419156075,20,23,10
+uci_zoo_024,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.012584030628204346,30,39,15
+uci_zoo_025,uci_zoo,"[""昆虫""]",[],0,no_conclusion,0.001167005393654108,1,1,1
+uci_zoo_026,uci_zoo,"[""两栖动物""]",[],0,no_conclusion,0.0025830231606960297,4,4,4
+uci_zoo_027,uci_zoo,"[""两栖动物""]",[],0,no_conclusion,0.0031659728847444057,5,5,5
+uci_zoo_028,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.012375006917864084,27,35,13.5
+uci_zoo_029,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.008583010639995337,20,23,10
+uci_zoo_030,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.014542019926011562,35,55,17.5
+uci_zoo_031,uci_zoo,"[""昆虫""]","[""鸟类""]",0,wrong_conclusion,0.009583018254488707,20,32,10
+uci_zoo_032,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.008749950211495161,20,23,10
+uci_zoo_033,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.006208021659404039,14,17,7
+uci_zoo_034,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.015124969650059938,34,43,17
+uci_zoo_035,uci_zoo,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.01025001984089613,21,30,10.5
+uci_zoo_036,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.008374976459890604,20,23,10
+uci_zoo_037,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.008000002708286047,20,23,10
+uci_zoo_038,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.013749988283962011,32,41,16
+uci_zoo_039,uci_zoo,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.010541989468038082,23,32,11.5
+uci_zoo_040,uci_zoo,"[""昆虫""]","[""哺乳动物""]",0,wrong_conclusion,0.014959019608795643,31,53,15.5
+uci_zoo_041,uci_zoo,"[""昆虫""]","[""哺乳动物""]",0,wrong_conclusion,0.015000056009739637,29,51,14.5
+uci_zoo_042,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.011791009455919266,26,35,13
+uci_zoo_043,uci_zoo,"[""昆虫""]","[""鸟类""]",0,wrong_conclusion,0.010124989785254002,22,34,11
+uci_zoo_044,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.012582982890307903,30,39,15
+uci_zoo_045,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.017125043086707592,41,61,20.5
+uci_zoo_046,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.016583013348281384,41,61,20.5
+uci_zoo_047,uci_zoo,"[""无脊椎动物""]",[],0,no_conclusion,0.0019999570213258266,3,3,3
+uci_zoo_048,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.016000005416572094,41,61,20.5
+uci_zoo_049,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.017874990589916706,43,63,21.5
+uci_zoo_050,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.016667007002979517,41,61,20.5
+uci_zoo_051,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.016417005099356174,41,61,20.5
+uci_zoo_052,uci_zoo,"[""昆虫""]","[""哺乳动物""]",0,wrong_conclusion,0.012999982573091984,29,51,14.5
+uci_zoo_053,uci_zoo,"[""两栖动物""]",[],0,no_conclusion,0.0037080026231706142,7,7,7
+uci_zoo_054,uci_zoo,"[""无脊椎动物""]",[],0,no_conclusion,0.0018749851733446121,3,3,3
+uci_zoo_055,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.01633400097489357,41,61,20.5
+uci_zoo_056,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.008500006515532732,20,23,10
+uci_zoo_057,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.010791001841425896,24,33,12
+uci_zoo_058,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.012832984793931246,30,39,15
+uci_zoo_059,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.012584030628204346,28,37,14
+uci_zoo_060,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.012542004697024822,30,39,15
+uci_zoo_061,uci_zoo,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.011000025551766157,23,32,11.5
+uci_zoo_062,uci_zoo,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.010415969882160425,23,32,11.5
+uci_zoo_063,uci_zoo,"[""爬行动物""]",[],0,no_conclusion,0.004084024112671614,8,8,8
+uci_zoo_064,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.01933402381837368,45,65,22.5
+uci_zoo_065,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.0160830095410347,41,61,20.5
+uci_zoo_066,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.008790986612439156,20,23,10
+uci_zoo_067,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.021666986867785454,49,81,24.5
+uci_zoo_068,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.016166013665497303,41,61,20.5
+uci_zoo_069,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.016291975043714046,41,61,20.5
+uci_zoo_070,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.015707977581769228,41,61,20.5
+uci_zoo_071,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.008709030225872993,20,23,10
+uci_zoo_072,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.011666968930512667,26,35,13
+uci_zoo_073,uci_zoo,"[""无脊椎动物""]",[],0,no_conclusion,0.0027919886633753777,5,5,5
+uci_zoo_074,uci_zoo,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.010208983439952135,21,30,10.5
+uci_zoo_075,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.01962494570761919,46,75,23
+uci_zoo_076,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.020791019778698683,50,79,25
+uci_zoo_077,uci_zoo,"[""爬行动物""]",[],0,no_conclusion,0.004208006430417299,8,8,8
+uci_zoo_078,uci_zoo,"[""无脊椎动物""]",[],0,no_conclusion,0.0029170187190175056,5,5,5
+uci_zoo_079,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.015042023733258247,34,43,17
+uci_zoo_080,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.014249992091208696,34,43,17
+uci_zoo_081,uci_zoo,"[""爬行动物""]",[],0,no_conclusion,0.003541994374245405,7,7,7
+uci_zoo_082,uci_zoo,"[""无脊椎动物""]",[],0,no_conclusion,0.0014160177670419216,2,2,2
+uci_zoo_083,uci_zoo,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.009916024282574654,21,30,10.5
+uci_zoo_084,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.012416974641382694,30,39,15
+uci_zoo_085,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.00866700429469347,20,23,10
+uci_zoo_086,uci_zoo,"[""无脊椎动物""]",[],0,no_conclusion,0.0017909915186464787,3,3,3
+uci_zoo_087,uci_zoo,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.012375006917864084,25,34,12.5
+uci_zoo_088,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.01391698606312275,32,41,16
+uci_zoo_089,uci_zoo,"[""昆虫""]",[],0,no_conclusion,0.001167005393654108,1,1,1
+uci_zoo_090,uci_zoo,"[""两栖动物""]",[],0,no_conclusion,0.0020840088836848736,3,3,3
+uci_zoo_091,uci_zoo,"[""爬行动物""]",[],0,no_conclusion,0.002834014594554901,5,5,5
+uci_zoo_092,uci_zoo,"[""爬行动物""]",[],0,no_conclusion,0.0031249946914613247,6,6,6
+uci_zoo_093,uci_zoo,"[""鱼类""]","[""鱼类""]",1,exact_or_contains_expected,0.01070898724719882,23,32,11.5
+uci_zoo_094,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.0118750031106174,27,35,13.5
+uci_zoo_095,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.008417002391070127,20,23,10
+uci_zoo_096,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.01370901009067893,32,41,16
+uci_zoo_097,uci_zoo,"[""哺乳动物""]","[""哺乳动物""]",1,exact_or_contains_expected,0.008583010639995337,20,23,10
+uci_zoo_098,uci_zoo,"[""昆虫""]","[""哺乳动物""]",0,wrong_conclusion,0.014042016118764877,31,53,15.5
+uci_zoo_099,uci_zoo,"[""哺乳动物""]","[""哺乳动物"", ""食肉动物""]",1,exact_or_contains_expected,0.01791701652109623,41,61,20.5
+uci_zoo_100,uci_zoo,"[""无脊椎动物""]",[],0,no_conclusion,0.001541979145258665,2,2,2
+uci_zoo_101,uci_zoo,"[""鸟类""]","[""鸟类""]",1,exact_or_contains_expected,0.012624950613826513,30,39,15

@@ -1,0 +1,8197 @@
+[
+  {
+    "case_id": "complete_0001",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 1,
+    "input_facts": {
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "complete_0002",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 2,
+    "input_facts": {
+      "有奶": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "complete_0003",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 3,
+    "input_facts": {
+      "胎生": true,
+      "哺乳": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "complete_0004",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 4,
+    "input_facts": {
+      "恒温": true,
+      "有脊椎": true,
+      "毛发覆盖": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "complete_0005",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 5,
+    "input_facts": {
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ]
+  },
+  {
+    "case_id": "complete_0006",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 6,
+    "input_facts": {
+      "会飞": true,
+      "会下蛋": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ]
+  },
+  {
+    "case_id": "complete_0007",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 7,
+    "input_facts": {
+      "有翅膀": true,
+      "有喙": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ]
+  },
+  {
+    "case_id": "complete_0008",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 8,
+    "input_facts": {
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "爬行动物"
+    ]
+  },
+  {
+    "case_id": "complete_0009",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 9,
+    "input_facts": {
+      "冷血": true,
+      "产卵": true
+    },
+    "expected_conclusions": [
+      "爬行动物"
+    ]
+  },
+  {
+    "case_id": "complete_0010",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 10,
+    "input_facts": {
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ]
+  },
+  {
+    "case_id": "complete_0011",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 11,
+    "input_facts": {
+      "有鳍": true,
+      "生活在水中": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ]
+  },
+  {
+    "case_id": "complete_0012",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 13,
+    "input_facts": {
+      "有触角": true,
+      "有翅膀": true
+    },
+    "expected_conclusions": [
+      "昆虫"
+    ]
+  },
+  {
+    "case_id": "complete_0013",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 15,
+    "input_facts": {
+      "幼体水生": true,
+      "成体陆生": true
+    },
+    "expected_conclusions": [
+      "两栖动物"
+    ]
+  },
+  {
+    "case_id": "complete_0014",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 16,
+    "input_facts": {
+      "哺乳动物": true,
+      "有爪": true,
+      "有犬齿": true,
+      "眼向前方": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "食肉动物"
+    ]
+  },
+  {
+    "case_id": "complete_0015",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 17,
+    "input_facts": {
+      "哺乳动物": true,
+      "吃肉": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "食肉动物"
+    ]
+  },
+  {
+    "case_id": "complete_0016",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 18,
+    "input_facts": {
+      "哺乳动物": true,
+      "有蹄": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "有蹄类动物"
+    ]
+  },
+  {
+    "case_id": "complete_0017",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 19,
+    "input_facts": {
+      "哺乳动物": true,
+      "反刍": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "有蹄类动物"
+    ]
+  },
+  {
+    "case_id": "complete_0018",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 20,
+    "input_facts": {
+      "哺乳动物": true,
+      "门牙发达": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "啮齿类动物"
+    ]
+  },
+  {
+    "case_id": "complete_0019",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 21,
+    "input_facts": {
+      "哺乳动物": true,
+      "有手": true,
+      "大脑发达": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "灵长类动物"
+    ]
+  },
+  {
+    "case_id": "complete_0020",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 22,
+    "input_facts": {
+      "哺乳动物": true,
+      "生活在海洋": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "鲸类"
+    ]
+  },
+  {
+    "case_id": "complete_0021",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 23,
+    "input_facts": {
+      "哺乳动物": true,
+      "会飞": true,
+      "有翅膀": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "蝙蝠类"
+    ]
+  },
+  {
+    "case_id": "complete_0022",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 24,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有鬃毛": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狮子"
+    ]
+  },
+  {
+    "case_id": "complete_0023",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 25,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有条纹": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "老虎"
+    ]
+  },
+  {
+    "case_id": "complete_0024",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 26,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有斑点": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "豹子"
+    ]
+  },
+  {
+    "case_id": "complete_0025",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 27,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "速度快": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "猎豹"
+    ]
+  },
+  {
+    "case_id": "complete_0026",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 28,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有玫瑰斑": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "美洲豹"
+    ]
+  },
+  {
+    "case_id": "complete_0027",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 29,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰白色": true,
+      "生活在雪山": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "雪豹"
+    ]
+  },
+  {
+    "case_id": "complete_0028",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 30,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰色": true,
+      "耳朵有簇毛": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "猞猁"
+    ]
+  },
+  {
+    "case_id": "complete_0029",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 31,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰色": true,
+      "体型小": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "山猫"
+    ]
+  },
+  {
+    "case_id": "complete_0030",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 32,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "花色": true,
+      "会抓老鼠": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "家猫"
+    ]
+  },
+  {
+    "case_id": "complete_0031",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 33,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰色": true,
+      "生活在野外": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "野猫"
+    ]
+  },
+  {
+    "case_id": "complete_0032",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 34,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "群居": true,
+      "尾巴蓬松": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狼"
+    ]
+  },
+  {
+    "case_id": "complete_0033",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 35,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "听觉灵敏": true,
+      "嗅觉灵敏": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狗"
+    ]
+  },
+  {
+    "case_id": "complete_0034",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 36,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "体型小": true,
+      "会爬树": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狐狸"
+    ]
+  },
+  {
+    "case_id": "complete_0035",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 37,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "群居": true,
+      "叫声尖锐": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "豺"
+    ]
+  },
+  {
+    "case_id": "complete_0036",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 38,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "食腐": true,
+      "下颌强壮": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "鬣狗"
+    ]
+  },
+  {
+    "case_id": "complete_0037",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 39,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "体型中等": true,
+      "适应性强": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "郊狼"
+    ]
+  },
+  {
+    "case_id": "complete_0038",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 40,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "黄色": true,
+      "生活在澳洲": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "澳洲野犬"
+    ]
+  },
+  {
+    "case_id": "complete_0039",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 41,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "红色": true,
+      "生活在森林": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "薮犬"
+    ]
+  },
+  {
+    "case_id": "complete_0040",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 42,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "群居": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "牛"
+    ]
+  },
+  {
+    "case_id": "complete_0041",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 43,
+    "input_facts": {
+      "有蹄类动物": true,
+      "鬃毛": true,
+      "善跑": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "马"
+    ]
+  },
+  {
+    "case_id": "complete_0042",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 44,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "羊毛厚": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "羊"
+    ]
+  },
+  {
+    "case_id": "complete_0043",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 45,
+    "input_facts": {
+      "有蹄类动物": true,
+      "鼻子长": true,
+      "杂食": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "猪"
+    ]
+  },
+  {
+    "case_id": "complete_0044",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 46,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "善跑": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "鹿"
+    ]
+  },
+  {
+    "case_id": "complete_0045",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 47,
+    "input_facts": {
+      "有蹄类动物": true,
+      "长脖子": true,
+      "有斑点": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "长颈鹿"
+    ]
+  },
+  {
+    "case_id": "complete_0046",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 48,
+    "input_facts": {
+      "有蹄类动物": true,
+      "黑白条纹": true,
+      "善跑": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "斑马"
+    ]
+  },
+  {
+    "case_id": "complete_0047",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 49,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "体型小": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "羚羊"
+    ]
+  },
+  {
+    "case_id": "complete_0048",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 50,
+    "input_facts": {
+      "有蹄类动物": true,
+      "驼峰": true,
+      "耐旱": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "骆驼"
+    ]
+  },
+  {
+    "case_id": "complete_0049",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 51,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "体型庞大": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "犀牛"
+    ]
+  },
+  {
+    "case_id": "complete_0050",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 52,
+    "input_facts": {
+      "有蹄类动物": true,
+      "黑色": true,
+      "会游泳": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "河马"
+    ]
+  },
+  {
+    "case_id": "complete_0051",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 53,
+    "input_facts": {
+      "有蹄类动物": true,
+      "长鼻子": true,
+      "体型庞大": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "大象"
+    ]
+  },
+  {
+    "case_id": "complete_0052",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 54,
+    "input_facts": {
+      "灵长类动物": true,
+      "会说话": true,
+      "直立行走": true
+    },
+    "expected_conclusions": [
+      "人类"
+    ]
+  },
+  {
+    "case_id": "complete_0053",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 55,
+    "input_facts": {
+      "灵长类动物": true,
+      "会使用工具": true,
+      "群居": true
+    },
+    "expected_conclusions": [
+      "黑猩猩"
+    ]
+  },
+  {
+    "case_id": "complete_0054",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 56,
+    "input_facts": {
+      "灵长类动物": true,
+      "体型大": true,
+      "无尾": true
+    },
+    "expected_conclusions": [
+      "大猩猩"
+    ]
+  },
+  {
+    "case_id": "complete_0055",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 57,
+    "input_facts": {
+      "灵长类动物": true,
+      "有尾巴": true,
+      "喜欢香蕉": true
+    },
+    "expected_conclusions": [
+      "猴子"
+    ]
+  },
+  {
+    "case_id": "complete_0056",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 58,
+    "input_facts": {
+      "灵长类动物": true,
+      "手臂长": true,
+      "会摇摆": true
+    },
+    "expected_conclusions": [
+      "长臂猿"
+    ]
+  },
+  {
+    "case_id": "complete_0057",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 59,
+    "input_facts": {
+      "灵长类动物": true,
+      "红屁股": true,
+      "群居": true
+    },
+    "expected_conclusions": [
+      "狒狒"
+    ]
+  },
+  {
+    "case_id": "complete_0058",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 60,
+    "input_facts": {
+      "灵长类动物": true,
+      "红脸": true,
+      "群居": true
+    },
+    "expected_conclusions": [
+      "猕猴"
+    ]
+  },
+  {
+    "case_id": "complete_0059",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 61,
+    "input_facts": {
+      "灵长类动物": true,
+      "大眼睛": true,
+      "夜行": true
+    },
+    "expected_conclusions": [
+      "狐猴"
+    ]
+  },
+  {
+    "case_id": "complete_0060",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 62,
+    "input_facts": {
+      "啮齿类动物": true,
+      "偷粮食": true,
+      "尾巴长": true
+    },
+    "expected_conclusions": [
+      "老鼠"
+    ]
+  },
+  {
+    "case_id": "complete_0061",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 63,
+    "input_facts": {
+      "啮齿类动物": true,
+      "储存食物": true,
+      "有颊囊": true
+    },
+    "expected_conclusions": [
+      "松鼠"
+    ]
+  },
+  {
+    "case_id": "complete_0062",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 64,
+    "input_facts": {
+      "啮齿类动物": true,
+      "体型小": true,
+      "可爱": true
+    },
+    "expected_conclusions": [
+      "仓鼠"
+    ]
+  },
+  {
+    "case_id": "complete_0063",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 65,
+    "input_facts": {
+      "啮齿类动物": true,
+      "短耳朵": true,
+      "群居": true
+    },
+    "expected_conclusions": [
+      "豚鼠"
+    ]
+  },
+  {
+    "case_id": "complete_0064",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 66,
+    "input_facts": {
+      "啮齿类动物": true,
+      "会筑坝": true,
+      "尾巴扁平": true
+    },
+    "expected_conclusions": [
+      "河狸"
+    ]
+  },
+  {
+    "case_id": "complete_0065",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 67,
+    "input_facts": {
+      "啮齿类动物": true,
+      "有刺": true,
+      "夜行": true
+    },
+    "expected_conclusions": [
+      "豪猪"
+    ]
+  },
+  {
+    "case_id": "complete_0066",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 68,
+    "input_facts": {
+      "啮齿类动物": true,
+      "会打洞": true,
+      "冬眠": true
+    },
+    "expected_conclusions": [
+      "土拨鼠"
+    ]
+  },
+  {
+    "case_id": "complete_0067",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 69,
+    "input_facts": {
+      "啮齿类动物": true,
+      "长耳朵": true,
+      "短尾巴": true
+    },
+    "expected_conclusions": [
+      "兔子"
+    ]
+  },
+  {
+    "case_id": "complete_0068",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 70,
+    "input_facts": {
+      "鲸类": true,
+      "体型巨大": true,
+      "蓝色": true
+    },
+    "expected_conclusions": [
+      "蓝鲸"
+    ]
+  },
+  {
+    "case_id": "complete_0069",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 71,
+    "input_facts": {
+      "鲸类": true,
+      "黑白相间": true,
+      "肉食": true
+    },
+    "expected_conclusions": [
+      "虎鲸"
+    ]
+  },
+  {
+    "case_id": "complete_0070",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 72,
+    "input_facts": {
+      "鲸类": true,
+      "体型小": true,
+      "聪明": true
+    },
+    "expected_conclusions": [
+      "海豚"
+    ]
+  },
+  {
+    "case_id": "complete_0071",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 73,
+    "input_facts": {
+      "鲸类": true,
+      "大脑大": true,
+      "有鲸蜡": true
+    },
+    "expected_conclusions": [
+      "抹香鲸"
+    ]
+  },
+  {
+    "case_id": "complete_0072",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 74,
+    "input_facts": {
+      "鲸类": true,
+      "长胸鳍": true,
+      "会唱歌": true
+    },
+    "expected_conclusions": [
+      "座头鲸"
+    ]
+  },
+  {
+    "case_id": "complete_0073",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 75,
+    "input_facts": {
+      "鸟类": true,
+      "不会飞": true,
+      "长腿": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鸵鸟"
+    ]
+  },
+  {
+    "case_id": "complete_0074",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 76,
+    "input_facts": {
+      "鸟类": true,
+      "不会飞": true,
+      "会游泳": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "企鹅"
+    ]
+  },
+  {
+    "case_id": "complete_0075",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 77,
+    "input_facts": {
+      "鸟类": true,
+      "有弯钩喙": true,
+      "视力好": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鹰"
+    ]
+  },
+  {
+    "case_id": "complete_0076",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 78,
+    "input_facts": {
+      "鸟类": true,
+      "会说话": true,
+      "羽毛鲜艳": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鹦鹉"
+    ]
+  },
+  {
+    "case_id": "complete_0077",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 79,
+    "input_facts": {
+      "鸟类": true,
+      "体型小": true,
+      "会唱歌": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "麻雀"
+    ]
+  },
+  {
+    "case_id": "complete_0078",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 80,
+    "input_facts": {
+      "鸟类": true,
+      "体型中等": true,
+      "会送信": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鸽子"
+    ]
+  },
+  {
+    "case_id": "complete_0079",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 81,
+    "input_facts": {
+      "鸟类": true,
+      "有长尾羽": true,
+      "会开屏": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "孔雀"
+    ]
+  },
+  {
+    "case_id": "complete_0080",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 82,
+    "input_facts": {
+      "鸟类": true,
+      "会游泳": true,
+      "脖子长": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "天鹅"
+    ]
+  },
+  {
+    "case_id": "complete_0081",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 83,
+    "input_facts": {
+      "鸟类": true,
+      "嘴扁平": true,
+      "会游泳": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鸭子"
+    ]
+  },
+  {
+    "case_id": "complete_0082",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 84,
+    "input_facts": {
+      "鸟类": true,
+      "夜行": true,
+      "脸盘大": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "猫头鹰"
+    ]
+  },
+  {
+    "case_id": "complete_0083",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 85,
+    "input_facts": {
+      "鸟类": true,
+      "嘴坚硬": true,
+      "会啄木": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "啄木鸟"
+    ]
+  },
+  {
+    "case_id": "complete_0084",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 86,
+    "input_facts": {
+      "鸟类": true,
+      "善飞": true,
+      "翅膀长": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "信天翁"
+    ]
+  },
+  {
+    "case_id": "complete_0085",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 87,
+    "input_facts": {
+      "爬行动物": true,
+      "没有腿": true,
+      "身体细长": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "蛇"
+    ]
+  },
+  {
+    "case_id": "complete_0086",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 88,
+    "input_facts": {
+      "爬行动物": true,
+      "体型大": true,
+      "咬合力强": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "鳄鱼"
+    ]
+  },
+  {
+    "case_id": "complete_0087",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 89,
+    "input_facts": {
+      "爬行动物": true,
+      "有壳": true,
+      "行动缓慢": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "乌龟"
+    ]
+  },
+  {
+    "case_id": "complete_0088",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 90,
+    "input_facts": {
+      "爬行动物": true,
+      "四肢发达": true,
+      "会爬": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "蜥蜴"
+    ]
+  },
+  {
+    "case_id": "complete_0089",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 91,
+    "input_facts": {
+      "爬行动物": true,
+      "体型小": true,
+      "会爬墙": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "壁虎"
+    ]
+  },
+  {
+    "case_id": "complete_0090",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 92,
+    "input_facts": {
+      "爬行动物": true,
+      "会变色": true,
+      "眼睛独立": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "变色龙"
+    ]
+  },
+  {
+    "case_id": "complete_0091",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 93,
+    "input_facts": {
+      "爬行动物": true,
+      "有毒牙": true,
+      "颈部膨胀": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "眼镜蛇"
+    ]
+  },
+  {
+    "case_id": "complete_0092",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 94,
+    "input_facts": {
+      "爬行动物": true,
+      "有响尾": true,
+      "有毒": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "响尾蛇"
+    ]
+  },
+  {
+    "case_id": "complete_0093",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 95,
+    "input_facts": {
+      "鱼类": true,
+      "体型大": true,
+      "有背鳍": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "鲨鱼"
+    ]
+  },
+  {
+    "case_id": "complete_0094",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 96,
+    "input_facts": {
+      "鱼类": true,
+      "颜色鲜艳": true,
+      "观赏": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "金鱼"
+    ]
+  },
+  {
+    "case_id": "complete_0095",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 97,
+    "input_facts": {
+      "鱼类": true,
+      "有须": true,
+      "淡水": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "鲤鱼"
+    ]
+  },
+  {
+    "case_id": "complete_0096",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 98,
+    "input_facts": {
+      "鱼类": true,
+      "会洄游": true,
+      "红色": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "三文鱼"
+    ]
+  },
+  {
+    "case_id": "complete_0097",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 99,
+    "input_facts": {
+      "鱼类": true,
+      "有胡须": true,
+      "生活在淡水中": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "鲶鱼"
+    ]
+  },
+  {
+    "case_id": "complete_0098",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 100,
+    "input_facts": {
+      "鱼类": true,
+      "身体扁平": true,
+      "有尾巴": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "比目鱼"
+    ]
+  },
+  {
+    "case_id": "complete_0099",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 101,
+    "input_facts": {
+      "鱼类": true,
+      "会发光": true,
+      "生活在深海": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "灯笼鱼"
+    ]
+  },
+  {
+    "case_id": "complete_0100",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 102,
+    "input_facts": {
+      "鱼类": true,
+      "体型奇特": true,
+      "直立游泳": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "海马"
+    ]
+  },
+  {
+    "case_id": "complete_0101",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 103,
+    "input_facts": {
+      "昆虫": true,
+      "会采蜜": true,
+      "有黄黑条纹": true
+    },
+    "expected_conclusions": [
+      "昆虫",
+      "蜜蜂"
+    ]
+  },
+  {
+    "case_id": "complete_0102",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 104,
+    "input_facts": {
+      "昆虫": true,
+      "有斑点": true,
+      "会飞": true
+    },
+    "expected_conclusions": [
+      "昆虫",
+      "蝴蝶"
+    ]
+  },
+  {
+    "case_id": "complete_0103",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 105,
+    "input_facts": {
+      "昆虫": true,
+      "群居": true,
+      "分工明确": true
+    },
+    "expected_conclusions": [
+      "昆虫",
+      "蚂蚁"
+    ]
+  },
+  {
+    "case_id": "complete_0104",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 106,
+    "input_facts": {
+      "昆虫": true,
+      "会传播疾病": true,
+      "吸血": true
+    },
+    "expected_conclusions": [
+      "昆虫",
+      "蚊子"
+    ]
+  },
+  {
+    "case_id": "complete_0105",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 107,
+    "input_facts": {
+      "昆虫": true,
+      "会飞": true,
+      "复眼大": true
+    },
+    "expected_conclusions": [
+      "昆虫",
+      "苍蝇"
+    ]
+  },
+  {
+    "case_id": "complete_0106",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 108,
+    "input_facts": {
+      "昆虫": true,
+      "有长翅膀": true,
+      "幼虫水生": true
+    },
+    "expected_conclusions": [
+      "昆虫",
+      "蜻蜓"
+    ]
+  },
+  {
+    "case_id": "complete_0107",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 109,
+    "input_facts": {
+      "昆虫": true,
+      "体型大": true,
+      "会叫": true
+    },
+    "expected_conclusions": [
+      "昆虫",
+      "蝉"
+    ]
+  },
+  {
+    "case_id": "complete_0108",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 110,
+    "input_facts": {
+      "昆虫": true,
+      "会发光": true,
+      "夜行": true
+    },
+    "expected_conclusions": [
+      "昆虫",
+      "萤火虫"
+    ]
+  },
+  {
+    "case_id": "complete_0109",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 111,
+    "input_facts": {
+      "昆虫": true,
+      "扁平身体": true,
+      "夜行": true
+    },
+    "expected_conclusions": [
+      "昆虫",
+      "蟑螂"
+    ]
+  },
+  {
+    "case_id": "complete_0110",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 112,
+    "input_facts": {
+      "昆虫": true,
+      "红色背": true,
+      "有黑点": true
+    },
+    "expected_conclusions": [
+      "昆虫",
+      "瓢虫"
+    ]
+  },
+  {
+    "case_id": "complete_0111",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 113,
+    "input_facts": {
+      "昆虫": true,
+      "前腿捕捉": true,
+      "绿色": true
+    },
+    "expected_conclusions": [
+      "昆虫",
+      "螳螂"
+    ]
+  },
+  {
+    "case_id": "complete_0112",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 114,
+    "input_facts": {
+      "昆虫": true,
+      "会鸣叫": true,
+      "后腿长": true
+    },
+    "expected_conclusions": [
+      "昆虫",
+      "蟋蟀"
+    ]
+  },
+  {
+    "case_id": "complete_0113",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 115,
+    "input_facts": {
+      "两栖动物": true,
+      "会跳": true,
+      "绿色": true
+    },
+    "expected_conclusions": [
+      "两栖动物",
+      "青蛙"
+    ]
+  },
+  {
+    "case_id": "complete_0114",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 116,
+    "input_facts": {
+      "两栖动物": true,
+      "皮肤粗糙": true,
+      "夜行": true
+    },
+    "expected_conclusions": [
+      "两栖动物",
+      "蟾蜍"
+    ]
+  },
+  {
+    "case_id": "complete_0115",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 117,
+    "input_facts": {
+      "两栖动物": true,
+      "有尾巴": true,
+      "会游泳": true
+    },
+    "expected_conclusions": [
+      "两栖动物",
+      "蝾螈"
+    ]
+  },
+  {
+    "case_id": "complete_0116",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 118,
+    "input_facts": {
+      "两栖动物": true,
+      "体型大": true,
+      "叫声大": true
+    },
+    "expected_conclusions": [
+      "两栖动物",
+      "娃娃鱼"
+    ]
+  },
+  {
+    "case_id": "complete_0117",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 119,
+    "input_facts": {
+      "两栖动物": true,
+      "体型小": true,
+      "有剧毒": true
+    },
+    "expected_conclusions": [
+      "两栖动物",
+      "箭毒蛙"
+    ]
+  },
+  {
+    "case_id": "complete_0118",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 5120,
+    "input_facts": {
+      "食肉动物": true,
+      "会爬树": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "猫科"
+    ]
+  },
+  {
+    "case_id": "complete_0119",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 5121,
+    "input_facts": {
+      "食肉动物": true,
+      "嗅觉灵敏": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "犬科"
+    ]
+  },
+  {
+    "case_id": "complete_0120",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 1,
+    "input_facts": {
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "complete_0121",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 2,
+    "input_facts": {
+      "有奶": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "complete_0122",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 3,
+    "input_facts": {
+      "胎生": true,
+      "哺乳": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "complete_0123",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 4,
+    "input_facts": {
+      "恒温": true,
+      "有脊椎": true,
+      "毛发覆盖": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "complete_0124",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 5,
+    "input_facts": {
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ]
+  },
+  {
+    "case_id": "complete_0125",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 6,
+    "input_facts": {
+      "会飞": true,
+      "会下蛋": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ]
+  },
+  {
+    "case_id": "complete_0126",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 7,
+    "input_facts": {
+      "有翅膀": true,
+      "有喙": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ]
+  },
+  {
+    "case_id": "complete_0127",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 8,
+    "input_facts": {
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "爬行动物"
+    ]
+  },
+  {
+    "case_id": "complete_0128",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 9,
+    "input_facts": {
+      "冷血": true,
+      "产卵": true
+    },
+    "expected_conclusions": [
+      "爬行动物"
+    ]
+  },
+  {
+    "case_id": "complete_0129",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 10,
+    "input_facts": {
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ]
+  },
+  {
+    "case_id": "complete_0130",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 11,
+    "input_facts": {
+      "有鳍": true,
+      "生活在水中": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ]
+  },
+  {
+    "case_id": "complete_0131",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 13,
+    "input_facts": {
+      "有触角": true,
+      "有翅膀": true
+    },
+    "expected_conclusions": [
+      "昆虫"
+    ]
+  },
+  {
+    "case_id": "complete_0132",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 15,
+    "input_facts": {
+      "幼体水生": true,
+      "成体陆生": true
+    },
+    "expected_conclusions": [
+      "两栖动物"
+    ]
+  },
+  {
+    "case_id": "complete_0133",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 16,
+    "input_facts": {
+      "哺乳动物": true,
+      "有爪": true,
+      "有犬齿": true,
+      "眼向前方": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "食肉动物"
+    ]
+  },
+  {
+    "case_id": "complete_0134",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 17,
+    "input_facts": {
+      "哺乳动物": true,
+      "吃肉": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "食肉动物"
+    ]
+  },
+  {
+    "case_id": "complete_0135",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 18,
+    "input_facts": {
+      "哺乳动物": true,
+      "有蹄": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "有蹄类动物"
+    ]
+  },
+  {
+    "case_id": "complete_0136",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 19,
+    "input_facts": {
+      "哺乳动物": true,
+      "反刍": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "有蹄类动物"
+    ]
+  },
+  {
+    "case_id": "complete_0137",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 20,
+    "input_facts": {
+      "哺乳动物": true,
+      "门牙发达": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "啮齿类动物"
+    ]
+  },
+  {
+    "case_id": "complete_0138",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 21,
+    "input_facts": {
+      "哺乳动物": true,
+      "有手": true,
+      "大脑发达": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "灵长类动物"
+    ]
+  },
+  {
+    "case_id": "complete_0139",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 22,
+    "input_facts": {
+      "哺乳动物": true,
+      "生活在海洋": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "鲸类"
+    ]
+  },
+  {
+    "case_id": "complete_0140",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 23,
+    "input_facts": {
+      "哺乳动物": true,
+      "会飞": true,
+      "有翅膀": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "蝙蝠类"
+    ]
+  },
+  {
+    "case_id": "complete_0141",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 24,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有鬃毛": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狮子"
+    ]
+  },
+  {
+    "case_id": "complete_0142",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 25,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有条纹": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "老虎"
+    ]
+  },
+  {
+    "case_id": "complete_0143",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 26,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有斑点": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "豹子"
+    ]
+  },
+  {
+    "case_id": "complete_0144",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 27,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "速度快": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "猎豹"
+    ]
+  },
+  {
+    "case_id": "complete_0145",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 28,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有玫瑰斑": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "美洲豹"
+    ]
+  },
+  {
+    "case_id": "complete_0146",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 29,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰白色": true,
+      "生活在雪山": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "雪豹"
+    ]
+  },
+  {
+    "case_id": "complete_0147",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 30,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰色": true,
+      "耳朵有簇毛": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "猞猁"
+    ]
+  },
+  {
+    "case_id": "complete_0148",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 31,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰色": true,
+      "体型小": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "山猫"
+    ]
+  },
+  {
+    "case_id": "complete_0149",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 32,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "花色": true,
+      "会抓老鼠": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "家猫"
+    ]
+  },
+  {
+    "case_id": "complete_0150",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 33,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰色": true,
+      "生活在野外": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "野猫"
+    ]
+  },
+  {
+    "case_id": "complete_0151",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 34,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "群居": true,
+      "尾巴蓬松": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狼"
+    ]
+  },
+  {
+    "case_id": "complete_0152",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 35,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "听觉灵敏": true,
+      "嗅觉灵敏": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狗"
+    ]
+  },
+  {
+    "case_id": "complete_0153",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 36,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "体型小": true,
+      "会爬树": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狐狸"
+    ]
+  },
+  {
+    "case_id": "complete_0154",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 37,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "群居": true,
+      "叫声尖锐": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "豺"
+    ]
+  },
+  {
+    "case_id": "complete_0155",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 38,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "食腐": true,
+      "下颌强壮": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "鬣狗"
+    ]
+  },
+  {
+    "case_id": "complete_0156",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 39,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "体型中等": true,
+      "适应性强": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "郊狼"
+    ]
+  },
+  {
+    "case_id": "complete_0157",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 40,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "黄色": true,
+      "生活在澳洲": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "澳洲野犬"
+    ]
+  },
+  {
+    "case_id": "complete_0158",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 41,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "红色": true,
+      "生活在森林": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "薮犬"
+    ]
+  },
+  {
+    "case_id": "complete_0159",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 42,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "群居": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "牛"
+    ]
+  },
+  {
+    "case_id": "complete_0160",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 43,
+    "input_facts": {
+      "有蹄类动物": true,
+      "鬃毛": true,
+      "善跑": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "马"
+    ]
+  },
+  {
+    "case_id": "complete_0161",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 44,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "羊毛厚": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "羊"
+    ]
+  },
+  {
+    "case_id": "complete_0162",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 45,
+    "input_facts": {
+      "有蹄类动物": true,
+      "鼻子长": true,
+      "杂食": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "猪"
+    ]
+  },
+  {
+    "case_id": "complete_0163",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 46,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "善跑": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "鹿"
+    ]
+  },
+  {
+    "case_id": "complete_0164",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 47,
+    "input_facts": {
+      "有蹄类动物": true,
+      "长脖子": true,
+      "有斑点": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "长颈鹿"
+    ]
+  },
+  {
+    "case_id": "complete_0165",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 48,
+    "input_facts": {
+      "有蹄类动物": true,
+      "黑白条纹": true,
+      "善跑": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "斑马"
+    ]
+  },
+  {
+    "case_id": "complete_0166",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 49,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "体型小": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "羚羊"
+    ]
+  },
+  {
+    "case_id": "complete_0167",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 50,
+    "input_facts": {
+      "有蹄类动物": true,
+      "驼峰": true,
+      "耐旱": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "骆驼"
+    ]
+  },
+  {
+    "case_id": "complete_0168",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 51,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "体型庞大": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "犀牛"
+    ]
+  },
+  {
+    "case_id": "complete_0169",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 52,
+    "input_facts": {
+      "有蹄类动物": true,
+      "黑色": true,
+      "会游泳": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "河马"
+    ]
+  },
+  {
+    "case_id": "complete_0170",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 53,
+    "input_facts": {
+      "有蹄类动物": true,
+      "长鼻子": true,
+      "体型庞大": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "大象"
+    ]
+  },
+  {
+    "case_id": "complete_0171",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 54,
+    "input_facts": {
+      "灵长类动物": true,
+      "会说话": true,
+      "直立行走": true
+    },
+    "expected_conclusions": [
+      "人类"
+    ]
+  },
+  {
+    "case_id": "complete_0172",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 55,
+    "input_facts": {
+      "灵长类动物": true,
+      "会使用工具": true,
+      "群居": true
+    },
+    "expected_conclusions": [
+      "黑猩猩"
+    ]
+  },
+  {
+    "case_id": "complete_0173",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 56,
+    "input_facts": {
+      "灵长类动物": true,
+      "体型大": true,
+      "无尾": true
+    },
+    "expected_conclusions": [
+      "大猩猩"
+    ]
+  },
+  {
+    "case_id": "complete_0174",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 57,
+    "input_facts": {
+      "灵长类动物": true,
+      "有尾巴": true,
+      "喜欢香蕉": true
+    },
+    "expected_conclusions": [
+      "猴子"
+    ]
+  },
+  {
+    "case_id": "complete_0175",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 58,
+    "input_facts": {
+      "灵长类动物": true,
+      "手臂长": true,
+      "会摇摆": true
+    },
+    "expected_conclusions": [
+      "长臂猿"
+    ]
+  },
+  {
+    "case_id": "complete_0176",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 59,
+    "input_facts": {
+      "灵长类动物": true,
+      "红屁股": true,
+      "群居": true
+    },
+    "expected_conclusions": [
+      "狒狒"
+    ]
+  },
+  {
+    "case_id": "complete_0177",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 60,
+    "input_facts": {
+      "灵长类动物": true,
+      "红脸": true,
+      "群居": true
+    },
+    "expected_conclusions": [
+      "猕猴"
+    ]
+  },
+  {
+    "case_id": "complete_0178",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 61,
+    "input_facts": {
+      "灵长类动物": true,
+      "大眼睛": true,
+      "夜行": true
+    },
+    "expected_conclusions": [
+      "狐猴"
+    ]
+  },
+  {
+    "case_id": "complete_0179",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 62,
+    "input_facts": {
+      "啮齿类动物": true,
+      "偷粮食": true,
+      "尾巴长": true
+    },
+    "expected_conclusions": [
+      "老鼠"
+    ]
+  },
+  {
+    "case_id": "complete_0180",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 63,
+    "input_facts": {
+      "啮齿类动物": true,
+      "储存食物": true,
+      "有颊囊": true
+    },
+    "expected_conclusions": [
+      "松鼠"
+    ]
+  },
+  {
+    "case_id": "complete_0181",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 64,
+    "input_facts": {
+      "啮齿类动物": true,
+      "体型小": true,
+      "可爱": true
+    },
+    "expected_conclusions": [
+      "仓鼠"
+    ]
+  },
+  {
+    "case_id": "complete_0182",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 65,
+    "input_facts": {
+      "啮齿类动物": true,
+      "短耳朵": true,
+      "群居": true
+    },
+    "expected_conclusions": [
+      "豚鼠"
+    ]
+  },
+  {
+    "case_id": "complete_0183",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 66,
+    "input_facts": {
+      "啮齿类动物": true,
+      "会筑坝": true,
+      "尾巴扁平": true
+    },
+    "expected_conclusions": [
+      "河狸"
+    ]
+  },
+  {
+    "case_id": "complete_0184",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 67,
+    "input_facts": {
+      "啮齿类动物": true,
+      "有刺": true,
+      "夜行": true
+    },
+    "expected_conclusions": [
+      "豪猪"
+    ]
+  },
+  {
+    "case_id": "complete_0185",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 68,
+    "input_facts": {
+      "啮齿类动物": true,
+      "会打洞": true,
+      "冬眠": true
+    },
+    "expected_conclusions": [
+      "土拨鼠"
+    ]
+  },
+  {
+    "case_id": "complete_0186",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 69,
+    "input_facts": {
+      "啮齿类动物": true,
+      "长耳朵": true,
+      "短尾巴": true
+    },
+    "expected_conclusions": [
+      "兔子"
+    ]
+  },
+  {
+    "case_id": "complete_0187",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 70,
+    "input_facts": {
+      "鲸类": true,
+      "体型巨大": true,
+      "蓝色": true
+    },
+    "expected_conclusions": [
+      "蓝鲸"
+    ]
+  },
+  {
+    "case_id": "complete_0188",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 71,
+    "input_facts": {
+      "鲸类": true,
+      "黑白相间": true,
+      "肉食": true
+    },
+    "expected_conclusions": [
+      "虎鲸"
+    ]
+  },
+  {
+    "case_id": "complete_0189",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 72,
+    "input_facts": {
+      "鲸类": true,
+      "体型小": true,
+      "聪明": true
+    },
+    "expected_conclusions": [
+      "海豚"
+    ]
+  },
+  {
+    "case_id": "complete_0190",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 73,
+    "input_facts": {
+      "鲸类": true,
+      "大脑大": true,
+      "有鲸蜡": true
+    },
+    "expected_conclusions": [
+      "抹香鲸"
+    ]
+  },
+  {
+    "case_id": "complete_0191",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 74,
+    "input_facts": {
+      "鲸类": true,
+      "长胸鳍": true,
+      "会唱歌": true
+    },
+    "expected_conclusions": [
+      "座头鲸"
+    ]
+  },
+  {
+    "case_id": "complete_0192",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 75,
+    "input_facts": {
+      "鸟类": true,
+      "不会飞": true,
+      "长腿": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鸵鸟"
+    ]
+  },
+  {
+    "case_id": "complete_0193",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 76,
+    "input_facts": {
+      "鸟类": true,
+      "不会飞": true,
+      "会游泳": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "企鹅"
+    ]
+  },
+  {
+    "case_id": "complete_0194",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 77,
+    "input_facts": {
+      "鸟类": true,
+      "有弯钩喙": true,
+      "视力好": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鹰"
+    ]
+  },
+  {
+    "case_id": "complete_0195",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 78,
+    "input_facts": {
+      "鸟类": true,
+      "会说话": true,
+      "羽毛鲜艳": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鹦鹉"
+    ]
+  },
+  {
+    "case_id": "complete_0196",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 79,
+    "input_facts": {
+      "鸟类": true,
+      "体型小": true,
+      "会唱歌": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "麻雀"
+    ]
+  },
+  {
+    "case_id": "complete_0197",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 80,
+    "input_facts": {
+      "鸟类": true,
+      "体型中等": true,
+      "会送信": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鸽子"
+    ]
+  },
+  {
+    "case_id": "complete_0198",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 81,
+    "input_facts": {
+      "鸟类": true,
+      "有长尾羽": true,
+      "会开屏": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "孔雀"
+    ]
+  },
+  {
+    "case_id": "complete_0199",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 82,
+    "input_facts": {
+      "鸟类": true,
+      "会游泳": true,
+      "脖子长": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "天鹅"
+    ]
+  },
+  {
+    "case_id": "complete_0200",
+    "case_type": "complete",
+    "difficulty": "medium",
+    "source_rule_id": 83,
+    "input_facts": {
+      "鸟类": true,
+      "嘴扁平": true,
+      "会游泳": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鸭子"
+    ]
+  },
+  {
+    "case_id": "missing_0201",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 1,
+    "input_facts": {
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "missing_0202",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 2,
+    "input_facts": {
+      "有奶": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "missing_0203",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 3,
+    "input_facts": {
+      "哺乳": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "missing_0204",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 4,
+    "input_facts": {
+      "恒温": true,
+      "毛发覆盖": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "missing_0205",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 5,
+    "input_facts": {
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ]
+  },
+  {
+    "case_id": "missing_0206",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 6,
+    "input_facts": {
+      "会下蛋": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ]
+  },
+  {
+    "case_id": "missing_0207",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 7,
+    "input_facts": {
+      "有喙": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ]
+  },
+  {
+    "case_id": "missing_0208",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 8,
+    "input_facts": {
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "爬行动物"
+    ]
+  },
+  {
+    "case_id": "missing_0209",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 9,
+    "input_facts": {
+      "产卵": true
+    },
+    "expected_conclusions": [
+      "爬行动物"
+    ]
+  },
+  {
+    "case_id": "missing_0210",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 10,
+    "input_facts": {
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ]
+  },
+  {
+    "case_id": "missing_0211",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 11,
+    "input_facts": {
+      "生活在水中": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ]
+  },
+  {
+    "case_id": "missing_0212",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 13,
+    "input_facts": {
+      "有翅膀": true
+    },
+    "expected_conclusions": [
+      "昆虫"
+    ]
+  },
+  {
+    "case_id": "missing_0213",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 15,
+    "input_facts": {
+      "成体陆生": true
+    },
+    "expected_conclusions": [
+      "两栖动物"
+    ]
+  },
+  {
+    "case_id": "missing_0214",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 16,
+    "input_facts": {
+      "有爪": true,
+      "有犬齿": true,
+      "眼向前方": true
+    },
+    "expected_conclusions": [
+      "食肉动物"
+    ]
+  },
+  {
+    "case_id": "missing_0215",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 17,
+    "input_facts": {
+      "哺乳动物": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "食肉动物"
+    ]
+  },
+  {
+    "case_id": "missing_0216",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 18,
+    "input_facts": {
+      "有蹄": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物"
+    ]
+  },
+  {
+    "case_id": "missing_0217",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 19,
+    "input_facts": {
+      "哺乳动物": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "有蹄类动物"
+    ]
+  },
+  {
+    "case_id": "missing_0218",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 20,
+    "input_facts": {
+      "门牙发达": true
+    },
+    "expected_conclusions": [
+      "啮齿类动物"
+    ]
+  },
+  {
+    "case_id": "missing_0219",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 21,
+    "input_facts": {
+      "有手": true,
+      "大脑发达": true
+    },
+    "expected_conclusions": [
+      "灵长类动物"
+    ]
+  },
+  {
+    "case_id": "missing_0220",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 22,
+    "input_facts": {
+      "生活在海洋": true,
+      "无四肢": true
+    },
+    "expected_conclusions": [
+      "鲸类"
+    ]
+  },
+  {
+    "case_id": "missing_0221",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 23,
+    "input_facts": {
+      "会飞": true,
+      "有翅膀": true
+    },
+    "expected_conclusions": [
+      "蝙蝠类"
+    ]
+  },
+  {
+    "case_id": "missing_0222",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 24,
+    "input_facts": {
+      "猫科": true,
+      "黄褐色": true,
+      "有鬃毛": true
+    },
+    "expected_conclusions": [
+      "狮子"
+    ]
+  },
+  {
+    "case_id": "missing_0223",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 25,
+    "input_facts": {
+      "猫科": true,
+      "黄褐色": true,
+      "有条纹": true
+    },
+    "expected_conclusions": [
+      "老虎"
+    ]
+  },
+  {
+    "case_id": "missing_0224",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 26,
+    "input_facts": {
+      "食肉动物": true,
+      "黄褐色": true,
+      "有斑点": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "豹子"
+    ]
+  },
+  {
+    "case_id": "missing_0225",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 27,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "猎豹"
+    ]
+  },
+  {
+    "case_id": "missing_0226",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 28,
+    "input_facts": {
+      "食肉动物": true,
+      "黄褐色": true,
+      "有玫瑰斑": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "美洲豹"
+    ]
+  },
+  {
+    "case_id": "missing_0227",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 29,
+    "input_facts": {
+      "猫科": true,
+      "灰白色": true,
+      "生活在雪山": true
+    },
+    "expected_conclusions": [
+      "雪豹"
+    ]
+  },
+  {
+    "case_id": "missing_0228",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 30,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰色": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "猞猁"
+    ]
+  },
+  {
+    "case_id": "missing_0229",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 31,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰色": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "山猫"
+    ]
+  },
+  {
+    "case_id": "missing_0230",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 32,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "会抓老鼠": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "家猫"
+    ]
+  },
+  {
+    "case_id": "missing_0231",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 33,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰色": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "野猫"
+    ]
+  },
+  {
+    "case_id": "missing_0232",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 34,
+    "input_facts": {
+      "食肉动物": true,
+      "群居": true,
+      "尾巴蓬松": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狼"
+    ]
+  },
+  {
+    "case_id": "missing_0233",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 35,
+    "input_facts": {
+      "食肉动物": true,
+      "听觉灵敏": true,
+      "嗅觉灵敏": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狗"
+    ]
+  },
+  {
+    "case_id": "missing_0234",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 36,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "会爬树": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狐狸"
+    ]
+  },
+  {
+    "case_id": "missing_0235",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 37,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "叫声尖锐": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "豺"
+    ]
+  },
+  {
+    "case_id": "missing_0236",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 38,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "下颌强壮": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "鬣狗"
+    ]
+  },
+  {
+    "case_id": "missing_0237",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 39,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "适应性强": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "郊狼"
+    ]
+  },
+  {
+    "case_id": "missing_0238",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 40,
+    "input_facts": {
+      "犬科": true,
+      "黄色": true,
+      "生活在澳洲": true
+    },
+    "expected_conclusions": [
+      "澳洲野犬"
+    ]
+  },
+  {
+    "case_id": "missing_0239",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 41,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "生活在森林": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "薮犬"
+    ]
+  },
+  {
+    "case_id": "missing_0240",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 42,
+    "input_facts": {
+      "有蹄类动物": true,
+      "群居": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "牛"
+    ]
+  },
+  {
+    "case_id": "missing_0241",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 43,
+    "input_facts": {
+      "有蹄类动物": true,
+      "善跑": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "马"
+    ]
+  },
+  {
+    "case_id": "missing_0242",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 44,
+    "input_facts": {
+      "有蹄类动物": true,
+      "羊毛厚": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "羊"
+    ]
+  },
+  {
+    "case_id": "missing_0243",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 45,
+    "input_facts": {
+      "有蹄类动物": true,
+      "鼻子长": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "猪"
+    ]
+  },
+  {
+    "case_id": "missing_0244",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 46,
+    "input_facts": {
+      "有角": true,
+      "善跑": true
+    },
+    "expected_conclusions": [
+      "鹿"
+    ]
+  },
+  {
+    "case_id": "missing_0245",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 47,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有斑点": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "长颈鹿"
+    ]
+  },
+  {
+    "case_id": "missing_0246",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 48,
+    "input_facts": {
+      "黑白条纹": true,
+      "善跑": true
+    },
+    "expected_conclusions": [
+      "斑马"
+    ]
+  },
+  {
+    "case_id": "missing_0247",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 49,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "羚羊"
+    ]
+  },
+  {
+    "case_id": "missing_0248",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 50,
+    "input_facts": {
+      "驼峰": true,
+      "耐旱": true
+    },
+    "expected_conclusions": [
+      "骆驼"
+    ]
+  },
+  {
+    "case_id": "missing_0249",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 51,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "犀牛"
+    ]
+  },
+  {
+    "case_id": "missing_0250",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 52,
+    "input_facts": {
+      "有蹄类动物": true,
+      "黑色": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "河马"
+    ]
+  },
+  {
+    "case_id": "missing_0251",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 53,
+    "input_facts": {
+      "长鼻子": true,
+      "体型庞大": true
+    },
+    "expected_conclusions": [
+      "大象"
+    ]
+  },
+  {
+    "case_id": "missing_0252",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 54,
+    "input_facts": {
+      "灵长类动物": true,
+      "直立行走": true
+    },
+    "expected_conclusions": [
+      "人类"
+    ]
+  },
+  {
+    "case_id": "missing_0253",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 55,
+    "input_facts": {
+      "灵长类动物": true,
+      "群居": true
+    },
+    "expected_conclusions": [
+      "黑猩猩"
+    ]
+  },
+  {
+    "case_id": "missing_0254",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 56,
+    "input_facts": {
+      "体型大": true,
+      "无尾": true
+    },
+    "expected_conclusions": [
+      "大猩猩"
+    ]
+  },
+  {
+    "case_id": "missing_0255",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 57,
+    "input_facts": {
+      "灵长类动物": true,
+      "喜欢香蕉": true
+    },
+    "expected_conclusions": [
+      "猴子"
+    ]
+  },
+  {
+    "case_id": "missing_0256",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 58,
+    "input_facts": {
+      "灵长类动物": true,
+      "手臂长": true
+    },
+    "expected_conclusions": [
+      "长臂猿"
+    ]
+  },
+  {
+    "case_id": "missing_0257",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 59,
+    "input_facts": {
+      "灵长类动物": true,
+      "群居": true
+    },
+    "expected_conclusions": [
+      "狒狒"
+    ]
+  },
+  {
+    "case_id": "missing_0258",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 60,
+    "input_facts": {
+      "灵长类动物": true,
+      "红脸": true
+    },
+    "expected_conclusions": [
+      "猕猴"
+    ]
+  },
+  {
+    "case_id": "missing_0259",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 61,
+    "input_facts": {
+      "灵长类动物": true,
+      "大眼睛": true
+    },
+    "expected_conclusions": [
+      "狐猴"
+    ]
+  },
+  {
+    "case_id": "missing_0260",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 62,
+    "input_facts": {
+      "啮齿类动物": true,
+      "偷粮食": true
+    },
+    "expected_conclusions": [
+      "老鼠"
+    ]
+  },
+  {
+    "case_id": "missing_0261",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 63,
+    "input_facts": {
+      "啮齿类动物": true,
+      "储存食物": true
+    },
+    "expected_conclusions": [
+      "松鼠"
+    ]
+  },
+  {
+    "case_id": "missing_0262",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 64,
+    "input_facts": {
+      "啮齿类动物": true,
+      "体型小": true
+    },
+    "expected_conclusions": [
+      "仓鼠"
+    ]
+  },
+  {
+    "case_id": "missing_0263",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 65,
+    "input_facts": {
+      "啮齿类动物": true,
+      "群居": true
+    },
+    "expected_conclusions": [
+      "豚鼠"
+    ]
+  },
+  {
+    "case_id": "missing_0264",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 66,
+    "input_facts": {
+      "会筑坝": true,
+      "尾巴扁平": true
+    },
+    "expected_conclusions": [
+      "河狸"
+    ]
+  },
+  {
+    "case_id": "missing_0265",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 67,
+    "input_facts": {
+      "啮齿类动物": true,
+      "夜行": true
+    },
+    "expected_conclusions": [
+      "豪猪"
+    ]
+  },
+  {
+    "case_id": "missing_0266",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 68,
+    "input_facts": {
+      "啮齿类动物": true,
+      "会打洞": true
+    },
+    "expected_conclusions": [
+      "土拨鼠"
+    ]
+  },
+  {
+    "case_id": "missing_0267",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 69,
+    "input_facts": {
+      "啮齿类动物": true,
+      "长耳朵": true
+    },
+    "expected_conclusions": [
+      "兔子"
+    ]
+  },
+  {
+    "case_id": "missing_0268",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 70,
+    "input_facts": {
+      "鲸类": true,
+      "体型巨大": true
+    },
+    "expected_conclusions": [
+      "蓝鲸"
+    ]
+  },
+  {
+    "case_id": "missing_0269",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 71,
+    "input_facts": {
+      "鲸类": true,
+      "黑白相间": true
+    },
+    "expected_conclusions": [
+      "虎鲸"
+    ]
+  },
+  {
+    "case_id": "missing_0270",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 72,
+    "input_facts": {
+      "鲸类": true,
+      "体型小": true
+    },
+    "expected_conclusions": [
+      "海豚"
+    ]
+  },
+  {
+    "case_id": "missing_0271",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 73,
+    "input_facts": {
+      "大脑大": true,
+      "有鲸蜡": true
+    },
+    "expected_conclusions": [
+      "抹香鲸"
+    ]
+  },
+  {
+    "case_id": "missing_0272",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 74,
+    "input_facts": {
+      "鲸类": true,
+      "会唱歌": true
+    },
+    "expected_conclusions": [
+      "座头鲸"
+    ]
+  },
+  {
+    "case_id": "missing_0273",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 75,
+    "input_facts": {
+      "鸟类": true,
+      "不会飞": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鸵鸟"
+    ]
+  },
+  {
+    "case_id": "missing_0274",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 76,
+    "input_facts": {
+      "鸟类": true,
+      "会游泳": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "企鹅"
+    ]
+  },
+  {
+    "case_id": "missing_0275",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 77,
+    "input_facts": {
+      "有弯钩喙": true,
+      "视力好": true
+    },
+    "expected_conclusions": [
+      "鹰"
+    ]
+  },
+  {
+    "case_id": "missing_0276",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 78,
+    "input_facts": {
+      "鸟类": true,
+      "羽毛鲜艳": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鹦鹉"
+    ]
+  },
+  {
+    "case_id": "missing_0277",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 79,
+    "input_facts": {
+      "鸟类": true,
+      "会唱歌": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "麻雀"
+    ]
+  },
+  {
+    "case_id": "missing_0278",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 80,
+    "input_facts": {
+      "体型中等": true,
+      "会送信": true
+    },
+    "expected_conclusions": [
+      "鸽子"
+    ]
+  },
+  {
+    "case_id": "missing_0279",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 81,
+    "input_facts": {
+      "鸟类": true,
+      "有长尾羽": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "孔雀"
+    ]
+  },
+  {
+    "case_id": "missing_0280",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 82,
+    "input_facts": {
+      "鸟类": true,
+      "脖子长": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "天鹅"
+    ]
+  },
+  {
+    "case_id": "missing_0281",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 83,
+    "input_facts": {
+      "鸟类": true,
+      "嘴扁平": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鸭子"
+    ]
+  },
+  {
+    "case_id": "missing_0282",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 84,
+    "input_facts": {
+      "鸟类": true,
+      "夜行": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "猫头鹰"
+    ]
+  },
+  {
+    "case_id": "missing_0283",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 85,
+    "input_facts": {
+      "鸟类": true,
+      "会啄木": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "啄木鸟"
+    ]
+  },
+  {
+    "case_id": "missing_0284",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 86,
+    "input_facts": {
+      "鸟类": true,
+      "翅膀长": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "信天翁"
+    ]
+  },
+  {
+    "case_id": "missing_0285",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 87,
+    "input_facts": {
+      "爬行动物": true,
+      "没有腿": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "蛇"
+    ]
+  },
+  {
+    "case_id": "missing_0286",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 88,
+    "input_facts": {
+      "体型大": true,
+      "咬合力强": true
+    },
+    "expected_conclusions": [
+      "鳄鱼"
+    ]
+  },
+  {
+    "case_id": "missing_0287",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 89,
+    "input_facts": {
+      "有壳": true,
+      "行动缓慢": true
+    },
+    "expected_conclusions": [
+      "乌龟"
+    ]
+  },
+  {
+    "case_id": "missing_0288",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 90,
+    "input_facts": {
+      "四肢发达": true,
+      "会爬": true
+    },
+    "expected_conclusions": [
+      "蜥蜴"
+    ]
+  },
+  {
+    "case_id": "missing_0289",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 91,
+    "input_facts": {
+      "爬行动物": true,
+      "会爬墙": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "壁虎"
+    ]
+  },
+  {
+    "case_id": "missing_0290",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 92,
+    "input_facts": {
+      "爬行动物": true,
+      "会变色": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "变色龙"
+    ]
+  },
+  {
+    "case_id": "missing_0291",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 93,
+    "input_facts": {
+      "有毒牙": true,
+      "颈部膨胀": true
+    },
+    "expected_conclusions": [
+      "眼镜蛇"
+    ]
+  },
+  {
+    "case_id": "missing_0292",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 94,
+    "input_facts": {
+      "爬行动物": true,
+      "有响尾": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "响尾蛇"
+    ]
+  },
+  {
+    "case_id": "missing_0293",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 95,
+    "input_facts": {
+      "鱼类": true,
+      "体型大": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "鲨鱼"
+    ]
+  },
+  {
+    "case_id": "missing_0294",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 96,
+    "input_facts": {
+      "鱼类": true,
+      "颜色鲜艳": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "金鱼"
+    ]
+  },
+  {
+    "case_id": "missing_0295",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 97,
+    "input_facts": {
+      "鱼类": true,
+      "淡水": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "鲤鱼"
+    ]
+  },
+  {
+    "case_id": "missing_0296",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 98,
+    "input_facts": {
+      "鱼类": true,
+      "会洄游": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "三文鱼"
+    ]
+  },
+  {
+    "case_id": "missing_0297",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 99,
+    "input_facts": {
+      "鱼类": true,
+      "生活在淡水中": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "鲶鱼"
+    ]
+  },
+  {
+    "case_id": "missing_0298",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 100,
+    "input_facts": {
+      "鱼类": true,
+      "有尾巴": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "比目鱼"
+    ]
+  },
+  {
+    "case_id": "missing_0299",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 101,
+    "input_facts": {
+      "会发光": true,
+      "生活在深海": true
+    },
+    "expected_conclusions": [
+      "灯笼鱼"
+    ]
+  },
+  {
+    "case_id": "missing_0300",
+    "case_type": "missing",
+    "difficulty": "hard",
+    "source_rule_id": 102,
+    "input_facts": {
+      "鱼类": true,
+      "直立游泳": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "海马"
+    ]
+  },
+  {
+    "case_id": "conflict_0301",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 1,
+    "input_facts": {
+      "有毛发": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "conflict_0302",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 2,
+    "input_facts": {
+      "有奶": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "conflict_0303",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 3,
+    "input_facts": {
+      "胎生": true,
+      "哺乳": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "conflict_0304",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 4,
+    "input_facts": {
+      "恒温": true,
+      "有脊椎": true,
+      "毛发覆盖": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "conflict_0305",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 5,
+    "input_facts": {
+      "有羽毛": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ]
+  },
+  {
+    "case_id": "conflict_0306",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 6,
+    "input_facts": {
+      "会飞": true,
+      "会下蛋": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ]
+  },
+  {
+    "case_id": "conflict_0307",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 7,
+    "input_facts": {
+      "有翅膀": true,
+      "有喙": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ]
+  },
+  {
+    "case_id": "conflict_0308",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 8,
+    "input_facts": {
+      "有鳞片": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "爬行动物"
+    ]
+  },
+  {
+    "case_id": "conflict_0309",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 9,
+    "input_facts": {
+      "冷血": true,
+      "产卵": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "爬行动物"
+    ]
+  },
+  {
+    "case_id": "conflict_0310",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 10,
+    "input_facts": {
+      "有鳃": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ]
+  },
+  {
+    "case_id": "conflict_0311",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 11,
+    "input_facts": {
+      "有鳍": true,
+      "生活在水中": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ]
+  },
+  {
+    "case_id": "conflict_0312",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 13,
+    "input_facts": {
+      "有触角": true,
+      "有翅膀": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "昆虫"
+    ]
+  },
+  {
+    "case_id": "conflict_0313",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 15,
+    "input_facts": {
+      "幼体水生": true,
+      "成体陆生": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "两栖动物"
+    ]
+  },
+  {
+    "case_id": "conflict_0314",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 16,
+    "input_facts": {
+      "哺乳动物": true,
+      "有爪": true,
+      "有犬齿": true,
+      "眼向前方": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "食肉动物"
+    ]
+  },
+  {
+    "case_id": "conflict_0315",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 17,
+    "input_facts": {
+      "哺乳动物": true,
+      "吃肉": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "食肉动物"
+    ]
+  },
+  {
+    "case_id": "conflict_0316",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 18,
+    "input_facts": {
+      "哺乳动物": true,
+      "有蹄": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "有蹄类动物"
+    ]
+  },
+  {
+    "case_id": "conflict_0317",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 19,
+    "input_facts": {
+      "哺乳动物": true,
+      "反刍": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "有蹄类动物"
+    ]
+  },
+  {
+    "case_id": "conflict_0318",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 20,
+    "input_facts": {
+      "哺乳动物": true,
+      "门牙发达": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "啮齿类动物"
+    ]
+  },
+  {
+    "case_id": "conflict_0319",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 21,
+    "input_facts": {
+      "哺乳动物": true,
+      "有手": true,
+      "大脑发达": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "灵长类动物"
+    ]
+  },
+  {
+    "case_id": "conflict_0320",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 22,
+    "input_facts": {
+      "哺乳动物": true,
+      "生活在海洋": true,
+      "无四肢": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "鲸类"
+    ]
+  },
+  {
+    "case_id": "conflict_0321",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 23,
+    "input_facts": {
+      "哺乳动物": true,
+      "会飞": true,
+      "有翅膀": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "蝙蝠类"
+    ]
+  },
+  {
+    "case_id": "conflict_0322",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 24,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有鬃毛": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狮子"
+    ]
+  },
+  {
+    "case_id": "conflict_0323",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 25,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有条纹": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "老虎"
+    ]
+  },
+  {
+    "case_id": "conflict_0324",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 26,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有斑点": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "豹子"
+    ]
+  },
+  {
+    "case_id": "conflict_0325",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 27,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "速度快": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "猎豹"
+    ]
+  },
+  {
+    "case_id": "conflict_0326",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 28,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有玫瑰斑": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "美洲豹"
+    ]
+  },
+  {
+    "case_id": "conflict_0327",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 29,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰白色": true,
+      "生活在雪山": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "雪豹"
+    ]
+  },
+  {
+    "case_id": "conflict_0328",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 30,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰色": true,
+      "耳朵有簇毛": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "猞猁"
+    ]
+  },
+  {
+    "case_id": "conflict_0329",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 31,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰色": true,
+      "体型小": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "山猫"
+    ]
+  },
+  {
+    "case_id": "conflict_0330",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 32,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "花色": true,
+      "会抓老鼠": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "家猫"
+    ]
+  },
+  {
+    "case_id": "conflict_0331",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 33,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰色": true,
+      "生活在野外": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "野猫"
+    ]
+  },
+  {
+    "case_id": "conflict_0332",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 34,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "群居": true,
+      "尾巴蓬松": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狼"
+    ]
+  },
+  {
+    "case_id": "conflict_0333",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 35,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "听觉灵敏": true,
+      "嗅觉灵敏": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狗"
+    ]
+  },
+  {
+    "case_id": "conflict_0334",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 36,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "体型小": true,
+      "会爬树": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狐狸"
+    ]
+  },
+  {
+    "case_id": "conflict_0335",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 37,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "群居": true,
+      "叫声尖锐": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "豺"
+    ]
+  },
+  {
+    "case_id": "conflict_0336",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 38,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "食腐": true,
+      "下颌强壮": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "鬣狗"
+    ]
+  },
+  {
+    "case_id": "conflict_0337",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 39,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "体型中等": true,
+      "适应性强": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "郊狼"
+    ]
+  },
+  {
+    "case_id": "conflict_0338",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 40,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "黄色": true,
+      "生活在澳洲": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "澳洲野犬"
+    ]
+  },
+  {
+    "case_id": "conflict_0339",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 41,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "红色": true,
+      "生活在森林": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "薮犬"
+    ]
+  },
+  {
+    "case_id": "conflict_0340",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 42,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "群居": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "牛"
+    ]
+  },
+  {
+    "case_id": "conflict_0341",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 43,
+    "input_facts": {
+      "有蹄类动物": true,
+      "鬃毛": true,
+      "善跑": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "马"
+    ]
+  },
+  {
+    "case_id": "conflict_0342",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 44,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "羊毛厚": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "羊"
+    ]
+  },
+  {
+    "case_id": "conflict_0343",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 45,
+    "input_facts": {
+      "有蹄类动物": true,
+      "鼻子长": true,
+      "杂食": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "猪"
+    ]
+  },
+  {
+    "case_id": "conflict_0344",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 46,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "善跑": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "鹿"
+    ]
+  },
+  {
+    "case_id": "conflict_0345",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 47,
+    "input_facts": {
+      "有蹄类动物": true,
+      "长脖子": true,
+      "有斑点": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "长颈鹿"
+    ]
+  },
+  {
+    "case_id": "conflict_0346",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 48,
+    "input_facts": {
+      "有蹄类动物": true,
+      "黑白条纹": true,
+      "善跑": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "斑马"
+    ]
+  },
+  {
+    "case_id": "conflict_0347",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 49,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "体型小": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "羚羊"
+    ]
+  },
+  {
+    "case_id": "conflict_0348",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 50,
+    "input_facts": {
+      "有蹄类动物": true,
+      "驼峰": true,
+      "耐旱": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "骆驼"
+    ]
+  },
+  {
+    "case_id": "conflict_0349",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 51,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "体型庞大": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "犀牛"
+    ]
+  },
+  {
+    "case_id": "conflict_0350",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 52,
+    "input_facts": {
+      "有蹄类动物": true,
+      "黑色": true,
+      "会游泳": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "河马"
+    ]
+  },
+  {
+    "case_id": "conflict_0351",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 53,
+    "input_facts": {
+      "有蹄类动物": true,
+      "长鼻子": true,
+      "体型庞大": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "大象"
+    ]
+  },
+  {
+    "case_id": "conflict_0352",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 54,
+    "input_facts": {
+      "灵长类动物": true,
+      "会说话": true,
+      "直立行走": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "人类"
+    ]
+  },
+  {
+    "case_id": "conflict_0353",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 55,
+    "input_facts": {
+      "灵长类动物": true,
+      "会使用工具": true,
+      "群居": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "黑猩猩"
+    ]
+  },
+  {
+    "case_id": "conflict_0354",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 56,
+    "input_facts": {
+      "灵长类动物": true,
+      "体型大": true,
+      "无尾": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "大猩猩"
+    ]
+  },
+  {
+    "case_id": "conflict_0355",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 57,
+    "input_facts": {
+      "灵长类动物": true,
+      "有尾巴": true,
+      "喜欢香蕉": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "猴子"
+    ]
+  },
+  {
+    "case_id": "conflict_0356",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 58,
+    "input_facts": {
+      "灵长类动物": true,
+      "手臂长": true,
+      "会摇摆": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "长臂猿"
+    ]
+  },
+  {
+    "case_id": "conflict_0357",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 59,
+    "input_facts": {
+      "灵长类动物": true,
+      "红屁股": true,
+      "群居": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "狒狒"
+    ]
+  },
+  {
+    "case_id": "conflict_0358",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 60,
+    "input_facts": {
+      "灵长类动物": true,
+      "红脸": true,
+      "群居": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "猕猴"
+    ]
+  },
+  {
+    "case_id": "conflict_0359",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 61,
+    "input_facts": {
+      "灵长类动物": true,
+      "大眼睛": true,
+      "夜行": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "狐猴"
+    ]
+  },
+  {
+    "case_id": "conflict_0360",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 62,
+    "input_facts": {
+      "啮齿类动物": true,
+      "偷粮食": true,
+      "尾巴长": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "老鼠"
+    ]
+  },
+  {
+    "case_id": "conflict_0361",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 63,
+    "input_facts": {
+      "啮齿类动物": true,
+      "储存食物": true,
+      "有颊囊": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "松鼠"
+    ]
+  },
+  {
+    "case_id": "conflict_0362",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 64,
+    "input_facts": {
+      "啮齿类动物": true,
+      "体型小": true,
+      "可爱": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "仓鼠"
+    ]
+  },
+  {
+    "case_id": "conflict_0363",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 65,
+    "input_facts": {
+      "啮齿类动物": true,
+      "短耳朵": true,
+      "群居": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "豚鼠"
+    ]
+  },
+  {
+    "case_id": "conflict_0364",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 66,
+    "input_facts": {
+      "啮齿类动物": true,
+      "会筑坝": true,
+      "尾巴扁平": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "河狸"
+    ]
+  },
+  {
+    "case_id": "conflict_0365",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 67,
+    "input_facts": {
+      "啮齿类动物": true,
+      "有刺": true,
+      "夜行": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "豪猪"
+    ]
+  },
+  {
+    "case_id": "conflict_0366",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 68,
+    "input_facts": {
+      "啮齿类动物": true,
+      "会打洞": true,
+      "冬眠": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "土拨鼠"
+    ]
+  },
+  {
+    "case_id": "conflict_0367",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 69,
+    "input_facts": {
+      "啮齿类动物": true,
+      "长耳朵": true,
+      "短尾巴": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "兔子"
+    ]
+  },
+  {
+    "case_id": "conflict_0368",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 70,
+    "input_facts": {
+      "鲸类": true,
+      "体型巨大": true,
+      "蓝色": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "蓝鲸"
+    ]
+  },
+  {
+    "case_id": "conflict_0369",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 71,
+    "input_facts": {
+      "鲸类": true,
+      "黑白相间": true,
+      "肉食": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "虎鲸"
+    ]
+  },
+  {
+    "case_id": "conflict_0370",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 72,
+    "input_facts": {
+      "鲸类": true,
+      "体型小": true,
+      "聪明": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "海豚"
+    ]
+  },
+  {
+    "case_id": "conflict_0371",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 73,
+    "input_facts": {
+      "鲸类": true,
+      "大脑大": true,
+      "有鲸蜡": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "抹香鲸"
+    ]
+  },
+  {
+    "case_id": "conflict_0372",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 74,
+    "input_facts": {
+      "鲸类": true,
+      "长胸鳍": true,
+      "会唱歌": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "座头鲸"
+    ]
+  },
+  {
+    "case_id": "conflict_0373",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 75,
+    "input_facts": {
+      "鸟类": true,
+      "不会飞": true,
+      "长腿": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鸵鸟"
+    ]
+  },
+  {
+    "case_id": "conflict_0374",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 76,
+    "input_facts": {
+      "鸟类": true,
+      "不会飞": true,
+      "会游泳": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "企鹅"
+    ]
+  },
+  {
+    "case_id": "conflict_0375",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 77,
+    "input_facts": {
+      "鸟类": true,
+      "有弯钩喙": true,
+      "视力好": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鹰"
+    ]
+  },
+  {
+    "case_id": "conflict_0376",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 78,
+    "input_facts": {
+      "鸟类": true,
+      "会说话": true,
+      "羽毛鲜艳": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鹦鹉"
+    ]
+  },
+  {
+    "case_id": "conflict_0377",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 79,
+    "input_facts": {
+      "鸟类": true,
+      "体型小": true,
+      "会唱歌": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "麻雀"
+    ]
+  },
+  {
+    "case_id": "conflict_0378",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 80,
+    "input_facts": {
+      "鸟类": true,
+      "体型中等": true,
+      "会送信": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鸽子"
+    ]
+  },
+  {
+    "case_id": "conflict_0379",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 81,
+    "input_facts": {
+      "鸟类": true,
+      "有长尾羽": true,
+      "会开屏": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "孔雀"
+    ]
+  },
+  {
+    "case_id": "conflict_0380",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 82,
+    "input_facts": {
+      "鸟类": true,
+      "会游泳": true,
+      "脖子长": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "天鹅"
+    ]
+  },
+  {
+    "case_id": "conflict_0381",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 83,
+    "input_facts": {
+      "鸟类": true,
+      "嘴扁平": true,
+      "会游泳": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鸭子"
+    ]
+  },
+  {
+    "case_id": "conflict_0382",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 84,
+    "input_facts": {
+      "鸟类": true,
+      "夜行": true,
+      "脸盘大": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "猫头鹰"
+    ]
+  },
+  {
+    "case_id": "conflict_0383",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 85,
+    "input_facts": {
+      "鸟类": true,
+      "嘴坚硬": true,
+      "会啄木": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "啄木鸟"
+    ]
+  },
+  {
+    "case_id": "conflict_0384",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 86,
+    "input_facts": {
+      "鸟类": true,
+      "善飞": true,
+      "翅膀长": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "信天翁"
+    ]
+  },
+  {
+    "case_id": "conflict_0385",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 87,
+    "input_facts": {
+      "爬行动物": true,
+      "没有腿": true,
+      "身体细长": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "蛇"
+    ]
+  },
+  {
+    "case_id": "conflict_0386",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 88,
+    "input_facts": {
+      "爬行动物": true,
+      "体型大": true,
+      "咬合力强": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "鳄鱼"
+    ]
+  },
+  {
+    "case_id": "conflict_0387",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 89,
+    "input_facts": {
+      "爬行动物": true,
+      "有壳": true,
+      "行动缓慢": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "乌龟"
+    ]
+  },
+  {
+    "case_id": "conflict_0388",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 90,
+    "input_facts": {
+      "爬行动物": true,
+      "四肢发达": true,
+      "会爬": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "蜥蜴"
+    ]
+  },
+  {
+    "case_id": "conflict_0389",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 91,
+    "input_facts": {
+      "爬行动物": true,
+      "体型小": true,
+      "会爬墙": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "壁虎"
+    ]
+  },
+  {
+    "case_id": "conflict_0390",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 92,
+    "input_facts": {
+      "爬行动物": true,
+      "会变色": true,
+      "眼睛独立": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "变色龙"
+    ]
+  },
+  {
+    "case_id": "conflict_0391",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 93,
+    "input_facts": {
+      "爬行动物": true,
+      "有毒牙": true,
+      "颈部膨胀": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "眼镜蛇"
+    ]
+  },
+  {
+    "case_id": "conflict_0392",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 94,
+    "input_facts": {
+      "爬行动物": true,
+      "有响尾": true,
+      "有毒": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "响尾蛇"
+    ]
+  },
+  {
+    "case_id": "conflict_0393",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 95,
+    "input_facts": {
+      "鱼类": true,
+      "体型大": true,
+      "有背鳍": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "鲨鱼"
+    ]
+  },
+  {
+    "case_id": "conflict_0394",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 96,
+    "input_facts": {
+      "鱼类": true,
+      "颜色鲜艳": true,
+      "观赏": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "金鱼"
+    ]
+  },
+  {
+    "case_id": "conflict_0395",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 97,
+    "input_facts": {
+      "鱼类": true,
+      "有须": true,
+      "淡水": true,
+      "有六条腿": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "鲤鱼"
+    ]
+  },
+  {
+    "case_id": "conflict_0396",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 98,
+    "input_facts": {
+      "鱼类": true,
+      "会洄游": true,
+      "红色": true,
+      "有毛发": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "三文鱼"
+    ]
+  },
+  {
+    "case_id": "conflict_0397",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 99,
+    "input_facts": {
+      "鱼类": true,
+      "有胡须": true,
+      "生活在淡水中": true,
+      "有羽毛": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "鲶鱼"
+    ]
+  },
+  {
+    "case_id": "conflict_0398",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 100,
+    "input_facts": {
+      "鱼类": true,
+      "身体扁平": true,
+      "有尾巴": true,
+      "有鳃": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "比目鱼"
+    ]
+  },
+  {
+    "case_id": "conflict_0399",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 101,
+    "input_facts": {
+      "鱼类": true,
+      "会发光": true,
+      "生活在深海": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "灯笼鱼"
+    ]
+  },
+  {
+    "case_id": "conflict_0400",
+    "case_type": "conflict",
+    "difficulty": "hard",
+    "source_rule_id": 102,
+    "input_facts": {
+      "鱼类": true,
+      "体型奇特": true,
+      "直立游泳": true,
+      "有鳞片": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "海马"
+    ]
+  },
+  {
+    "case_id": "noise_0401",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 1,
+    "input_facts": {
+      "有毛发": true,
+      "属性268": true,
+      "特征301": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "noise_0402",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 2,
+    "input_facts": {
+      "有奶": true,
+      "属性170": true,
+      "属性508": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "noise_0403",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 3,
+    "input_facts": {
+      "胎生": true,
+      "哺乳": true,
+      "特征448": true,
+      "属性270": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "noise_0404",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 4,
+    "input_facts": {
+      "恒温": true,
+      "有脊椎": true,
+      "毛发覆盖": true,
+      "淡水": true,
+      "有壳": true
+    },
+    "expected_conclusions": [
+      "哺乳动物"
+    ]
+  },
+  {
+    "case_id": "noise_0405",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 5,
+    "input_facts": {
+      "有羽毛": true,
+      "属性457": true,
+      "属性410": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ]
+  },
+  {
+    "case_id": "noise_0406",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 6,
+    "input_facts": {
+      "会飞": true,
+      "会下蛋": true,
+      "特征156": true,
+      "特征138": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ]
+  },
+  {
+    "case_id": "noise_0407",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 7,
+    "input_facts": {
+      "有翅膀": true,
+      "有喙": true,
+      "特征344": true,
+      "特征307": true
+    },
+    "expected_conclusions": [
+      "鸟类"
+    ]
+  },
+  {
+    "case_id": "noise_0408",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 8,
+    "input_facts": {
+      "有鳞片": true,
+      "特征378": true,
+      "属性432": true
+    },
+    "expected_conclusions": [
+      "爬行动物"
+    ]
+  },
+  {
+    "case_id": "noise_0409",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 9,
+    "input_facts": {
+      "冷血": true,
+      "产卵": true,
+      "淡水": true,
+      "属性279": true
+    },
+    "expected_conclusions": [
+      "爬行动物"
+    ]
+  },
+  {
+    "case_id": "noise_0410",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 10,
+    "input_facts": {
+      "有鳃": true,
+      "复眼大": true,
+      "属性229": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ]
+  },
+  {
+    "case_id": "noise_0411",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 11,
+    "input_facts": {
+      "有鳍": true,
+      "生活在水中": true,
+      "会说话": true,
+      "会爬": true
+    },
+    "expected_conclusions": [
+      "鱼类"
+    ]
+  },
+  {
+    "case_id": "noise_0412",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 13,
+    "input_facts": {
+      "有触角": true,
+      "有翅膀": true,
+      "属性91": true,
+      "属性356": true
+    },
+    "expected_conclusions": [
+      "昆虫"
+    ]
+  },
+  {
+    "case_id": "noise_0413",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 15,
+    "input_facts": {
+      "幼体水生": true,
+      "成体陆生": true,
+      "特征185": true,
+      "特征348": true
+    },
+    "expected_conclusions": [
+      "两栖动物"
+    ]
+  },
+  {
+    "case_id": "noise_0414",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 16,
+    "input_facts": {
+      "哺乳动物": true,
+      "有爪": true,
+      "有犬齿": true,
+      "眼向前方": true,
+      "特征228": true,
+      "属性415": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "食肉动物"
+    ]
+  },
+  {
+    "case_id": "noise_0415",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 17,
+    "input_facts": {
+      "哺乳动物": true,
+      "吃肉": true,
+      "体型庞大": true,
+      "属性436": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "食肉动物"
+    ]
+  },
+  {
+    "case_id": "noise_0416",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 18,
+    "input_facts": {
+      "哺乳动物": true,
+      "有蹄": true,
+      "特征240": true,
+      "特征262": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "有蹄类动物"
+    ]
+  },
+  {
+    "case_id": "noise_0417",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 19,
+    "input_facts": {
+      "哺乳动物": true,
+      "反刍": true,
+      "属性368": true,
+      "特征369": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "有蹄类动物"
+    ]
+  },
+  {
+    "case_id": "noise_0418",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 20,
+    "input_facts": {
+      "哺乳动物": true,
+      "门牙发达": true,
+      "特征421": true,
+      "特征325": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "啮齿类动物"
+    ]
+  },
+  {
+    "case_id": "noise_0419",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 21,
+    "input_facts": {
+      "哺乳动物": true,
+      "有手": true,
+      "大脑发达": true,
+      "属性477": true,
+      "属性138": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "灵长类动物"
+    ]
+  },
+  {
+    "case_id": "noise_0420",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 22,
+    "input_facts": {
+      "哺乳动物": true,
+      "生活在海洋": true,
+      "无四肢": true,
+      "特征445": true,
+      "会摇摆": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "鲸类"
+    ]
+  },
+  {
+    "case_id": "noise_0421",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 23,
+    "input_facts": {
+      "哺乳动物": true,
+      "会飞": true,
+      "有翅膀": true,
+      "特征222": true,
+      "属性288": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "蝙蝠类"
+    ]
+  },
+  {
+    "case_id": "noise_0422",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 24,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有鬃毛": true,
+      "特征90": true,
+      "特征305": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狮子"
+    ]
+  },
+  {
+    "case_id": "noise_0423",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 25,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有条纹": true,
+      "特征311": true,
+      "属性187": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "老虎"
+    ]
+  },
+  {
+    "case_id": "noise_0424",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 26,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有斑点": true,
+      "特征29": true,
+      "黄色": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "豹子"
+    ]
+  },
+  {
+    "case_id": "noise_0425",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 27,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "速度快": true,
+      "属性508": true,
+      "会打洞": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "猎豹"
+    ]
+  },
+  {
+    "case_id": "noise_0426",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 28,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "黄褐色": true,
+      "有玫瑰斑": true,
+      "特征43": true,
+      "属性495": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "美洲豹"
+    ]
+  },
+  {
+    "case_id": "noise_0427",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 29,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰白色": true,
+      "生活在雪山": true,
+      "鱼类": true,
+      "属性279": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "食肉动物",
+      "雪豹"
+    ]
+  },
+  {
+    "case_id": "noise_0428",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 30,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰色": true,
+      "耳朵有簇毛": true,
+      "属性68": true,
+      "特征267": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "猞猁"
+    ]
+  },
+  {
+    "case_id": "noise_0429",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 31,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰色": true,
+      "体型小": true,
+      "属性336": true,
+      "属性123": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "山猫"
+    ]
+  },
+  {
+    "case_id": "noise_0430",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 32,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "花色": true,
+      "会抓老鼠": true,
+      "属性35": true,
+      "特征112": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "家猫"
+    ]
+  },
+  {
+    "case_id": "noise_0431",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 33,
+    "input_facts": {
+      "食肉动物": true,
+      "猫科": true,
+      "灰色": true,
+      "生活在野外": true,
+      "属性154": true,
+      "特征266": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "野猫"
+    ]
+  },
+  {
+    "case_id": "noise_0432",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 34,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "群居": true,
+      "尾巴蓬松": true,
+      "会说话": true,
+      "恒温": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狼"
+    ]
+  },
+  {
+    "case_id": "noise_0433",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 35,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "听觉灵敏": true,
+      "嗅觉灵敏": true,
+      "属性135": true,
+      "特征114": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狗"
+    ]
+  },
+  {
+    "case_id": "noise_0434",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 36,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "体型小": true,
+      "会爬树": true,
+      "生活在雪山": true,
+      "属性75": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "狐狸"
+    ]
+  },
+  {
+    "case_id": "noise_0435",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 37,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "群居": true,
+      "叫声尖锐": true,
+      "特征436": true,
+      "属性190": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "豺"
+    ]
+  },
+  {
+    "case_id": "noise_0436",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 38,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "食腐": true,
+      "下颌强壮": true,
+      "属性195": true,
+      "属性101": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "鬣狗"
+    ]
+  },
+  {
+    "case_id": "noise_0437",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 39,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "体型中等": true,
+      "适应性强": true,
+      "灰色": true,
+      "属性210": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "郊狼"
+    ]
+  },
+  {
+    "case_id": "noise_0438",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 40,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "黄色": true,
+      "生活在澳洲": true,
+      "特征444": true,
+      "特征37": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "澳洲野犬"
+    ]
+  },
+  {
+    "case_id": "noise_0439",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 41,
+    "input_facts": {
+      "食肉动物": true,
+      "犬科": true,
+      "红色": true,
+      "生活在森林": true,
+      "特征52": true,
+      "偷粮食": true
+    },
+    "expected_conclusions": [
+      "食肉动物",
+      "薮犬"
+    ]
+  },
+  {
+    "case_id": "noise_0440",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 42,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "群居": true,
+      "特征169": true,
+      "特征110": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "牛"
+    ]
+  },
+  {
+    "case_id": "noise_0441",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 43,
+    "input_facts": {
+      "有蹄类动物": true,
+      "鬃毛": true,
+      "善跑": true,
+      "特征9": true,
+      "属性22": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "马"
+    ]
+  },
+  {
+    "case_id": "noise_0442",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 44,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "羊毛厚": true,
+      "属性78": true,
+      "特征329": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "羊"
+    ]
+  },
+  {
+    "case_id": "noise_0443",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 45,
+    "input_facts": {
+      "有蹄类动物": true,
+      "鼻子长": true,
+      "杂食": true,
+      "特征470": true,
+      "属性97": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "猪"
+    ]
+  },
+  {
+    "case_id": "noise_0444",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 46,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "善跑": true,
+      "特征403": true,
+      "特征63": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "鹿"
+    ]
+  },
+  {
+    "case_id": "noise_0445",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 47,
+    "input_facts": {
+      "有蹄类动物": true,
+      "长脖子": true,
+      "有斑点": true,
+      "特征104": true,
+      "特征13": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "长颈鹿"
+    ]
+  },
+  {
+    "case_id": "noise_0446",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 48,
+    "input_facts": {
+      "有蹄类动物": true,
+      "黑白条纹": true,
+      "善跑": true,
+      "特征50": true,
+      "有手": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "斑马"
+    ]
+  },
+  {
+    "case_id": "noise_0447",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 49,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "体型小": true,
+      "属性130": true,
+      "属性63": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "羚羊"
+    ]
+  },
+  {
+    "case_id": "noise_0448",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 50,
+    "input_facts": {
+      "有蹄类动物": true,
+      "驼峰": true,
+      "耐旱": true,
+      "特征397": true,
+      "特征333": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "骆驼"
+    ]
+  },
+  {
+    "case_id": "noise_0449",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 51,
+    "input_facts": {
+      "有蹄类动物": true,
+      "有角": true,
+      "体型庞大": true,
+      "属性382": true,
+      "特征21": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "犀牛"
+    ]
+  },
+  {
+    "case_id": "noise_0450",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 52,
+    "input_facts": {
+      "有蹄类动物": true,
+      "黑色": true,
+      "会游泳": true,
+      "属性88": true,
+      "属性314": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "河马"
+    ]
+  },
+  {
+    "case_id": "noise_0451",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 53,
+    "input_facts": {
+      "有蹄类动物": true,
+      "长鼻子": true,
+      "体型庞大": true,
+      "四肢发达": true,
+      "属性164": true
+    },
+    "expected_conclusions": [
+      "有蹄类动物",
+      "大象"
+    ]
+  },
+  {
+    "case_id": "noise_0452",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 54,
+    "input_facts": {
+      "灵长类动物": true,
+      "会说话": true,
+      "直立行走": true,
+      "特征267": true,
+      "特征332": true
+    },
+    "expected_conclusions": [
+      "人类"
+    ]
+  },
+  {
+    "case_id": "noise_0453",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 55,
+    "input_facts": {
+      "灵长类动物": true,
+      "会使用工具": true,
+      "群居": true,
+      "特征428": true,
+      "属性135": true
+    },
+    "expected_conclusions": [
+      "黑猩猩"
+    ]
+  },
+  {
+    "case_id": "noise_0454",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 56,
+    "input_facts": {
+      "灵长类动物": true,
+      "体型大": true,
+      "无尾": true,
+      "特征75": true,
+      "属性346": true
+    },
+    "expected_conclusions": [
+      "大猩猩"
+    ]
+  },
+  {
+    "case_id": "noise_0455",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 57,
+    "input_facts": {
+      "灵长类动物": true,
+      "有尾巴": true,
+      "喜欢香蕉": true,
+      "属性394": true,
+      "特征488": true
+    },
+    "expected_conclusions": [
+      "猴子"
+    ]
+  },
+  {
+    "case_id": "noise_0456",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 58,
+    "input_facts": {
+      "灵长类动物": true,
+      "手臂长": true,
+      "会摇摆": true,
+      "属性491": true,
+      "属性478": true
+    },
+    "expected_conclusions": [
+      "长臂猿"
+    ]
+  },
+  {
+    "case_id": "noise_0457",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 59,
+    "input_facts": {
+      "灵长类动物": true,
+      "红屁股": true,
+      "群居": true,
+      "属性465": true,
+      "特征80": true
+    },
+    "expected_conclusions": [
+      "狒狒"
+    ]
+  },
+  {
+    "case_id": "noise_0458",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 60,
+    "input_facts": {
+      "灵长类动物": true,
+      "红脸": true,
+      "群居": true,
+      "属性220": true,
+      "属性345": true
+    },
+    "expected_conclusions": [
+      "猕猴"
+    ]
+  },
+  {
+    "case_id": "noise_0459",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 61,
+    "input_facts": {
+      "灵长类动物": true,
+      "大眼睛": true,
+      "夜行": true,
+      "属性100": true,
+      "属性209": true
+    },
+    "expected_conclusions": [
+      "狐猴"
+    ]
+  },
+  {
+    "case_id": "noise_0460",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 62,
+    "input_facts": {
+      "啮齿类动物": true,
+      "偷粮食": true,
+      "尾巴长": true,
+      "属性468": true,
+      "特征9": true
+    },
+    "expected_conclusions": [
+      "老鼠"
+    ]
+  },
+  {
+    "case_id": "noise_0461",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 63,
+    "input_facts": {
+      "啮齿类动物": true,
+      "储存食物": true,
+      "有颊囊": true,
+      "属性496": true,
+      "属性156": true
+    },
+    "expected_conclusions": [
+      "松鼠"
+    ]
+  },
+  {
+    "case_id": "noise_0462",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 64,
+    "input_facts": {
+      "啮齿类动物": true,
+      "体型小": true,
+      "可爱": true,
+      "特征357": true,
+      "特征239": true
+    },
+    "expected_conclusions": [
+      "仓鼠"
+    ]
+  },
+  {
+    "case_id": "noise_0463",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 65,
+    "input_facts": {
+      "啮齿类动物": true,
+      "短耳朵": true,
+      "群居": true,
+      "特征454": true,
+      "特征333": true
+    },
+    "expected_conclusions": [
+      "豚鼠"
+    ]
+  },
+  {
+    "case_id": "noise_0464",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 66,
+    "input_facts": {
+      "啮齿类动物": true,
+      "会筑坝": true,
+      "尾巴扁平": true,
+      "属性1": true,
+      "属性465": true
+    },
+    "expected_conclusions": [
+      "河狸"
+    ]
+  },
+  {
+    "case_id": "noise_0465",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 67,
+    "input_facts": {
+      "啮齿类动物": true,
+      "有刺": true,
+      "夜行": true,
+      "特征468": true,
+      "会爬墙": true
+    },
+    "expected_conclusions": [
+      "豪猪"
+    ]
+  },
+  {
+    "case_id": "noise_0466",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 68,
+    "input_facts": {
+      "啮齿类动物": true,
+      "会打洞": true,
+      "冬眠": true,
+      "属性412": true,
+      "有触角": true
+    },
+    "expected_conclusions": [
+      "土拨鼠"
+    ]
+  },
+  {
+    "case_id": "noise_0467",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 69,
+    "input_facts": {
+      "啮齿类动物": true,
+      "长耳朵": true,
+      "短尾巴": true,
+      "耐旱": true,
+      "属性411": true
+    },
+    "expected_conclusions": [
+      "兔子"
+    ]
+  },
+  {
+    "case_id": "noise_0468",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 70,
+    "input_facts": {
+      "鲸类": true,
+      "体型巨大": true,
+      "蓝色": true,
+      "特征137": true,
+      "特征25": true
+    },
+    "expected_conclusions": [
+      "蓝鲸"
+    ]
+  },
+  {
+    "case_id": "noise_0469",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 71,
+    "input_facts": {
+      "鲸类": true,
+      "黑白相间": true,
+      "肉食": true,
+      "属性303": true,
+      "属性108": true
+    },
+    "expected_conclusions": [
+      "虎鲸"
+    ]
+  },
+  {
+    "case_id": "noise_0470",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 72,
+    "input_facts": {
+      "鲸类": true,
+      "体型小": true,
+      "聪明": true,
+      "特征378": true,
+      "属性455": true
+    },
+    "expected_conclusions": [
+      "海豚"
+    ]
+  },
+  {
+    "case_id": "noise_0471",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 73,
+    "input_facts": {
+      "鲸类": true,
+      "大脑大": true,
+      "有鲸蜡": true,
+      "属性173": true,
+      "特征317": true
+    },
+    "expected_conclusions": [
+      "抹香鲸"
+    ]
+  },
+  {
+    "case_id": "noise_0472",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 74,
+    "input_facts": {
+      "鲸类": true,
+      "长胸鳍": true,
+      "会唱歌": true,
+      "特征406": true,
+      "属性350": true
+    },
+    "expected_conclusions": [
+      "座头鲸"
+    ]
+  },
+  {
+    "case_id": "noise_0473",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 75,
+    "input_facts": {
+      "鸟类": true,
+      "不会飞": true,
+      "长腿": true,
+      "属性373": true,
+      "特征10": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鸵鸟"
+    ]
+  },
+  {
+    "case_id": "noise_0474",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 76,
+    "input_facts": {
+      "鸟类": true,
+      "不会飞": true,
+      "会游泳": true,
+      "属性449": true,
+      "属性218": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "企鹅"
+    ]
+  },
+  {
+    "case_id": "noise_0475",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 77,
+    "input_facts": {
+      "鸟类": true,
+      "有弯钩喙": true,
+      "视力好": true,
+      "脸盘大": true,
+      "特征136": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鹰"
+    ]
+  },
+  {
+    "case_id": "noise_0476",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 78,
+    "input_facts": {
+      "鸟类": true,
+      "会说话": true,
+      "羽毛鲜艳": true,
+      "特征60": true,
+      "属性300": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鹦鹉"
+    ]
+  },
+  {
+    "case_id": "noise_0477",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 79,
+    "input_facts": {
+      "鸟类": true,
+      "体型小": true,
+      "会唱歌": true,
+      "特征210": true,
+      "身体细长": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "麻雀"
+    ]
+  },
+  {
+    "case_id": "noise_0478",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 80,
+    "input_facts": {
+      "鸟类": true,
+      "体型中等": true,
+      "会送信": true,
+      "属性26": true,
+      "特征28": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鸽子"
+    ]
+  },
+  {
+    "case_id": "noise_0479",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 81,
+    "input_facts": {
+      "鸟类": true,
+      "有长尾羽": true,
+      "会开屏": true,
+      "属性128": true,
+      "属性369": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "孔雀"
+    ]
+  },
+  {
+    "case_id": "noise_0480",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 82,
+    "input_facts": {
+      "鸟类": true,
+      "会游泳": true,
+      "脖子长": true,
+      "特征390": true,
+      "聪明": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "天鹅"
+    ]
+  },
+  {
+    "case_id": "noise_0481",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 83,
+    "input_facts": {
+      "鸟类": true,
+      "嘴扁平": true,
+      "会游泳": true,
+      "属性73": true,
+      "特征86": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "鸭子"
+    ]
+  },
+  {
+    "case_id": "noise_0482",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 84,
+    "input_facts": {
+      "鸟类": true,
+      "夜行": true,
+      "脸盘大": true,
+      "特征405": true,
+      "特征436": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "猫头鹰"
+    ]
+  },
+  {
+    "case_id": "noise_0483",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 85,
+    "input_facts": {
+      "鸟类": true,
+      "嘴坚硬": true,
+      "会啄木": true,
+      "哺乳动物": true,
+      "特征422": true
+    },
+    "expected_conclusions": [
+      "哺乳动物",
+      "鸟类",
+      "啄木鸟"
+    ]
+  },
+  {
+    "case_id": "noise_0484",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 86,
+    "input_facts": {
+      "鸟类": true,
+      "善飞": true,
+      "翅膀长": true,
+      "特征303": true,
+      "属性454": true
+    },
+    "expected_conclusions": [
+      "鸟类",
+      "信天翁"
+    ]
+  },
+  {
+    "case_id": "noise_0485",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 87,
+    "input_facts": {
+      "爬行动物": true,
+      "没有腿": true,
+      "身体细长": true,
+      "属性176": true,
+      "特征42": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "蛇"
+    ]
+  },
+  {
+    "case_id": "noise_0486",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 88,
+    "input_facts": {
+      "爬行动物": true,
+      "体型大": true,
+      "咬合力强": true,
+      "属性290": true,
+      "属性135": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "鳄鱼"
+    ]
+  },
+  {
+    "case_id": "noise_0487",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 89,
+    "input_facts": {
+      "爬行动物": true,
+      "有壳": true,
+      "行动缓慢": true,
+      "特征269": true,
+      "特征329": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "乌龟"
+    ]
+  },
+  {
+    "case_id": "noise_0488",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 90,
+    "input_facts": {
+      "爬行动物": true,
+      "四肢发达": true,
+      "会爬": true,
+      "特征426": true,
+      "有条纹": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "蜥蜴"
+    ]
+  },
+  {
+    "case_id": "noise_0489",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 91,
+    "input_facts": {
+      "爬行动物": true,
+      "体型小": true,
+      "会爬墙": true,
+      "特征227": true,
+      "属性37": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "壁虎"
+    ]
+  },
+  {
+    "case_id": "noise_0490",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 92,
+    "input_facts": {
+      "爬行动物": true,
+      "会变色": true,
+      "眼睛独立": true,
+      "特征377": true,
+      "属性487": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "变色龙"
+    ]
+  },
+  {
+    "case_id": "noise_0491",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 93,
+    "input_facts": {
+      "爬行动物": true,
+      "有毒牙": true,
+      "颈部膨胀": true,
+      "特征246": true,
+      "肉食": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "眼镜蛇"
+    ]
+  },
+  {
+    "case_id": "noise_0492",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 94,
+    "input_facts": {
+      "爬行动物": true,
+      "有响尾": true,
+      "有毒": true,
+      "有条纹": true,
+      "后腿长": true
+    },
+    "expected_conclusions": [
+      "爬行动物",
+      "响尾蛇"
+    ]
+  },
+  {
+    "case_id": "noise_0493",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 95,
+    "input_facts": {
+      "鱼类": true,
+      "体型大": true,
+      "有背鳍": true,
+      "属性500": true,
+      "属性128": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "鲨鱼"
+    ]
+  },
+  {
+    "case_id": "noise_0494",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 96,
+    "input_facts": {
+      "鱼类": true,
+      "颜色鲜艳": true,
+      "观赏": true,
+      "驼峰": true,
+      "特征394": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "金鱼"
+    ]
+  },
+  {
+    "case_id": "noise_0495",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 97,
+    "input_facts": {
+      "鱼类": true,
+      "有须": true,
+      "淡水": true,
+      "特征466": true,
+      "特征496": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "鲤鱼"
+    ]
+  },
+  {
+    "case_id": "noise_0496",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 98,
+    "input_facts": {
+      "鱼类": true,
+      "会洄游": true,
+      "红色": true,
+      "属性349": true,
+      "特征82": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "三文鱼"
+    ]
+  },
+  {
+    "case_id": "noise_0497",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 99,
+    "input_facts": {
+      "鱼类": true,
+      "有胡须": true,
+      "生活在淡水中": true,
+      "特征478": true,
+      "属性220": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "鲶鱼"
+    ]
+  },
+  {
+    "case_id": "noise_0498",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 100,
+    "input_facts": {
+      "鱼类": true,
+      "身体扁平": true,
+      "有尾巴": true,
+      "属性314": true,
+      "特征21": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "比目鱼"
+    ]
+  },
+  {
+    "case_id": "noise_0499",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 101,
+    "input_facts": {
+      "鱼类": true,
+      "会发光": true,
+      "生活在深海": true,
+      "特征333": true,
+      "特征489": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "灯笼鱼"
+    ]
+  },
+  {
+    "case_id": "noise_0500",
+    "case_type": "noise",
+    "difficulty": "medium",
+    "source_rule_id": 102,
+    "input_facts": {
+      "鱼类": true,
+      "体型奇特": true,
+      "直立游泳": true,
+      "属性20": true,
+      "特征88": true
+    },
+    "expected_conclusions": [
+      "鱼类",
+      "海马"
+    ]
+  },
+  {
+    "case_id": "boundary_0501",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 12,
+    "input_facts": {
+      "测试": true
+    },
+    "expected_conclusions": [
+      "昆虫"
+    ]
+  },
+  {
+    "case_id": "boundary_0502",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 14,
+    "input_facts": {
+      "有湿润皮肤": true
+    },
+    "expected_conclusions": [
+      "两栖动物"
+    ]
+  },
+  {
+    "case_id": "boundary_0503",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 120,
+    "input_facts": {
+      "特征0": true,
+      "属性0": true
+    },
+    "expected_conclusions": [
+      "熊变种0"
+    ]
+  },
+  {
+    "case_id": "boundary_0504",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 121,
+    "input_facts": {
+      "特征0": true,
+      "特征1": true,
+      "属性1": true
+    },
+    "expected_conclusions": [
+      "狼变种0"
+    ]
+  },
+  {
+    "case_id": "boundary_0505",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 122,
+    "input_facts": {
+      "特征0": true,
+      "特征2": true,
+      "属性2": true
+    },
+    "expected_conclusions": [
+      "豹变种0"
+    ]
+  },
+  {
+    "case_id": "boundary_0506",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 123,
+    "input_facts": {
+      "特征0": true,
+      "特征3": true,
+      "属性3": true
+    },
+    "expected_conclusions": [
+      "鹿变种0"
+    ]
+  },
+  {
+    "case_id": "boundary_0507",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 124,
+    "input_facts": {
+      "特征0": true,
+      "特征4": true,
+      "属性4": true
+    },
+    "expected_conclusions": [
+      "象变种0"
+    ]
+  },
+  {
+    "case_id": "boundary_0508",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 125,
+    "input_facts": {
+      "特征0": true,
+      "特征5": true,
+      "属性5": true
+    },
+    "expected_conclusions": [
+      "鹰变种0"
+    ]
+  },
+  {
+    "case_id": "boundary_0509",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 126,
+    "input_facts": {
+      "特征0": true,
+      "特征6": true,
+      "属性6": true
+    },
+    "expected_conclusions": [
+      "蛇变种0"
+    ]
+  },
+  {
+    "case_id": "boundary_0510",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 127,
+    "input_facts": {
+      "特征0": true,
+      "特征7": true,
+      "属性7": true
+    },
+    "expected_conclusions": [
+      "鱼变种0"
+    ]
+  },
+  {
+    "case_id": "boundary_0511",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 128,
+    "input_facts": {
+      "特征0": true,
+      "特征8": true,
+      "属性8": true
+    },
+    "expected_conclusions": [
+      "鸟变种0"
+    ]
+  },
+  {
+    "case_id": "boundary_0512",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 129,
+    "input_facts": {
+      "特征0": true,
+      "特征9": true,
+      "属性9": true
+    },
+    "expected_conclusions": [
+      "虫变种0"
+    ]
+  },
+  {
+    "case_id": "boundary_0513",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 130,
+    "input_facts": {
+      "特征1": true,
+      "特征0": true,
+      "属性1": true
+    },
+    "expected_conclusions": [
+      "熊变种1"
+    ]
+  },
+  {
+    "case_id": "boundary_0514",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 131,
+    "input_facts": {
+      "特征1": true,
+      "属性2": true
+    },
+    "expected_conclusions": [
+      "狼变种1"
+    ]
+  },
+  {
+    "case_id": "boundary_0515",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 132,
+    "input_facts": {
+      "特征1": true,
+      "特征2": true,
+      "属性3": true
+    },
+    "expected_conclusions": [
+      "豹变种1"
+    ]
+  },
+  {
+    "case_id": "boundary_0516",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 133,
+    "input_facts": {
+      "特征1": true,
+      "特征3": true,
+      "属性4": true
+    },
+    "expected_conclusions": [
+      "鹿变种1"
+    ]
+  },
+  {
+    "case_id": "boundary_0517",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 134,
+    "input_facts": {
+      "特征1": true,
+      "特征4": true,
+      "属性5": true
+    },
+    "expected_conclusions": [
+      "象变种1"
+    ]
+  },
+  {
+    "case_id": "boundary_0518",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 135,
+    "input_facts": {
+      "特征1": true,
+      "特征5": true,
+      "属性6": true
+    },
+    "expected_conclusions": [
+      "鹰变种1"
+    ]
+  },
+  {
+    "case_id": "boundary_0519",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 136,
+    "input_facts": {
+      "特征1": true,
+      "特征6": true,
+      "属性7": true
+    },
+    "expected_conclusions": [
+      "蛇变种1"
+    ]
+  },
+  {
+    "case_id": "boundary_0520",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 137,
+    "input_facts": {
+      "特征1": true,
+      "特征7": true,
+      "属性8": true
+    },
+    "expected_conclusions": [
+      "鱼变种1"
+    ]
+  },
+  {
+    "case_id": "boundary_0521",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 138,
+    "input_facts": {
+      "特征1": true,
+      "特征8": true,
+      "属性9": true
+    },
+    "expected_conclusions": [
+      "鸟变种1"
+    ]
+  },
+  {
+    "case_id": "boundary_0522",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 139,
+    "input_facts": {
+      "特征1": true,
+      "特征9": true,
+      "属性10": true
+    },
+    "expected_conclusions": [
+      "虫变种1"
+    ]
+  },
+  {
+    "case_id": "boundary_0523",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 140,
+    "input_facts": {
+      "特征2": true,
+      "特征0": true,
+      "属性2": true
+    },
+    "expected_conclusions": [
+      "熊变种2"
+    ]
+  },
+  {
+    "case_id": "boundary_0524",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 141,
+    "input_facts": {
+      "特征2": true,
+      "特征1": true,
+      "属性3": true
+    },
+    "expected_conclusions": [
+      "狼变种2"
+    ]
+  },
+  {
+    "case_id": "boundary_0525",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 142,
+    "input_facts": {
+      "特征2": true,
+      "属性4": true
+    },
+    "expected_conclusions": [
+      "豹变种2"
+    ]
+  },
+  {
+    "case_id": "boundary_0526",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 143,
+    "input_facts": {
+      "特征2": true,
+      "特征3": true,
+      "属性5": true
+    },
+    "expected_conclusions": [
+      "鹿变种2"
+    ]
+  },
+  {
+    "case_id": "boundary_0527",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 144,
+    "input_facts": {
+      "特征2": true,
+      "特征4": true,
+      "属性6": true
+    },
+    "expected_conclusions": [
+      "象变种2"
+    ]
+  },
+  {
+    "case_id": "boundary_0528",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 145,
+    "input_facts": {
+      "特征2": true,
+      "特征5": true,
+      "属性7": true
+    },
+    "expected_conclusions": [
+      "鹰变种2"
+    ]
+  },
+  {
+    "case_id": "boundary_0529",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 146,
+    "input_facts": {
+      "特征2": true,
+      "特征6": true,
+      "属性8": true
+    },
+    "expected_conclusions": [
+      "蛇变种2"
+    ]
+  },
+  {
+    "case_id": "boundary_0530",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 147,
+    "input_facts": {
+      "特征2": true,
+      "特征7": true,
+      "属性9": true
+    },
+    "expected_conclusions": [
+      "鱼变种2"
+    ]
+  },
+  {
+    "case_id": "boundary_0531",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 148,
+    "input_facts": {
+      "特征2": true,
+      "特征8": true,
+      "属性10": true
+    },
+    "expected_conclusions": [
+      "鸟变种2"
+    ]
+  },
+  {
+    "case_id": "boundary_0532",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 149,
+    "input_facts": {
+      "特征2": true,
+      "特征9": true,
+      "属性11": true
+    },
+    "expected_conclusions": [
+      "虫变种2"
+    ]
+  },
+  {
+    "case_id": "boundary_0533",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 150,
+    "input_facts": {
+      "特征3": true,
+      "特征0": true,
+      "属性3": true
+    },
+    "expected_conclusions": [
+      "熊变种3"
+    ]
+  },
+  {
+    "case_id": "boundary_0534",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 151,
+    "input_facts": {
+      "特征3": true,
+      "特征1": true,
+      "属性4": true
+    },
+    "expected_conclusions": [
+      "狼变种3"
+    ]
+  },
+  {
+    "case_id": "boundary_0535",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 152,
+    "input_facts": {
+      "特征3": true,
+      "特征2": true,
+      "属性5": true
+    },
+    "expected_conclusions": [
+      "豹变种3"
+    ]
+  },
+  {
+    "case_id": "boundary_0536",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 153,
+    "input_facts": {
+      "特征3": true,
+      "属性6": true
+    },
+    "expected_conclusions": [
+      "鹿变种3"
+    ]
+  },
+  {
+    "case_id": "boundary_0537",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 154,
+    "input_facts": {
+      "特征3": true,
+      "特征4": true,
+      "属性7": true
+    },
+    "expected_conclusions": [
+      "象变种3"
+    ]
+  },
+  {
+    "case_id": "boundary_0538",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 155,
+    "input_facts": {
+      "特征3": true,
+      "特征5": true,
+      "属性8": true
+    },
+    "expected_conclusions": [
+      "鹰变种3"
+    ]
+  },
+  {
+    "case_id": "boundary_0539",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 156,
+    "input_facts": {
+      "特征3": true,
+      "特征6": true,
+      "属性9": true
+    },
+    "expected_conclusions": [
+      "蛇变种3"
+    ]
+  },
+  {
+    "case_id": "boundary_0540",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 157,
+    "input_facts": {
+      "特征3": true,
+      "特征7": true,
+      "属性10": true
+    },
+    "expected_conclusions": [
+      "鱼变种3"
+    ]
+  },
+  {
+    "case_id": "boundary_0541",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 158,
+    "input_facts": {
+      "特征3": true,
+      "特征8": true,
+      "属性11": true
+    },
+    "expected_conclusions": [
+      "鸟变种3"
+    ]
+  },
+  {
+    "case_id": "boundary_0542",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 159,
+    "input_facts": {
+      "特征3": true,
+      "特征9": true,
+      "属性12": true
+    },
+    "expected_conclusions": [
+      "虫变种3"
+    ]
+  },
+  {
+    "case_id": "boundary_0543",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 160,
+    "input_facts": {
+      "特征4": true,
+      "特征0": true,
+      "属性4": true
+    },
+    "expected_conclusions": [
+      "熊变种4"
+    ]
+  },
+  {
+    "case_id": "boundary_0544",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 161,
+    "input_facts": {
+      "特征4": true,
+      "特征1": true,
+      "属性5": true
+    },
+    "expected_conclusions": [
+      "狼变种4"
+    ]
+  },
+  {
+    "case_id": "boundary_0545",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 162,
+    "input_facts": {
+      "特征4": true,
+      "特征2": true,
+      "属性6": true
+    },
+    "expected_conclusions": [
+      "豹变种4"
+    ]
+  },
+  {
+    "case_id": "boundary_0546",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 163,
+    "input_facts": {
+      "特征4": true,
+      "特征3": true,
+      "属性7": true
+    },
+    "expected_conclusions": [
+      "鹿变种4"
+    ]
+  },
+  {
+    "case_id": "boundary_0547",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 164,
+    "input_facts": {
+      "特征4": true,
+      "属性8": true
+    },
+    "expected_conclusions": [
+      "象变种4"
+    ]
+  },
+  {
+    "case_id": "boundary_0548",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 165,
+    "input_facts": {
+      "特征4": true,
+      "特征5": true,
+      "属性9": true
+    },
+    "expected_conclusions": [
+      "鹰变种4"
+    ]
+  },
+  {
+    "case_id": "boundary_0549",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 166,
+    "input_facts": {
+      "特征4": true,
+      "特征6": true,
+      "属性10": true
+    },
+    "expected_conclusions": [
+      "蛇变种4"
+    ]
+  },
+  {
+    "case_id": "boundary_0550",
+    "case_type": "boundary",
+    "difficulty": "easy",
+    "source_rule_id": 167,
+    "input_facts": {
+      "特征4": true,
+      "特征7": true,
+      "属性11": true
+    },
+    "expected_conclusions": [
+      "鱼变种4"
+    ]
+  }
+]

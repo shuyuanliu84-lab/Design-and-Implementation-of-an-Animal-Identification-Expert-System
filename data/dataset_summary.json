@@ -1,0 +1,12 @@
+{
+  "random_seed": 20260706,
+  "generated_case_count": 550,
+  "generated_case_type_counts": {
+    "boundary": 50,
+    "complete": 200,
+    "conflict": 100,
+    "missing": 100,
+    "noise": 100
+  },
+  "uci_zoo_case_count": 101
+}
